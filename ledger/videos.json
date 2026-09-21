@@ -99,7 +99,7 @@
   {
    "id": "IR-005",
    "created": "2026-09-21T18:45:00Z",
-   "status": "queued",
+   "status": "hosted",
    "title": "Adobe's cancellation fee: the fee vs. the lock",
    "company": "Adobe",
    "hook": "In March 2026, Adobe agreed to a $150 million settlement over its subscriptions.",
@@ -128,8 +128,13 @@
     "video_md5": "13ad185461bf6424ca86cede19bdf5a3",
     "audio_md5": "29939b2a5a1a6b64f2d6cd8d337b2ba1"
    },
-   "asset": null,
-   "media_url": null,
+   "asset": {
+    "sha256": "8f49dfae66b849a63c9980119d136e3570adb1c84f67cc6f452930e5d88ff679",
+    "video_md5": "752cd94ad19c6c6412d1237a887cd9a4",
+    "audio_md5": "3629c875ed7417fc9a6a7a9644204520"
+   },
+   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-005-752cd94a.mp4",
+   "hosted_at": "2026-09-21T16:26:45.000Z",
    "metricool": null,
    "tiktok_url": null,
    "metrics": []
