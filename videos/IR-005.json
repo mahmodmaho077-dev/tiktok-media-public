@@ -1,0 +1,42 @@
+{
+ "id": "IR-005",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "phoneme_fixes": {},
+ "scenes": [
+  {
+   "vo": "In March twenty twenty-six, Adobe agreed to a one hundred fifty million dollar settlement over its subscriptions.",
+   "captions": [["In March 2026,", 4], ["Adobe agreed to a", 4], ["*$150 million*", 5], ["settlement over", 2], ["its subscriptions.", 2]],
+   "visual": {"type": "hero", "tag": "ADOBE · MARCH 2026", "big": "$150M", "big_red": true, "sub": "U.S. SETTLEMENT<br>OVER <span class='e'>SUBSCRIPTIONS</span>", "sub_size": 64, "note": "$75M civil penalty + $75M in free services for customers (U.S. Justice Department)"}
+  },
+  {
+   "vo": "At its center: a cancellation fee one executive called a bit like heroin for Adobe. Why?",
+   "captions": [["At its center:", 3], ["a *cancellation fee*", 3], ["one executive called", 3], ["a bit like *heroin*", 4], ["for Adobe.", 2], ["*Why?*", 1]],
+   "visual": {"type": "quote", "tag": "INSIDE ADOBE", "size": 104, "quote": "“…a bit like *heroin* for Adobe.”", "who": "An Adobe executive, quoted in the U.S. complaint (2024). Adobe says the remark was taken out of context.", "stamp": {"text": "WHY?", "at_caption": 5, "top": 1080}}
+  },
+  {
+   "vo": "Creative Cloud cost eighty-two forty-nine a month. Or fifty-four ninety-nine on the annual, paid monthly plan, often the default.",
+   "captions": [["Creative Cloud cost", 3], ["*$82.49* a month.", 4], ["Or *$54.99*", 3], ["on the annual,", 3], ["paid monthly plan,", 3], ["often the *default.*", 3]],
+   "visual": {"type": "bars", "tag": "CREATIVE CLOUD ALL APPS · MAY 2023", "headline": "SAME APPS,<br><span class='e'>TWO PRICES</span>", "head_size": 92, "source": "Per month · Adobe often preselected the annual plan (U.S. complaint)", "bars": [{"label": "MONTHLY", "value": 82.49, "display": "$82.49", "at_caption": 1}, {"label": "ANNUAL, PAID MONTHLY", "value": 54.99, "display": "$54.99", "red": true, "at_caption": 2}]}
+  },
+  {
+   "vo": "But that plan is a one-year contract. Cancel early, and you're charged half of what's left.",
+   "captions": [["But that plan is", 4], ["a *one-year contract.*", 3], ["Cancel early,", 2], ["and you're charged", 3], ["*half* of what's left.", 4]],
+   "visual": {"type": "hero", "tag": "THE CATCH", "big": "50%", "big_red": true, "sub": "OF THE REMAINING<br>PAYMENTS", "sub_size": 72, "note": "Early termination fee if you cancel in year one. Example: 6 months left = $329.94 → fee $164.97"}
+  },
+  {
+   "vo": "Adobe says these fees were under half a percent of its revenue. So what's the prize?",
+   "captions": [["Adobe says", 2], ["these fees were", 3], ["under *half a percent*", 4], ["of its revenue.", 3], ["So what's the *prize?*", 4]],
+   "visual": {"type": "hero", "tag": "ADOBE'S OWN NUMBER", "big": "&lt;0.5%", "sub": "OF ADOBE'S REVENUE<br>CAME FROM THESE FEES", "sub_size": 60, "note": "Adobe general counsel Dana Rao, July 2024", "stamp": {"text": "SO WHAT'S THE PRIZE?", "at_caption": 4, "top": 960}}
+  },
+  {
+   "vo": "The lock: twelve months of payments from customers who signed up for a monthly price.",
+   "captions": [["*The lock:*", 2], ["12 months", 2], ["of payments", 2], ["from customers who", 3], ["signed up for", 3], ["a *monthly* price.", 3]],
+   "visual": {"type": "versus", "tag": "THE HIDDEN MECHANISM", "headline": "THE FEE<br>VS. <span class='e'>THE LOCK</span>", "head_size": 96, "left": "THE FEE", "right": "THE LOCK", "heavier": "right", "tilt_at_caption": 1, "left_note": "<0.5% OF REVENUE", "right_note": "12 MONTHS OF PAYMENTS", "note_at_caption": 2}
+  },
+  {
+   "vo": "A cancellation fee doesn't need to make money. It makes leaving cost more than staying.",
+   "visual": {"type": "rule", "display": "A cancellation fee doesn't need to make money. It makes *leaving* cost more than *staying.*"}
+  }
+ ]
+}

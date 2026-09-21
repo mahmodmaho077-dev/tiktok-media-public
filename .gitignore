@@ -1,0 +1,4 @@
+engine/assets/
+engine/_page_*.html
+engine/__pycache__/
+videos/IR-*/

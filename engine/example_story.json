@@ -1,0 +1,42 @@
+{
+ "id": "IR-004",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "phoneme_fixes": {},
+ "scenes": [
+  {
+   "vo": "In January twenty twenty-four, Hertz said it would sell about twenty thousand of its electric cars.",
+   "captions": [["In January 2024,", 4], ["Hertz said it would sell", 5], ["about *20,000*", 3], ["of its electric cars.", 4]],
+   "visual": {"type": "hero", "tag": "HERTZ · JANUARY 2024", "big": "20,000", "sub": "ELECTRIC CARS<br><span class='e'>FOR SALE</span>", "sub_size": 70, "board": {"label": "EV", "from": "IN FLEET", "to": "FOR SALE", "rows": 14}}
+  },
+  {
+   "vo": "About a third of its global electric fleet. The expected hit: about two hundred forty-five million dollars.",
+   "captions": [["About a third", 3], ["of its global", 3], ["electric fleet.", 2], ["The expected hit:", 3], ["about *$245 million.*", 6]],
+   "visual": {"type": "hero", "tag": "HERTZ FORM 8-K · 11 JAN 2024", "big": "$245M", "big_red": true, "count": {"from": 0, "to": 245, "prefix": "$", "suffix": "M", "done_at_caption": 3}, "sub": "EXPECTED DEPRECIATION<br>CHARGE · Q4 2023", "sub_size": 52, "note": "≈20,000 EVs · about one-third of Hertz's global EV fleet"}
+  },
+  {
+   "vo": "In twenty twenty-one, Hertz had announced plans to buy one hundred thousand Teslas. So why sell?",
+   "captions": [["In 2021,", 3], ["Hertz had announced", 3], ["plans to buy", 3], ["*100,000* Teslas.", 4], ["So why *sell?*", 3]],
+   "visual": {"type": "hero", "tag": "HERTZ · OCTOBER 2021", "big": "100,000", "sub": "TESLAS ANNOUNCED", "sub_size": 70, "stamp": {"text": "SO WHY SELL?", "at_caption": 4}}
+  },
+  {
+   "vo": "Because a rental car's real cost is the price paid, minus what it sells for later.",
+   "captions": [["Because a rental car's", 4], ["real cost is", 3], ["the price paid,", 3], ["minus what it", 3], ["*sells for later.*", 3]],
+   "visual": {"type": "list", "tag": "THE HIDDEN MECHANISM", "headline": "THE REAL COST<br>OF A <span class='e'>RENTAL CAR</span>", "head_size": 76, "items": [{"text": "Price paid for the car", "at_caption": 2}, {"text": "minus its *resale price* later", "at_caption": 3}, {"text": "= the real cost of owning it", "at_caption": 4}]}
+  },
+  {
+   "vo": "In twenty twenty-three, new electric car prices fell, led by Tesla. Hertz's CEO said that dragged down the value of its electric cars.",
+   "captions": [["In 2023,", 3], ["new electric car prices", 4], ["*fell,* led by Tesla.", 4], ["Hertz's CEO said", 3], ["that dragged down", 3], ["the *value*", 2], ["of its electric cars.", 4]],
+   "visual": {"type": "quote", "tag": "WHAT HERTZ'S CEO SAID", "size": 58, "quote": "MSRP declines in EVs over the course of 2023, driven primarily by Tesla, have driven the fair market value of our EVs *lower*…", "who": "Stephen Scherr, Hertz CEO · Q3 2023 earnings call, Oct 2023"}
+  },
+  {
+   "vo": "Hertz also said collision and damage costs, mostly on its electric cars, stayed high.",
+   "captions": [["Hertz also said", 3], ["collision and damage", 3], ["costs, mostly", 2], ["on its electric cars,", 4], ["stayed *high.*", 2]],
+   "visual": {"type": "list", "tag": "THE SECOND HIT", "headline": "TWO COSTS,<br><span class='e'>SAME CARS</span>", "head_size": 92, "items": [{"text": "Lower *resale value*", "at_caption": 0}, {"text": "High *collision & damage* costs", "at_caption": 1}], "source": "Source: Hertz statement, Jan 2024 (Axios) · Hertz Form 8-K, 11 Jan 2024"}
+  },
+  {
+   "vo": "When you own the asset, someone else's price cut becomes your loss.",
+   "visual": {"type": "rule", "display": "When you own the asset, someone else's price cut becomes *your* *loss.*"}
+  }
+ ]
+}

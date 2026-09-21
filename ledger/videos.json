@@ -1,0 +1,158 @@
+{
+ "updated": "2026-09-21",
+ "next_id": "IR-006",
+ "videos": [
+  {
+   "id": "IR-001",
+   "created": "2026-09-19T09:30:00Z",
+   "status": "hold",
+   "title": "Ghost flights",
+   "company": "Lufthansa (Lufthansa Group); supporting number from Oman Air / Air France-KLM Heathrow slot sale",
+   "hook": "Lufthansa's CEO said they'd have to fly 18,000 'unnecessary' flights.",
+   "caption": "Lufthansa's CEO said it had to fly 18,000 extra flights in winter 2021/22 just to keep its airport slots. Where else does \"use it or lose it\" make people waste money? #business #economics #airlines",
+   "industry": "airlines",
+   "angle": "Incentive Design",
+   "mechanism_family": "incentives_behavior",
+   "core_claim": "Use-it-or-lose-it rules make organisations waste money on purpose, because losing the right costs more than the waste.",
+   "concept_key": "use-it-or-lose-it rule > deliberate waste > waste cheaper than losing the right",
+   "gate_score": 86,
+   "sources": [
+    {"label": "CNBC — carriers flying near-empty planes to keep slots (13 Jan 2022)", "url": "https://www.cnbc.com/2022/01/13/european-carriers-are-flying-near-empty-planes-this-winter-to-keep-airport-slots.html"},
+    {"label": "TTG — Oman Air pays record $75m for Heathrow slots", "url": "https://www.ttgmedia.com/news/oman-air-pays-record-75m-for-heathrow-slots-3193"},
+    {"label": "Liebman & Mahoney, AER 2017 — expiring budgets", "url": "https://www.aeaweb.org/articles?id=10.1257%2Faer.20131296"}
+   ],
+   "note": "Not selectable (seed). Never reuse this id or topic."
+  },
+  {
+   "id": "IR-002",
+   "created": "2026-09-19T10:30:00Z",
+   "status": "hold",
+   "title": "Southwest meltdown",
+   "hook": "Over Christmas 2022, Southwest Airlines cancelled 16,900 flights.",
+   "caption": "Southwest cancelled 16,900 flights over Christmas 2022. The storm started it, but crew scheduling couldn't keep up — and the bill passed $750 million. #business #airlines #operations",
+   "industry": "airlines",
+   "angle": "Hidden Constraint",
+   "mechanism_family": "constraints_consequences",
+   "core_claim": "A weak back-office system costs nothing on normal days and everything on the worst day: Southwest's crew scheduling collapsed under a storm and cost $750M+.",
+   "concept_key": "under-invested back-office system > collapse under peak stress > cost arrives all at once",
+   "gate_score": 83,
+   "sources": [
+    {"label": "U.S. DOT — $140M penalty press release", "url": "https://www.transportation.gov/briefing-room/dot-penalizes-southwest-airlines-140-million-2022-holiday-meltdown"},
+    {"label": "NPR — Southwest $140M fine (Dec 2023)", "url": "https://www.npr.org/2023/12/18/1219906471/southwest-airlines-2022-meltdown-fined-faa"},
+    {"label": "CNN — Southwest explains its meltdown to Congress", "url": "https://www.cnn.com/2023/02/09/business/southwest-meltdown-hearing/index.html"},
+    {"label": "SWAPA written testimony, U.S. Senate (Feb 2023)", "url": "https://www.commerce.senate.gov/wp-content/uploads/meetings/19F99589-8C0F-4198-BD63-ED8722F2EFBD/Captain%20Casey%20Murray%20Testimony%20Senate%20CST%20Feb2023%20.pdf"}
+   ],
+   "note": "Not selectable (seed). Never reuse this id or topic."
+  },
+  {
+   "id": "IR-003",
+   "created": "2026-09-21T05:17:00Z",
+   "status": "rejected",
+   "title": "The Tube strike that made commutes faster",
+   "hook": "In February 2014, a strike closed 171 of London's 270 Tube stations.",
+   "caption": "In February 2014 a strike closed 171 of London's 270 Tube stations, and about 1 in 20 disrupted commuters kept the new, faster route. What are you still doing only because it's good enough? #london #behaviouraleconomics #decisionmaking",
+   "industry": "public transport",
+   "angle": "Behavioural Pattern",
+   "mechanism_family": "decisions_errors",
+   "core_claim": "People stop searching once a routine is good enough; a 2014 Tube strike forced London commuters to try new routes and about 5% of those disrupted kept a faster one, saving ~400 seconds per trip.",
+   "concept_key": "forced disruption of a routine > under-experimentation revealed > better option found only when the old one broke",
+   "gate_score": 85,
+   "gate_breakdown": "Novelty 8, Specificity 9, Curiosity 9, Clarity 9, Emotional tension 7, Intellectual value 9, Retention 8, Niche fit 9, Source evidence 9, Difference 8",
+   "sources": [
+    {"label": "Larcom, Rauch & Willems, QJE 2017 (full text, Oxford ORA)", "url": "https://ora.ox.ac.uk/objects/uuid:271f6f8e-2915-445f-8ebd-5a2900970af1/files/m8cbcb25268f8ae9d9fd6c1951fa05958"},
+    {"label": "QJE article page (Oxford Academic)", "url": "https://academic.oup.com/qje/article-abstract/132/4/2019/3857744"},
+    {"label": "Oxford Department of Economics — abstract", "url": "https://www.economics.ox.ac.uk/article/the-benefits-of-forced-experimentation-striking-evidence-from-the-london-underground-network"},
+    {"label": "VoxEU/CEPR — authors' column", "url": "https://cepr.org/voxeu/columns/benefits-forced-experimentation-striking-evidence-london-underground-network"}
+   ],
+   "note": "Not selectable (seed). Never reuse this id or topic."
+  },
+  {
+   "id": "IR-004",
+   "created": "2026-09-21T06:10:00Z",
+   "status": "published",
+   "title": "Hertz's EV sell-off",
+   "company": "Hertz (with Tesla's 2023 EV price cuts)",
+   "hook": "In January 2024, Hertz said it would sell about 20,000 of its electric cars.",
+   "tiktok_title": "Hertz's 20,000-EV sell-off",
+   "caption": "Hertz announced plans to buy 100,000 Teslas in 2021, then in January 2024 said it would sell about 20,000 EVs and take a $245M hit. For a rental company, the price of the car it will sell later is part of the cost.",
+   "industry": "car rental",
+   "angle": "Hidden Cost / Second-Order Effect",
+   "mechanism_family": "numbers_costs",
+   "core_claim": "A rental company's cost of a car is purchase price minus resale value, so Tesla's 2023 price cuts on new EVs cut the value of Hertz's fleet and helped force a 20,000-EV sell-off with a ~$245M depreciation charge.",
+   "concept_key": "owning an asset whose value is set by a supplier's pricing > supplier price cuts devalue the fleet > forced sell-off and depreciation charge",
+   "gate_score": 86,
+   "gate_breakdown": "Novelty 8, Specificity 9, Curiosity 8, Clarity 9, Emotional tension 7, Intellectual value 9, Retention 8, Niche fit 10, Source evidence 9, Difference 9",
+   "sources": [
+    {"label": "Hertz Form 8-K, 11 Jan 2024 (SEC)", "url": "https://www.sec.gov/Archives/edgar/data/47129/000165785324000010/htz-20240111.htm"},
+    {"label": "CNBC/NBC — Hertz pulls back on EV plans citing Tesla price cuts (26 Oct 2023)", "url": "https://www.nbcnewyork.com/news/business/money-report/hertz-pulls-back-on-ev-plans-citing-tesla-price-cuts-high-repair-costs/4804497/"},
+    {"label": "Axios — Hertz selling 20,000 EVs (11 Jan 2024)", "url": "https://www.axios.com/2024/01/11/hertz-evs-electric-vehicles-20000"},
+    {"label": "Nasdaq — Hertz orders 100,000 Teslas (Oct 2021)", "url": "https://www.nasdaq.com/articles/hertz:-evs-to-comprise-more-than-20-of-hertz-global-fleet-by-2022-end-orders-100000-teslas"}
+   ],
+   "hashtags": "#business #hertz #tesla",
+   "first_comment": "IR-004 · Sources: Hertz Form 8-K (11 Jan 2024); Q3 2023 earnings call (CNBC); Axios (Jan 2024)",
+   "published": "2026-09-21, manually by the owner (not via Metricool)",
+   "tiktok_url": null,
+   "asset": {"sha256": "1644ceb29569f63f0ac16495688a081b3ec08e8a57300906221440498fba6310", "video_md5": "b7835940ed28b763e4d71971a93757cf", "audio_md5": "2d957ea21b0b8741a9d1e1e5296a4a63"},
+   "media_url": null,
+   "note": "PUBLISHED. Never select, re-render, re-host or re-post."
+  },
+  {
+   "id": "IR-005",
+   "created": "2026-09-21T18:45:00Z",
+   "status": "queued",
+   "title": "Adobe's cancellation fee: the fee vs. the lock",
+   "company": "Adobe",
+   "hook": "In March 2026, Adobe agreed to a $150 million settlement over its subscriptions.",
+   "tiktok_title": "Adobe's $150M cancellation-fee settlement",
+   "caption": "Adobe says early termination fees were under 0.5% of its revenue. The bigger value was the 12-month commitment behind a monthly price; in March 2026 Adobe agreed to a $150M U.S. settlement over its subscription terms.",
+   "hashtags": "#adobe #subscriptions #pricing #BusinessStrategy",
+   "first_comment": "IR-005 · Sources: DOJ release 13 Mar 2026; U.S. v. Adobe complaint (N.D. Cal. 2024); Adobe statement Jul 2024 (The Register)",
+   "industry": "software/subscriptions",
+   "angle": "Hidden mechanism behind a pricing/contract structure",
+   "mechanism_family": "incentives_behavior",
+   "core_claim": "Adobe's 'annual, paid monthly' plan shows a lower monthly price ($54.99 vs $82.49) but is a 12-month contract; cancelling in year one costs 50% of the remaining payments. Adobe says the fees were <0.5% of revenue, so the value is the 12-month commitment the fee enforces, not the fee income.",
+   "concept_key": "discounted monthly price that is really an annual contract > early termination fee enforces the commitment > fee income tiny, retention is the value",
+   "gate_score": 87,
+   "gate_breakdown": "Novelty 8, Specificity 9, Curiosity 9, Clarity 8, Emotional tension 8, Intellectual value 9, Retention 8, Niche fit 10, Source evidence 9, Difference 9",
+   "sources": [
+    {"label": "DOJ press release, 13 Mar 2026 ($150M = $75M civil penalty + $75M free services)", "url": "https://www.justice.gov/opa/pr/adobe-agrees-150-million-settlement-and-injunction-resolve-alleged-violations-restore-online"},
+    {"label": "U.S. v. Adobe complaint (redacted) - APM often preselected (para 29); ETF = 50% of remaining obligation (para 30.c); May 2023 prices $54.99 APM / $82.49 monthly / $599.88 prepaid", "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/032-RedactedComplaint-REPLACEMENT.pdf"},
+    {"label": "FTC press release, 17 Jun 2024", "url": "https://ftc.gov/news-events/news/press-releases/2024/06/ftc-takes-action-against-adobe-executives-hiding-fees-preventing-consumers-easily-cancelling"},
+    {"label": "The Register, 25 Jul 2024 - unredacted complaint quotes; Adobe GC Dana Rao: ETFs are less than half a percent of total revenue", "url": "https://www.theregister.com/2024/07/25/adobe_subscription_cancel_fees_ftc/"},
+    {"label": "9to5Mac, 25 Jul 2024 - 'a bit like heroin for Adobe' (via The Verge); Adobe says taken out of context", "url": "https://9to5mac.com/2024/07/25/adobe-hidden-pricing-heroin/"}
+   ],
+   "story_json": "videos/IR-005.json",
+   "reference_render": {
+    "note": "QA-approved render made in the Cowork session on 21 Sep 2026 (43.6 s). The hosted file is re-rendered from the same JSON, so hashes may differ.",
+    "sha256": "2f660a21aec54fba0a12913f35e5c07412228a26b635a4b3ff6e3ccdcf578f2f",
+    "video_md5": "13ad185461bf6424ca86cede19bdf5a3",
+    "audio_md5": "29939b2a5a1a6b64f2d6cd8d337b2ba1"
+   },
+   "asset": null,
+   "media_url": null,
+   "metricool": null,
+   "tiktok_url": null,
+   "metrics": []
+  }
+ ],
+ "account_topics": [
+  "Google paying Apple to be the default search engine ($20B, 2022)",
+  "Berkshire Hathaway cash pile",
+  "Berkshire Hathaway insurance float ($177.5B)",
+  "Dell negative cash conversion cycle (Q2 FY2010)",
+  "Starbucks card breakage revenue (FY2025)",
+  "Delta receives $8.2B from American Express (2025)",
+  "Domino's supply-chain revenue (2025)",
+  "McDonald's franchise rent vs company-operated sales (2025)",
+  "Red Lobster Endless Shrimp vs lease obligations (2024)",
+  "Hertz 20,000-EV sell-off (IR-004)",
+  "Adobe early termination fee (IR-005)"
+ ],
+ "reserve": [
+  "HP: CEO called printer buyers who skip HP supplies a 'bad investment' (CNBC, Jan 2024) - subsidised hardware + supplies lock",
+  "Spotify audiobook bundle and songwriter mechanical royalties (MLC v. Spotify) - wait until litigation is final"
+ ],
+ "rejected": [
+  {"date": "2026-09-21", "candidate": "Costco membership fee increase", "reason": "heavily covered; shallow 'how X makes money' risk"}
+ ]
+}

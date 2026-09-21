@@ -1,0 +1,136 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:AB;src:url(assets/ab.woff2)}
+@font-face{font-family:IN;font-weight:600;src:url(assets/in600.woff2)}
+@font-face{font-family:IN;font-weight:700;src:url(assets/in700.woff2)}
+@font-face{font-family:IN;font-weight:800;src:url(assets/in800.woff2)}
+:root{--bg:#0A0A0A;--w:#F5F5F2;--r:#E23B2E;--g:#8E8E89}
+html,body{margin:0;background:var(--bg)}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--w)}
+#bg{position:absolute;inset:0}
+.sc{position:absolute;inset:0;opacity:0}
+.tag{position:absolute;left:60px;width:960px;text-align:center;font:800 34px IN;letter-spacing:6px;color:var(--r);top:250px}
+.h{position:absolute;left:90px;width:900px;text-align:center;font-family:AB;line-height:1.04;color:var(--w)}
+.small{position:absolute;left:120px;width:840px;text-align:center;font:600 30px IN;color:var(--g);line-height:1.3}
+.e,.red{color:var(--r)}
+#cap{position:absolute;left:150px;width:780px;top:1318px;height:150px;display:flex;align-items:center;justify-content:center;text-align:center;
+ font-family:AB;font-size:62px;line-height:1.05;color:var(--w);-webkit-text-stroke:10px #000;paint-order:stroke fill}
+.stamp{position:absolute;left:170px;top:880px;width:740px;min-height:150px;border:10px solid var(--r);border-radius:14px;display:flex;align-items:center;justify-content:center;
+ font-family:AB;font-size:80px;color:var(--r);background:rgba(10,10,10,.85);opacity:0;text-align:center;line-height:1}
+</style></head><body><div id="stage"><svg id="bg" width="1080" height="1920"></svg><div id="scenes"></div><div id="cap"></div></div>
+<script>
+const STORY=__STORY__, TL=__TL__;
+const $=id=>document.getElementById(id);
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)), eo=x=>1-Math.pow(1-clamp(x),3);
+const em=s=>String(s).replace(/\*(.+?)\*/g,'<span class="e">$1</span>');
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const fitSize=(txt,max,width)=>Math.min(max,Math.floor(width/(0.74*Math.max(1,txt.replace(/[*]/g,'').length))));
+const S=STORY.scenes, T=TL.scenes;
+const capT=(si,ci)=>{const c=TL.captions.filter(c=>c.scene===si)[ci];return c?c.start:T[si].start;};
+// ---------- build DOM ----------
+let html='';
+S.forEach((s,i)=>{const v=s.visual; let h=`<div class="sc" id="sc${i}">`;
+  if(v.tag) h+=`<div class="tag">${esc(v.tag)}</div>`;
+  if(v.type==='hero'){ const bs=v.big_size||fitSize(v.big,240,900);
+    const y0=v.board?300:(v.top||430);
+    h+=`<div class="h" id="big${i}" style="top:${y0}px;font-size:${bs}px;${v.big_red?'color:var(--r)':''}">${em(v.big)}</div>`;
+    let y=y0+bs*1.08+18;
+    if(v.sub){ const n=v.sub.split('<br>').length; h+=`<div class="h" style="top:${y}px;font-size:${v.sub_size||72}px">${em(v.sub)}</div>`; y+=n*(v.sub_size||72)*1.05+26; }
+    if(v.note) h+=`<div class="small" style="top:${y}px">${em(esc(v.note))}</div>`;
+    if(v.board) h+=`<div id="board${i}" style="position:absolute;left:150px;top:${Math.max(y+80,780)}px;width:780px;height:${1240-Math.max(y+80,780)}px;overflow:hidden;-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 15%,#000 85%,transparent 100%)"></div>`;
+  }
+  if(v.type==='quote'){
+    h+=`<div class="h" style="top:330px;font-size:220px;color:var(--r);line-height:1">"</div>`;
+    h+=`<div class="h" id="q${i}" style="top:540px;font-size:${v.size||62}px;line-height:1.12">${em(esc(v.quote))}</div>`;
+    h+=`<div class="small" id="who${i}" style="top:1040px">${esc(v.who)}</div>`;
+  }
+  if(v.type==='list'){
+    h+=`<div class="h" style="top:300px;font-size:${v.head_size||88}px">${em(v.headline)}</div>`;
+    v.items.forEach((it,k)=>{h+=`<div id="it${i}_${k}" style="position:absolute;left:150px;width:780px;top:${(v.items_top||640)+k*(v.item_gap||130)}px;display:flex;gap:28px;align-items:center;opacity:0">
+      <div style="width:26px;height:26px;background:var(--r);flex:none"></div><div style="font-family:AB;font-size:${v.item_size||54}px;line-height:1.05">${em(esc(it.text))}</div></div>`;});
+    if(v.source) h+=`<div class="small" style="top:1215px;font-size:26px">${esc(v.source)}</div>`;
+  }
+  if(v.type==='bars'){
+    h+=`<div class="h" style="top:300px;font-size:${v.head_size||92}px">${em(v.headline)}</div>`;
+    if(v.source) h+=`<div class="small" style="top:${v.source_top||520}px;font-size:26px">${esc(v.source)}</div>`;
+    const n=v.bars.length, bw=n===2?220:180, gap=n===2?160:70, tot=n*bw+(n-1)*gap, x0=540-tot/2;
+    h+=`<div style="position:absolute;left:150px;top:1200px;width:780px;height:6px;background:#4a4a4a"></div>`;
+    v.bars.forEach((b,k)=>{const x=x0+k*(bw+gap);
+      h+=`<div id="bar${i}_${k}" style="position:absolute;left:${x}px;width:${bw}px;top:1200px;height:0;background:${b.red?'var(--r)':'var(--w)'}"></div>`;
+      h+=`<div class="h" id="bv${i}_${k}" style="left:${x-60}px;width:${bw+120}px;font-size:${b.red?84:64}px;opacity:0;${b.red?'color:var(--r)':''}">${esc(b.display)}</div>`;
+      h+=`<div class="small" id="bl${i}_${k}" style="left:${x-50}px;width:${bw+100}px;top:1218px;font-weight:700;color:var(--w);font-size:30px;opacity:0">${b.label}</div>`;});
+  }
+  if(v.type==='progress'){
+    h+=`<div class="h" style="top:300px;font-size:${v.head_size||100}px">${em(v.headline)}</div>`;
+    h+=`<div class="small" style="top:700px;left:160px;width:760px;text-align:left;font-weight:700;letter-spacing:3px">${esc(v.label)}</div>`;
+    h+=`<div class="small" style="top:700px;left:520px;width:400px;text-align:right;font-weight:800;color:var(--w)">${esc(v.threshold_label)} ↓</div>`;
+    h+=`<div style="position:absolute;left:160px;top:760px;width:752px;height:92px;border:4px solid #4a4a4a;border-radius:10px"></div>`;
+    h+=`<div id="pf${i}" style="position:absolute;left:168px;top:768px;height:84px;width:0;background:var(--w);border-radius:6px"></div>`;
+    h+=`<div style="position:absolute;left:${168+744*v.threshold-4}px;top:742px;width:8px;height:136px;background:var(--w)"></div>`;
+    h+=`<div class="h" id="pr${i}" style="top:925px;font-size:54px;color:var(--r);opacity:0">${esc(v.result)}</div>`;
+    if(v.note) h+=`<div class="small" style="top:1060px">${esc(v.note)}</div>`;
+  }
+  if(v.type==='versus'){
+    h+=`<div class="h" style="top:300px;font-size:${v.head_size||100}px">${em(v.headline)}</div>`;
+    h+=`<svg id="vs${i}" width="1080" height="700" style="position:absolute;left:0;top:560px"></svg>`;
+  }
+  if(v.type==='rule'){
+    h+=`<div class="tag" style="top:520px">THE RULE</div><div class="h" id="rule${i}" style="top:590px;left:60px;width:960px;font-size:76px;line-height:1.1"></div>`;
+    h+=`<div id="brand${i}" style="position:absolute;left:0;width:1080px;top:1100px;text-align:center;opacity:0"><img src="__AVATAR__" width="150" height="150" style="border-radius:50%"><div style="font:800 34px IN;letter-spacing:9px;margin-top:16px">INVISIBLE RULES</div></div>`;
+  }
+  if(v.stamp) h+=`<div class="stamp" id="st${i}" style="${v.stamp.top?'top:'+v.stamp.top+'px':''}">${esc(v.stamp.text)}</div>`;
+  h+='</div>'; html+=h;});
+$('scenes').innerHTML=html;
+// rule words -> lines (greedy, <=15 chars per line)
+const RULE={};
+S.forEach((s,i)=>{ if(s.visual.type!=='rule') return; const disp=s.visual.display.split(/\s+/); const W=TL.words.find(w=>w.scene===i).words;
+  if(disp.length!==W.length) throw new Error('rule display/VO word mismatch');
+  const lines=[]; let cur=[],len=0; disp.forEach((w,k)=>{const L=w.replace(/\*/g,'').length; if(cur.length&&len+1+L>17){lines.push(cur);cur=[];len=0;} cur.push(k); len+=(len?1:0)+L; if(/[.!?]\*?$/.test(w)&&k<disp.length-1){lines.push(cur);cur=[];len=0;}}); if(cur.length) lines.push(cur);
+  RULE[i]={disp,W,lines}; });
+// ---------- render ----------
+function sceneAlpha(i,t){const s=T[i], first=i===0, last=i===T.length-1;
+  const fi=first?1:eo((t-s.start+0.12)/0.2), fo=last?1:1-eo((t-s.end+0.1)/0.2); return clamp(Math.min(fi,fo));}
+function render(t){
+  // background: slow drifting dot grid (keeps every frame in motion)
+  let bg=''; const off=(t*18)%60; for(let y=-60;y<1980;y+=60) for(let x=30;x<1080;x+=60) bg+=`<circle cx="${x}" cy="${y-off}" r="2.2" fill="#F5F5F2" opacity="0.06"/>`;
+  $('bg').innerHTML=bg;
+  S.forEach((s,i)=>{ const v=s.visual, a=sceneAlpha(i,t), el=$('sc'+i); el.style.opacity=a; if(a<=0) return; const l=t-T[i].start;
+    if(v.type==='hero'){ const b=$('big'+i);
+      if(v.count){ const c=v.count, t0=T[i].start+0.1, t1=capT(i,c.done_at_caption??0); const p=eo((t-t0)/Math.max(0.3,t1-t0));
+        const val=c.from+(c.to-c.from)*p; b.innerHTML=(c.prefix||'')+(c.decimals?val.toFixed(c.decimals):Math.round(val).toLocaleString('en-US'))+(c.suffix||''); }
+      b.style.transform=`scale(${1.06-0.06*eo(l/0.5)})`;
+      if(v.board){ const rows=v.board.rows||14, rh=86; let bh=''; const scroll=l*40;
+        for(let k=0;k<rows;k++){ const y=k*rh-scroll+30; const flip=clamp((l-0.25*k)/0.15); const st=flip>=1?(v.board.to||'CANCELLED'):(v.board.from||'ON TIME');
+          bh+=`<div style="position:absolute;left:0;top:${y}px;width:780px;height:70px;display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid #242424;font:700 34px IN;letter-spacing:3px">
+            <span style="color:#6b6b67">${esc(v.board.label||'FLIGHT')} ${String(k+1).padStart(2,'0')}</span><span style="color:${flip>=1?'#E23B2E':'#6b6b67'};font-weight:800">${st}</span></div>`; }
+        $('board'+i).innerHTML=bh; }
+    }
+    if(v.type==='quote'){ const q=$('q'+i); $('who'+i).style.top=(540+q.offsetHeight+40)+'px'; q.style.opacity=eo(l/0.4); q.style.transform=`translateY(${20*(1-eo(l/0.4))}px)`; }
+    if(v.type==='list') v.items.forEach((it,k)=>{ const e=$(`it${i}_${k}`); const p=eo((t-capT(i,it.at_caption))/0.25); e.style.opacity=p; e.style.transform=`translateX(${-30*(1-p)}px)`; });
+    if(v.type==='bars'){ const mx=Math.max(...v.bars.map(b=>b.value));
+      v.bars.forEach((b,k)=>{ const g=eo((t-capT(i,b.at_caption)+0.1)/0.7), H=470*b.value/mx*g;
+        const bar=$(`bar${i}_${k}`); bar.style.height=H+'px'; bar.style.top=(1200-H)+'px';
+        const bv=$(`bv${i}_${k}`); bv.style.opacity=clamp((g-0.6)/0.4); bv.style.top=(1200-470*b.value/mx-(b.red?118:88))+'px';
+        $(`bl${i}_${k}`).style.opacity=clamp((t-capT(i,b.at_caption)+0.1)/0.3); }); }
+    if(v.type==='progress'){ $('pf'+i).style.width=(744*v.fill*eo((l-0.3)/2.4))+'px'; const r=clamp((t-capT(i,v.result_at_caption))/0.25);
+      $('pr'+i).style.opacity=r; $('pf'+i).style.background=r>0.5?'#E23B2E':'#F5F5F2'; }
+    if(v.type==='versus'){ const dir=v.heavier==='left'?-1:1, ta=capT(i,v.tilt_at_caption??0);
+      const ang=dir*14*eo((t-ta)/0.7)*Math.PI/180, cx=540, cy=120, L=262;
+      const lx=cx-L*Math.cos(ang), ly=cy-L*Math.sin(ang), rx=cx+L*Math.cos(ang), ry=cy+L*Math.sin(ang);
+      const pan=(x,y,lab,col)=>`<line x1="${x}" y1="${y}" x2="${x}" y2="${y+150}" stroke="#8E8E89" stroke-width="4"/><path d="M${x-120},${y+150} L${x+120},${y+150} L${x+90},${y+190} L${x-90},${y+190} Z" fill="${col}"/><text x="${x}" y="${y+262}" text-anchor="middle" font-family="AB" font-size="40" fill="${col}">${esc(lab)}</text>`;
+      const heavyL=v.heavier==='left';
+      const tagp=clamp((t-capT(i,v.note_at_caption??v.tilt_at_caption??0))/0.25);
+      $('vs'+i).innerHTML=`<path d="M${cx-70},560 L${cx+70},560 L${cx},${cy} Z" fill="#2f2f2f"/><line x1="${lx}" y1="${ly}" x2="${rx}" y2="${ry}" stroke="#F5F5F2" stroke-width="14" stroke-linecap="round"/><circle cx="${cx}" cy="${cy}" r="16" fill="#E23B2E"/>`+
+        pan(lx,ly,v.left,heavyL?'#E23B2E':'#F5F5F2')+pan(rx,ry,v.right,heavyL?'#F5F5F2':'#E23B2E')+
+        (v.left_note?`<text x="${lx}" y="${ly+318}" text-anchor="middle" font-family="IN" font-weight="800" font-size="32" letter-spacing="4" fill="#8E8E89" opacity="${tagp}">${esc(v.left_note)}</text>`:'')+
+        (v.right_note?`<text x="${rx}" y="${ry+318}" text-anchor="middle" font-family="IN" font-weight="800" font-size="32" letter-spacing="4" fill="#8E8E89" opacity="${tagp}">${esc(v.right_note)}</text>`:''); }
+    if(v.type==='rule'){ const R=RULE[i]; let hh='';
+      R.lines.forEach(line=>{ hh+=line.map(k=>{ const w=R.disp[k], ws=R.W[k][1], on=clamp((t-ws+0.05)/0.15), red=w.includes('*');
+        return `<span style="opacity:${0.12+0.88*on};${red?'color:#E23B2E':''}">${esc(w.replace(/\*/g,'').toUpperCase())}</span>`;}).join(' ')+'<br>'; });
+      $('rule'+i).innerHTML=hh; $('brand'+i).style.opacity=clamp((l-1.2)/0.4); }
+    if(v.stamp){ const st=clamp((t-capT(i,v.stamp.at_caption))/0.18), e=$('st'+i); e.style.opacity=st; e.style.transform=`rotate(-7deg) scale(${1.35-0.35*eo(st)})`; }
+  });
+  const c=TL.captions.find(c=>t>=c.start-0.02&&t<c.end), cap=$('cap');
+  if(c){ cap.innerHTML='<div>'+em(esc(c.text))+'</div>'; cap.style.opacity=1; cap.style.transform=`scale(${0.9+0.1*eo((t-c.start)/0.12)})`; } else cap.style.opacity=0;
+}
+window.render=render;
+</script></body></html>
