@@ -1,6 +1,6 @@
 {
  "updated": "2026-09-22",
- "next_id": "IR-007",
+ "next_id": "IR-008",
  "videos": [
   {
    "id": "IR-001",
@@ -174,9 +174,46 @@
    "metricool": {"id": "380012898", "uuid": "6229455910541279786", "publicationDate": "2026-09-22T18:00:00+03:00"},
    "tiktok_url": null,
    "metrics": []
+  },
+  {
+   "id": "IR-007",
+   "created": "2026-09-22T13:11:00Z",
+   "status": "scheduled",
+   "title": "The credit card that cost JPMorgan $300M",
+   "company": "JPMorgan Chase (Chase Sapphire Reserve)",
+   "hook": "In December 2016, JPMorgan's CEO said a single credit card would cost the bank up to $300 million that quarter.",
+   "tiktok_title": "The credit card that cost JPMorgan $300M",
+   "caption": "In December 2016 JPMorgan's CEO said one new credit card would cost the bank up to $300M that quarter — the Chase Sapphire Reserve was so popular the bank ran out of the metal to make it, and cut the signup bonus in half the next year.",
+   "hashtags": "#jpmorgan #creditcards #BusinessStrategy",
+   "first_comment": "IR-007 · Sources: Bloomberg (Dimon, 6 Dec 2016); CNBC (Dimon, 18 Jan 2017); Chase Sapphire Reserve launch press release (Aug 2016)",
+   "industry": "banking/credit cards",
+   "angle": "Hidden mechanism behind a customer-acquisition cost decision",
+   "mechanism_family": "numbers_costs",
+   "core_claim": "The Chase Sapphire Reserve's rich signup bonus and travel credit were so popular that actual customer-acquisition costs exceeded JPMorgan's projections, forcing a disclosed $200-300M hit to Q4 2016 profit — a product succeeding by exactly the metric it was designed on can still break the budget it was priced against.",
+   "concept_key": "promotional incentive priced against expected uptake > uptake far exceeds projection > true acquisition cost blows the budget",
+   "gate_score": 89,
+   "gate_breakdown": "Novelty 9 (not on this account, strong specific angle), Specificity 9 (named CEO quotes, named dollar figures, named dates), Curiosity 9 (a company's own success costing it money), Clarity 9 (single clean mechanism), Emotional tension 7, Intellectual value 9, Retention 9, Niche fit 10, Source evidence 9 (Bloomberg + CNBC direct CEO quotes, Chase's own launch materials), Difference 9 (customer-acquisition/marketing economics, distinct from IR-005's subscription fee and IR-006's hardware/consumables lock-in)",
+   "sources": [
+    {"label": "Bloomberg — Dimon Says New Sapphire Card Cuts Profit by Up to $300 Million in Quarter (6 Dec 2016)", "url": "https://www.bloomberg.com/news/articles/2016-12-06/dimon-says-new-card-cuts-profit-by-up-to-300-million-in-quarter"},
+    {"label": "CNBC — JPMorgan's Dimon: I wish the Chase Sapphire Reserve card had cost us more money (18 Jan 2017)", "url": "https://www.cnbc.com/2017/01/18/jamie-dimon-i-wish-chase-sapphire-reserve-cost-jpmorgan-more-money.html"},
+    {"label": "Fast Company — Chase Sapphire Reserve's popular perks will cost JPMorgan as much as $300 million this quarter", "url": "https://www.fastcompany.com/4026717/chase-sapphire-reserves-popular-perks-will-cost-jpmorgan-as-much-as-300-million-this-quarter"},
+    {"label": "Chase — Chase Reinvents Luxury Credit Card Category with Sapphire Reserve, Launching Today (23 Aug 2016)", "url": "https://media.chase.com/news/chase-reinvents-luxury-credit-card-sapphire-reserve"}
+   ],
+   "story_json": "videos/IR-007.json",
+   "asset": {
+    "sha256": "219d523ff9c6a3f42a5f638d269bfaed533ff2da7383478195a9d2618d0f51e2",
+    "video_md5": "2a57b2d8a97a18d71dbcf0ebddeb3651",
+    "audio_md5": "0f6b40cf7a4dfcf6e0a520c2a640bcf8"
+   },
+   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-007-2a57b2d8.mp4",
+   "hosted_at": "2026-09-22T13:11:00.000Z",
+   "metricool": {"id": "380075898", "uuid": "-1403776461509866105", "publicationDate": "2026-09-23T10:00:00+03:00"},
+   "tiktok_url": null,
+   "metrics": []
   }
  ],
  "account_topics": [
+  "JPMorgan Chase Sapphire Reserve launch cost (IR-007)",
   "HP printer/ink lock-in and Dynamic Security (IR-006)",
   "Google paying Apple to be the default search engine ($20B, 2022)",
   "Berkshire Hathaway cash pile",
