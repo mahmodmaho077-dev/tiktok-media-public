@@ -108,3 +108,13 @@ After 21 published posts: evaluate real data (OBSERVED vs HYPOTHESIS). Move to 2
 
 ## Failure policy
 Repair only the failing component. Never duplicate a post on retry. Preserve the ledger. If Metricool or the bridge is unavailable, publish nothing and substitute nothing. Never report success that did not happen.
+
+## Manual-run mode (set by Silver, 22 Sep 2026)
+When Silver writes "Run next TikTok": run exactly ONE full cycle, start to finish, with no approval questions:
+next unused IR id from ledger/videos.json -> research (>= 4 candidates, niche + Quality Gate) -> script -> render (--check, --preview, --full, inspect frames) -> factual QA + originality vs ledger and account_topics -> tiktok_title, caption, 3-5 hashtags, first_comment (<= 150 chars)
+-> duplicate check: ledger + Metricool getScheduledPosts (30 days back/ahead, extendedRange true) by IR id and media URL
+-> host with engine/bridge.py -> createScheduledPost at the next free slot (10:00 or 18:00 Europe/Athens, at least 20 min away, no other IR post in that slot)
+-> getScheduledPosts again: exactly one post with this IR id -> ledger status "scheduled" with metricool {id, uuid}, commit, push.
+Each manual run makes exactly one post: the 20-hour "hosted" rule and the one-post-per-day limit do not apply.
+If any step fails: stop before publishing and report the exact error. IR-* media only, never reuse an id, never test posts.
+Report in Arabic only: IR id, topic/company, publish status, publish time (Athens), duplicate check result.
