@@ -1,0 +1,42 @@
+{
+ "id": "IR-007",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "phoneme_fixes": {},
+ "scenes": [
+  {
+   "vo": "In December twenty sixteen, JPMorgan's CEO said a single credit card would cost the bank up to three hundred million dollars.",
+   "captions": [["In December 2016,", 4], ["JPMorgan's CEO said", 3], ["a single credit card", 4], ["would cost the bank", 4], ["up to", 2], ["*$300 million.*", 4]],
+   "visual": {"type": "hero", "tag": "JPMORGAN CHASE · DEC 2016", "big": "$300M", "big_red": true, "count": {"from": 0, "to": 300, "prefix": "$", "suffix": "M", "done_at_caption": 5}, "sub": "WHAT ONE CREDIT CARD<br>COST THE BANK IN A QUARTER", "sub_size": 54}
+  },
+  {
+   "vo": "The card: Chase Sapphire Reserve. Four hundred fifty dollars a year, launched two months earlier.",
+   "captions": [["The card:", 2], ["Chase Sapphire Reserve.", 3], ["*$450* a year,", 6], ["launched two months", 3], ["earlier.", 1]],
+   "visual": {"type": "hero", "tag": "AUGUST 2016", "big": "$450/YR", "sub": "CHASE SAPPHIRE RESERVE<br>LAUNCHED TWO MONTHS EARLIER", "sub_size": 54}
+  },
+  {
+   "vo": "It came with a three hundred dollar travel credit and fifteen hundred dollars in bonus points.",
+   "captions": [["It came with", 3], ["a *$300*", 4], ["travel credit and", 3], ["*$1,500*", 3], ["in bonus points.", 3]],
+   "visual": {"type": "list", "tag": "THE LAUNCH OFFER", "headline": "A $450 FEE…<br><span class='e'>THAT NEARLY PAID FOR ITSELF</span>", "head_size": 72, "items": [{"text": "*$300* travel credit, every year", "at_caption": 1}, {"text": "~*$1,500* signup bonus in points", "at_caption": 3}]}
+  },
+  {
+   "vo": "Demand was so high, Chase ran out of the metal used to make the card.",
+   "captions": [["Demand was so high,", 4], ["Chase ran out", 3], ["of the metal", 3], ["used to make", 3], ["the *card.*", 2]],
+   "visual": {"type": "hero", "tag": "HOW POPULAR IT GOT", "big": "RAN OUT", "sub": "OF THE METAL USED<br>TO MAKE THE CARD", "sub_size": 54}
+  },
+  {
+   "vo": "JPMorgan's CEO later said he wished the card had cost the bank even more.",
+   "captions": [["JPMorgan's CEO later", 3], ["said he wished", 3], ["the card had", 3], ["cost the bank", 3], ["even *more.*", 2]],
+   "visual": {"type": "quote", "tag": "WHAT JPMORGAN'S CEO SAID", "size": 60, "quote": "“I wish it cost more … now we have to account for acquisition cost in that business.”", "who": "Jamie Dimon, JPMorgan CEO · CNBC, Jan 2017"}
+  },
+  {
+   "vo": "The next year, the signup bonus was cut in half, down to fifty thousand points.",
+   "captions": [["The next year,", 3], ["the signup bonus", 3], ["was cut in half,", 4], ["down to", 2], ["*50,000* points.", 3]],
+   "visual": {"type": "hero", "tag": "2017", "big": "50,000", "big_red": true, "sub": "THE BONUS WAS CUT<br>IN HALF THE FOLLOWING YEAR", "sub_size": 54}
+  },
+  {
+   "vo": "When a deal is good enough to go viral, the company pays for it.",
+   "visual": {"type": "rule", "display": "When a deal is good enough to go *viral,* the company *pays* for it."}
+  }
+ ]
+}
