@@ -1,0 +1,37 @@
+{
+ "id": "IR-008",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "phoneme_fixes": {},
+ "scenes": [
+  {
+   "vo": "In April twenty twenty-six, a jury found Live Nation and Ticketmaster ran an illegal monopoly.",
+   "captions": [["In April 2026,", 4], ["a jury found", 3], ["Live Nation and", 3], ["Ticketmaster ran an", 3], ["*illegal monopoly.*", 2]],
+   "visual": {"type": "hero", "tag": "APRIL 2026 · JURY VERDICT", "big": "MONOPOLY", "big_red": true, "sub": "LIVE NATION & TICKETMASTER<br>RAN AN ILLEGAL ONE, A JURY FOUND", "sub_size": 50}
+  },
+  {
+   "vo": "The jury found fans were overcharged by about one dollar seventy-two per ticket at major venues.",
+   "captions": [["The jury found", 3], ["fans were overcharged", 3], ["by about", 2], ["*$1.72* per ticket", 5], ["at major venues.", 3]],
+   "visual": {"type": "hero", "tag": "THE JURY'S FINDING", "big": "$1.72", "big_red": true, "count": {"from": 0, "to": 1.72, "prefix": "$", "decimals": 2, "done_at_caption": 3}, "sub": "EXTRA, PER TICKET<br>AT MAJOR CONCERT VENUES", "sub_size": 54}
+  },
+  {
+   "vo": "The Justice Department and thirty states had sued in May twenty twenty-four, over how Ticketmaster locks in venues.",
+   "captions": [["The Justice Department", 3], ["and *30 states*", 3], ["had sued in", 3], ["May 2024,", 3], ["over how Ticketmaster", 3], ["locks in venues.", 3]],
+   "visual": {"type": "hero", "tag": "MAY 2024", "big": "30 STATES", "sub": "JOINED THE DOJ'S<br>ANTITRUST LAWSUIT", "sub_size": 56}
+  },
+  {
+   "vo": "Their method: pay venues upfront, then threaten to pull Live Nation's own concerts if they book a rival.",
+   "captions": [["Their method:", 2], ["pay venues upfront,", 3], ["then threaten to", 3], ["pull Live Nation's", 3], ["own concerts if", 3], ["they book a *rival.*", 4]],
+   "visual": {"type": "list", "tag": "THE HIDDEN MECHANISM", "headline": "THE CARROT<br>AND THE <span class='e'>STICK</span>", "head_size": 88, "items_top": 620, "item_gap": 170, "item_size": 46, "items": [{"text": "*Upfront cash* for exclusivity", "at_caption": 1}, {"text": "*Lose Live Nation shows* otherwise", "at_caption": 5}], "source": "Source: DOJ v. Live Nation Entertainment complaint, filed 23 May 2024"}
+  },
+  {
+   "vo": "Once a venue signs, fans have no other place to buy a ticket.",
+   "captions": [["Once a venue", 3], ["signs, fans have", 3], ["no other place", 3], ["to buy a", 3], ["*ticket.*", 1]],
+   "visual": {"type": "hero", "tag": "THE LOCK-IN", "big": "NO CHOICE", "sub": "ONCE A VENUE SIGNS,<br>FANS CAN'T BUY ELSEWHERE", "sub_size": 50}
+  },
+  {
+   "vo": "A monopoly doesn't need to hide. It just needs you to have nowhere else to go.",
+   "visual": {"type": "rule", "display": "A monopoly doesn't need to *hide.* It just needs you to have *nowhere* else to go."}
+  }
+ ]
+}
