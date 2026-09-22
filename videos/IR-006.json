@@ -1,0 +1,42 @@
+{
+ "id": "IR-006",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "phoneme_fixes": {},
+ "scenes": [
+  {
+   "vo": "In January twenty twenty-four, HP's CEO said some of his own customers are a bad investment.",
+   "captions": [["In January 2024,", 4], ["HP's CEO said", 3], ["some of his own", 4], ["customers are a", 3], ["*bad investment.*", 2]],
+   "visual": {"type": "hero", "tag": "HP · JANUARY 2024", "big": "BAD INVESTMENT", "big_red": true, "sub": "WHAT HP'S CEO CALLED<br>SOME OF ITS OWN CUSTOMERS", "sub_size": 54}
+  },
+  {
+   "vo": "His reason: customers who skip HP's own ink, he said, are not worth the investment.",
+   "captions": [["His reason:", 2], ["customers who skip", 3], ["HP's own ink,", 3], ["he said,", 2], ["are not worth", 3], ["the investment.", 2]],
+   "visual": {"type": "quote", "tag": "WHAT HP'S CEO SAID", "size": 56, "quote": "“…if that customer doesn't print enough or doesn't use our supplies, it's a *bad investment.*”", "who": "Enrique Lores, HP CEO · CNBC interview, Jan 2024"}
+  },
+  {
+   "vo": "HP often prices the printer itself close to what it costs to make.",
+   "captions": [["HP often prices", 3], ["the printer itself", 3], ["close to what it", 4], ["costs to make.", 3]],
+   "visual": {"type": "hero", "tag": "THE HIDDEN MECHANISM", "big": "NEAR COST", "sub": "THE PRINTER ITSELF<br>ISN'T WHERE HP MAKES MONEY", "sub_size": 54}
+  },
+  {
+   "vo": "In fiscal twenty twenty-five alone, HP's ink and toner supplies brought in ten point nine billion dollars.",
+   "captions": [["In fiscal 2025 alone,", 5], ["HP's ink and toner", 4], ["supplies brought in", 3], ["*$10.9 billion.*", 5]],
+   "visual": {"type": "hero", "tag": "HP FISCAL 2025 RESULTS", "big": "$10.9B", "big_red": true, "count": {"from": 0, "to": 10.9, "prefix": "$", "suffix": "B", "decimals": 1, "done_at_caption": 3}, "sub": "FROM PRINTER SUPPLIES<br>ALONE", "sub_size": 60}
+  },
+  {
+   "vo": "A feature called Dynamic Security can block ink that isn't HP's, even ink refilled in an HP cartridge.",
+   "captions": [["A feature called", 3], ["*Dynamic Security*", 2], ["can block ink", 3], ["that isn't HP's,", 3], ["even ink refilled", 3], ["in an HP", 3], ["*cartridge.*", 1]],
+   "visual": {"type": "list", "tag": "HOW IT'S ENFORCED", "headline": "PRINTER FIRMWARE<br><span class='e'>CHECKS THE CHIP</span>", "items": [{"text": "*Dynamic Security* scans each cartridge", "at_caption": 0}, {"text": "Non-HP or refilled ink can be *blocked*", "at_caption": 1}], "source": "Source: HP Dynamic Security policy · class actions filed Jan 2024 (N.D. Cal., N.D. Ill.)"}
+  },
+  {
+   "vo": "The printer is the hook. The ink is where the business actually lives.",
+   "captions": [["The printer is", 3], ["the *hook.*", 2], ["The ink is", 3], ["where the business", 3], ["actually lives.", 2]],
+   "visual": {"type": "versus", "tag": "THE HIDDEN MECHANISM", "headline": "THE PRINTER<br>VS. <span class='e'>THE INK</span>", "head_size": 96, "left": "THE PRINTER", "right": "THE INK", "heavier": "right", "tilt_at_caption": 1, "left_note": "SOLD NEAR COST", "right_note": "$10.9B IN SUPPLIES ALONE", "note_at_caption": 1}
+  },
+  {
+   "vo": "When the product is cheap, you're not the customer. You're the installed base.",
+   "visual": {"type": "rule", "display": "When the product is cheap, you're not the customer. You're the *installed* *base.*"}
+  }
+ ]
+}
