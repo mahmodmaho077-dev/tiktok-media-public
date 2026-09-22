@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-21",
- "next_id": "IR-006",
+ "updated": "2026-09-22",
+ "next_id": "IR-007",
  "videos": [
   {
    "id": "IR-001",
@@ -138,9 +138,46 @@
    "metricool": {"id": "379553256", "uuid": "-7008404274305153545", "publicationDate": "2026-09-21T20:15:00+03:00"},
    "tiktok_url": "https://www.tiktok.com/@invisiblerulesmedia/video/7688038603053731094",
    "metrics": []
+  },
+  {
+   "id": "IR-006",
+   "created": "2026-09-22T11:45:00Z",
+   "status": "scheduled",
+   "title": "HP's ink lock-in: the printer vs. the ink",
+   "company": "HP Inc.",
+   "hook": "In January 2024, HP's CEO said some of his own customers are a bad investment.",
+   "tiktok_title": "HP calls its own customers a 'bad investment'",
+   "caption": "HP's CEO said customers who skip HP's own ink are a 'bad investment' — the company prices printers near cost and makes its money on supplies, which brought in $10.9B in FY2025 alone.",
+   "hashtags": "#hp #printers #pricing #BusinessStrategy",
+   "first_comment": "IR-006 · Sources: CNBC interview Jan 2024 (Lores quote, The Register); HP Dynamic Security policy; HP FY2025 Q4 results (Nov 2025)",
+   "industry": "printers/hardware",
+   "angle": "Hidden mechanism behind a hardware/consumables pricing structure",
+   "mechanism_family": "advantages_leverage",
+   "core_claim": "HP prices printer hardware near cost and recovers profit through high-margin ink/toner supplies ($10.9B in FY2025 alone), enforced by Dynamic Security firmware that can block non-HP or refilled cartridges — the CEO's own 'bad investment' framing describes customers who don't buy into the supplies side.",
+   "concept_key": "hardware sold near cost > profit recovered via locked recurring consumables > firmware enforces the lock",
+   "gate_score": 86,
+   "gate_breakdown": "Novelty 8 (fresh to this account), Specificity 9 (named CEO quote, named FY2025 figure), Curiosity 9 (company calling its own customers a bad investment), Clarity 9 (single clean mechanism), Emotional tension 8 (DRM-blocked ink feels unfair), Intellectual value 8 (classic razor-and-blades teaching), Retention 8, Niche fit 10 (textbook hidden business mechanism), Source evidence 9 (direct CEO quote via CNBC, corroborated by multiple outlets, plus HP's own FY2025 results), Difference 8 (hardware/consumables industry, distinct from IR-004 car rental and IR-005 software subscriptions)",
+   "sources": [
+    {"label": "The Register — HP's CEO: You're 'bad investment' if you don't buy HP supplies (19 Jan 2024)", "url": "https://www.theregister.com/2024/01/19/hps_ceo_spells_it_out/"},
+    {"label": "TechSpot — HP CEO says customers who don't use the company's supplies are \"bad investments\"", "url": "https://www.techspot.com/news/101593-hp-ceo-customers-who-dont-use-companies-supplies.html"},
+    {"label": "BetaNews — HP CEO explains why the company is bricking third-party ink printers (23 Jan 2024)", "url": "https://betanews.com/2024/01/23/hp-ceo-explains-why-the-company-is-bricking-third-party-ink-printers/"},
+    {"label": "HP Inc. — Reports Fiscal 2025 Full Year and Fourth Quarter Results (investor.hp.com)", "url": "https://investor.hp.com/news-events/news/news-details/2025/HP-Inc--Reports-Fiscal-2025-Full-Year-and-Fourth-Quarter-Results/default.aspx"}
+   ],
+   "story_json": "videos/IR-006.json",
+   "asset": {
+    "sha256": "6320587410bcb536996e86d09559b410c4d4271cdbc68bbbb632f481df286594",
+    "video_md5": "6bb609ba8bbe7a125c9e186623a9c390",
+    "audio_md5": "9b579cd4bac6cba4d05bdde9b35370f8"
+   },
+   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-006-6bb609ba.mp4",
+   "hosted_at": "2026-09-22T11:45:00.000Z",
+   "metricool": {"id": "380012898", "uuid": "6229455910541279786", "publicationDate": "2026-09-22T18:00:00+03:00"},
+   "tiktok_url": null,
+   "metrics": []
   }
  ],
  "account_topics": [
+  "HP printer/ink lock-in and Dynamic Security (IR-006)",
   "Google paying Apple to be the default search engine ($20B, 2022)",
   "Berkshire Hathaway cash pile",
   "Berkshire Hathaway insurance float ($177.5B)",
@@ -154,7 +191,6 @@
   "Adobe early termination fee (IR-005)"
  ],
  "reserve": [
-  "HP: CEO called printer buyers who skip HP supplies a 'bad investment' (CNBC, Jan 2024) - subsidised hardware + supplies lock",
   "Spotify audiobook bundle and songwriter mechanical royalties (MLC v. Spotify) - wait until litigation is final"
  ],
  "rejected": [
