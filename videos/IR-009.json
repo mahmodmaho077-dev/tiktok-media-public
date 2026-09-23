@@ -1,0 +1,42 @@
+{
+ "id": "IR-009",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "phoneme_fixes": {},
+ "scenes": [
+  {
+   "vo": "In twenty twenty-two, Netflix said over one hundred million households were sharing passwords for free.",
+   "captions": [["In 2022,", 3], ["Netflix said over", 3], ["*100 million*", 3], ["households were", 2], ["sharing passwords", 2], ["for free.", 2]],
+   "visual": {"type": "hero", "tag": "NETFLIX · 2022", "big": "100M", "big_red": true, "count": {"from": 0, "to": 100, "suffix": "M", "done_at_caption": 2}, "sub": "HOUSEHOLDS SHARING<br>PASSWORDS FOR FREE", "sub_size": 54}
+  },
+  {
+   "vo": "In May twenty twenty-three, Netflix started charging for it. Many called it a mistake.",
+   "captions": [["In May 2023,", 4], ["Netflix started charging", 3], ["for it.", 2], ["Many called it", 3], ["a *mistake.*", 2]],
+   "visual": {"type": "hero", "tag": "MAY 2023", "big": "RISKY MOVE", "sub": "NETFLIX STARTED CHARGING<br>FOR SHARED PASSWORDS", "sub_size": 50}
+  },
+  {
+   "vo": "Critics warned it would drive users away and hurt the brand.",
+   "captions": [["Critics warned", 2], ["it would drive", 3], ["users away and", 3], ["hurt the *brand.*", 3]],
+   "visual": {"type": "hero", "tag": "THE PREDICTION", "big": "USERS WILL LEAVE", "big_size": 66, "sub": "WHAT CRITICS SAID<br>WOULD HAPPEN", "sub_size": 54}
+  },
+  {
+   "vo": "In the next quarter alone, nine million new people paid to sign up.",
+   "captions": [["In the next", 3], ["quarter alone,", 2], ["*nine million*", 2], ["new people paid", 3], ["to sign up.", 3]],
+   "visual": {"type": "hero", "tag": "Q3 2023 RESULTS", "big": "+9M", "big_red": true, "count": {"from": 0, "to": 9, "prefix": "+", "suffix": "M", "done_at_caption": 2}, "sub": "NEW PAYING<br>SUBSCRIBERS", "sub_size": 56}
+  },
+  {
+   "vo": "Netflix's own CFO called it the company's biggest driver of growth that year.",
+   "captions": [["Netflix's own CFO", 3], ["called it the", 3], ["company's biggest driver", 3], ["of growth that year.", 4]],
+   "visual": {"type": "quote", "tag": "WHAT NETFLIX'S CFO SAID", "size": 60, "quote": "“…paid sharing was our primary revenue accelerator… this year.”", "who": "Spencer Neumann, Netflix CFO · Q3 2023 earnings call"}
+  },
+  {
+   "vo": "Free sharing felt generous. Charging for it turned out to be the better business.",
+   "captions": [["Free sharing felt", 3], ["generous.", 1], ["Charging for it", 3], ["turned out to", 3], ["be the better", 3], ["*business.*", 1]],
+   "visual": {"type": "versus", "tag": "THE HIDDEN MECHANISM", "headline": "FREE SHARING<br>VS. <span class='e'>CHARGING FOR IT</span>", "head_size": 76, "left": "FREE SHARING", "right": "CHARGING", "heavier": "right", "tilt_at_caption": 2, "left_note": "FELT GENEROUS", "right_note": "+9M PAYING SUBSCRIBERS", "note_at_caption": 3}
+  },
+  {
+   "vo": "Sometimes the customer-friendly choice and the profitable one are not the same thing.",
+   "visual": {"type": "rule", "display": "Sometimes the customer-friendly choice and the *profitable* one are not the *same* thing."}
+  }
+ ]
+}

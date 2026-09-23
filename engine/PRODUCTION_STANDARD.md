@@ -28,6 +28,11 @@ Metricool's createScheduledPost has two cover fields:
 So do BOTH, every time:
 a) Design the cover as a real frame inside the video: hold it for the first 400 ms,
    1080x1920, then cut into the hook. Set videoCoverMilliseconds to 200.
+   Exception: if scene 1 uses an animated `count`, 200ms lands mid-count-up (a
+   meaningless number, e.g. "12M" instead of the real "100M"). In that case set
+   videoCoverMilliseconds to a timestamp just after the count settles (check
+   timeline.json for when capT(0, count.done_at_caption) lands) so the cover shows
+   the real, final number.
 b) Also export that same frame as a PNG, host it in tiktok-media-public, and pass its
    raw URL as videoThumbnailUrl. If the account is Business it is used; if not, it is
    ignored and the baked frame from (a) still gives the right cover.
