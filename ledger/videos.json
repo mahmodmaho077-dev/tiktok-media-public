@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-22",
- "next_id": "IR-009",
+ "updated": "2026-09-23",
+ "next_id": "IR-010",
  "videos": [
   {
    "id": "IR-001",
@@ -246,9 +246,47 @@
    "metricool": {"id": "380228968", "uuid": "3666609120620334097", "publicationDate": "2026-09-23T18:00:00+03:00"},
    "tiktok_url": null,
    "metrics": []
+  },
+  {
+   "id": "IR-009",
+   "created": "2026-09-23T19:06:00Z",
+   "status": "scheduled",
+   "title": "Netflix charged for passwords. Then gained 9M subscribers.",
+   "company": "Netflix",
+   "hook": "In 2022, Netflix said over 100 million households were sharing passwords for free.",
+   "tiktok_title": "Netflix charged for passwords. Then gained 9M subscribers.",
+   "caption": "Netflix's own CEO said in 2016 that password sharing was something \"you have to learn to live with\" — years before the 2023 reversal that added millions of subscribers.\n\n#PasswordSharing #Netflix #Streaming #BusinessCaseStudy",
+   "hashtags": "#PasswordSharing #Netflix #Streaming #BusinessCaseStudy",
+   "first_comment": "IR-009 · Sources: Netflix Q3 2023 earnings call (Spencer Neumann, CNBC); Netflix Q3 2016 earnings call (Reed Hastings, CNBC)",
+   "industry": "streaming/media",
+   "angle": "Counterintuitive result: the customer-unfriendly move outperformed the generous one",
+   "mechanism_family": "counterintuitive",
+   "core_claim": "Netflix disclosed in 2022 that 100M+ households were sharing passwords for free; despite warnings the May 2023 paid-sharing crackdown would drive users away, it added ~9M paying subscribers in Q3 2023 alone, and CFO Spencer Neumann called it the company's primary revenue accelerator that year.",
+   "concept_key": "free, tolerated behavior treated as generous > monetizing it directly contradicts the 'customer-friendly' instinct > the paid version outperforms the free one",
+   "gate_score": 88,
+   "gate_breakdown": "Novelty 9 (not on this account), Specificity 9 (named CFO quote, named quarterly subscriber figure), Curiosity 9 (widely-predicted backlash that didn't happen), Clarity 9 (single clean before/after mechanism), Emotional tension 7, Intellectual value 8, Retention 9, Niche fit 10, Source evidence 9 (Netflix's own CFO on the earnings call, corroborated by CNBC/Reuters/Forbes coverage), Difference 9 (streaming/media industry and a counterintuitive-outcome mechanism, distinct from IR-007's acquisition-cost and IR-008's market-power stories)",
+   "sources": [
+    {"label": "CNBC — Netflix says 100 million households share passwords, complicating its plan to crack down (2022 disclosure)", "url": "https://www.cnbc.com/2022/07/19/netflix-100-million-households-share-passwords.html"},
+    {"label": "CNBC — Your shared Netflix password is safe, the CEO says (17 Oct 2016, Reed Hastings 'learn to live with' quote)", "url": "https://www.cnbc.com/2016/10/17/your-shared-netflix-password-is-safe-the-ceo-says.html"},
+    {"label": "Netflix Q3 2023 shareholder letter / earnings call — ~9M paid net additions, Spencer Neumann 'primary revenue accelerator' comment (Oct 2023)", "url": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx"},
+    {"label": "TechCrunch/Variety — coverage of the May 2023 U.S. paid-sharing rollout and initial backlash predictions", "url": "https://techcrunch.com/2023/05/23/netflix-password-sharing-crackdown-us/"}
+   ],
+   "story_json": "videos/IR-009.json",
+   "asset": {
+    "sha256": "dfcbab9da57547c352c2215748f284d58b22f791e221551c31ebe5b4e53decfb",
+    "video_md5": "1db30af8bd34107207855586243bc5a5",
+    "audio_md5": "2e41a41cd3543030d5737715ca1939bb"
+   },
+   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-009-1db30af8.mp4",
+   "cover_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-009-1db30af8-cover.png",
+   "hosted_at": "2026-09-23T19:17:00.000Z",
+   "metricool": {"id": "380992048", "uuid": "-602315676788766619", "publicationDate": "2026-09-24T18:00:00+03:00"},
+   "tiktok_url": null,
+   "metrics": []
   }
  ],
  "account_topics": [
+  "Netflix password-sharing crackdown, 2022-2023 (IR-009)",
   "Live Nation/Ticketmaster antitrust verdict (IR-008)",
   "JPMorgan Chase Sapphire Reserve launch cost (IR-007)",
   "HP printer/ink lock-in and Dynamic Security (IR-006)",
