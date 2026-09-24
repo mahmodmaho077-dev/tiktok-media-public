@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-23",
- "next_id": "IR-010",
+ "updated": "2026-09-24",
+ "next_id": "IR-011",
  "videos": [
   {
    "id": "IR-001",
@@ -283,9 +283,47 @@
    "metricool": {"id": "380992048", "uuid": "-602315676788766619", "publicationDate": "2026-09-24T18:00:00+03:00"},
    "tiktok_url": null,
    "metrics": []
+  },
+  {
+   "id": "IR-010",
+   "created": "2026-09-24T04:55:00Z",
+   "status": "scheduled",
+   "title": "Delta made $8.2B from Amex. Not from flying planes.",
+   "company": "Delta Air Lines / American Express",
+   "hook": "In 2025, Delta made $8.2 billion from American Express — not from flying planes.",
+   "tiktok_title": "Delta made $8.2B from Amex. Not from flying planes.",
+   "caption": "Delta and American Express have run this credit-card partnership since 1996 — and are targeting $10 billion a year in payments to Delta by 2029.\n\n#CoBranding #Delta #Airlines #BusinessCaseStudy",
+   "hashtags": "#CoBranding #Delta #Airlines #BusinessCaseStudy",
+   "first_comment": "IR-010 · Sources: Fortune (3 Apr 2026, Bastian/Amex); Delta Q3 2025 earnings; View From The Wing (Amex remuneration rate)",
+   "industry": "airlines/co-branded credit cards",
+   "angle": "Hidden mechanism behind a core operating decision (route selection) actually driven by a financial-services side deal",
+   "mechanism_family": "numbers_costs",
+   "core_claim": "Delta's 2025 remuneration from American Express reached $8.2B (~10% of total revenue), and Delta has said it now picks some new routes (e.g. Austin, Raleigh) partly to acquire more co-brand cardholders, per CEO Ed Bastian; Delta expects $9B from the deal in 2026, up 10% year over year.",
+   "concept_key": "a service company's core operating decisions (which routes to fly) driven by a financial-services partner's economics, not by passenger demand alone > the card business becomes the larger profit engine",
+   "gate_score": 87,
+   "gate_breakdown": "Novelty 9 (not on this account, fresh Apr 2026 reporting), Specificity 9 (named CEO quote, named dollar figures, named cities), Curiosity 9 (an airline picking routes for a credit-card deal), Clarity 8, Emotional tension 6, Intellectual value 9, Retention 8, Niche fit 10, Source evidence 9 (Fortune/Yahoo reporting of Bastian's own statements, corroborated by Delta's own earnings guidance), Difference 9 (airlines/co-branded credit cards, distinct from IR-008's live-entertainment antitrust story and IR-009's streaming story)",
+   "sources": [
+    {"label": "Fortune — How Delta CEO Ed Bastian built a massive partnership with American Express that now generates over 10% of the airline's revenue (3 Apr 2026)", "url": "https://fortune.com/2026/04/03/how-did-delta-ceo-ed-bastian-build-partnership-with-american-express-10-percent-airlines-revenue/"},
+    {"label": "The Travel — Delta Air Lines Causes A Stir By Admitting How It Chooses New Routes With Amex In Mind", "url": "https://www.thetravel.com/delta-air-lines-admits-new-routes-influenced-by-amex-credit-card-spending/"},
+    {"label": "View From The Wing — Amex Pays Delta 3.8 Cents Per Dollar Charged", "url": "https://viewfromthewing.com/amex-pays-delta-3-8-cents-per-dollar-charged-why-banks-pay-more-for-miles-than-you-do/"},
+    {"label": "Payments Dive — Amex, Delta card spending soars (2026 guidance of $9B, up 10% over 2025)", "url": "https://www.paymentsdive.com/news/amex-delta-card-spending-soars/825180/"}
+   ],
+   "story_json": "videos/IR-010.json",
+   "asset": {
+    "sha256": "c5767d7708deddee842e65a93cf473000724128d2a21cae5b30128adfddc1edc",
+    "video_md5": "e27d8eb9c7f012a2ab9db761458b6eb9",
+    "audio_md5": "280a89607769fd9d06b43d4f1552cf27"
+   },
+   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-010-e27d8eb9.mp4",
+   "cover_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-010-e27d8eb9-cover.png",
+   "hosted_at": "2026-09-24T05:00:00.000Z",
+   "metricool": {"id": "381140717", "uuid": "75376184266671222", "publicationDate": "2026-09-25T10:00:00+03:00"},
+   "tiktok_url": null,
+   "metrics": []
   }
  ],
  "account_topics": [
+  "Delta / American Express co-brand credit card partnership (IR-010)",
   "Netflix password-sharing crackdown, 2022-2023 (IR-009)",
   "Live Nation/Ticketmaster antitrust verdict (IR-008)",
   "JPMorgan Chase Sapphire Reserve launch cost (IR-007)",
