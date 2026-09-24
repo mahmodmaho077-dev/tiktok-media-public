@@ -1,6 +1,6 @@
 {
  "updated": "2026-09-24",
- "next_id": "IR-011",
+ "next_id": "IR-012",
  "videos": [
   {
    "id": "IR-001",
@@ -320,9 +320,47 @@
    "metricool": {"id": "381140717", "uuid": "75376184266671222", "publicationDate": "2026-09-25T10:00:00+03:00"},
    "tiktok_url": null,
    "metrics": []
+  },
+  {
+   "id": "IR-011",
+   "created": "2026-09-24T05:30:00Z",
+   "status": "scheduled",
+   "title": "Klarna's 'interest-free' plan isn't free. Merchants pay 6%.",
+   "company": "Klarna",
+   "hook": "Klarna markets its Pay in 4 plan as completely interest-free for shoppers.",
+   "tiktok_title": "Klarna's 'interest-free' plan isn't free. Merchants pay 6%.",
+   "caption": "Klarna went public in September 2025 at a $15 billion valuation — right as it disclosed exactly how much of that value comes from merchant fees, not shopper interest.\n\n#BuyNowPayLater #Klarna #Fintech #BusinessCaseStudy",
+   "hashtags": "#BuyNowPayLater #Klarna #Fintech #BusinessCaseStudy",
+   "first_comment": "IR-011 · Sources: Klarna Group F-1/424B4 SEC filing (2025 IPO prospectus); CNBC IPO coverage (10 Sep 2025); Motley Fool interchange fee data",
+   "industry": "fintech/payments (buy now pay later)",
+   "angle": "Hidden mechanism: a 'free' consumer feature is paid for, invisibly, by a different party",
+   "mechanism_family": "advantages_leverage",
+   "core_claim": "Klarna markets its no-interest 'Pay in 4' plan as free for shoppers, but merchants pay Klarna up to ~5.99% per sale for it (vs. roughly 2% for a typical credit card) — merchant fees made up 57% of Klarna's total revenue in 2024, disclosed in its September 2025 IPO filing.",
+   "concept_key": "a service marketed as free to the consumer > the real cost is shifted to a different party (the merchant) at a multiple of the standard rate > that shifted cost becomes the company's largest revenue source",
+   "gate_score": 86,
+   "gate_breakdown": "Novelty 9 (fresh, from Klarna's own Sept 2025 IPO filing), Specificity 9 (named fee percentages, named revenue share, named filing), Curiosity 9 ('free' checkout that isn't), Clarity 8, Emotional tension 7 (relatable — most viewers have used BNPL), Intellectual value 8, Retention 8, Niche fit 10, Source evidence 9 (Klarna's own SEC F-1/424B4 registration statement, a primary source), Difference 9 (fintech/BNPL, distinct from IR-009's streaming and IR-010's airline/co-brand stories)",
+   "sources": [
+    {"label": "Klarna Group plc — Form 424B4 / F-1 registration statement (2025 IPO prospectus): merchant revenue 76% of transaction/services revenue LTM Jun 2025; merchant fees 57% of total revenue in 2024; Pay in 4 fee schedule up to 5.99%", "url": "https://www.sec.gov/Archives/edgar/data/2003292/000200329225000052/klarnagroupplc424b4.htm"},
+    {"label": "CNBC — Klarna stock jumps 15% in NYSE debut after pricing IPO above range (10 Sep 2025)", "url": "https://www.cnbc.com/2025/09/10/klarna-klar-stock-soars-after-us-ipo.html"},
+    {"label": "Forbes — Klarna's IPO breaks the fintech drought at a $15 billion valuation (18 Sep 2025)", "url": "https://www.forbes.com/sites/pamkaur/2025/09/18/klarnas-ipo-breaks-the-fintech-drought-at-a-15-billion-valuation/"},
+    {"label": "The Motley Fool — Average Credit Card Processing Fees and Costs in America (2025 interchange rate data, ~1.5-3.5%, blended average 2.36%)", "url": "https://www.fool.com/money/research/average-credit-card-processing-fees-costs-america/"}
+   ],
+   "story_json": "videos/IR-011.json",
+   "asset": {
+    "sha256": "d682363ed162d08556c785d7c6732e104209d2b27de1a91e0f036e0a76774a31",
+    "video_md5": "ca99423e9a99da61164c0339b3e2a8c5",
+    "audio_md5": "198c1922a8985199ac166d27461d5ff7"
+   },
+   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-011-ca99423e.mp4",
+   "cover_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-011-ca99423e-cover.png",
+   "hosted_at": "2026-09-24T05:38:00.000Z",
+   "metricool": {"id": "381145799", "uuid": "2293719409237772674", "publicationDate": "2026-09-25T18:00:00+03:00"},
+   "tiktok_url": null,
+   "metrics": []
   }
  ],
  "account_topics": [
+  "Klarna Pay in 4 merchant fees / 2025 IPO (IR-011)",
   "Delta / American Express co-brand credit card partnership (IR-010)",
   "Netflix password-sharing crackdown, 2022-2023 (IR-009)",
   "Live Nation/Ticketmaster antitrust verdict (IR-008)",
