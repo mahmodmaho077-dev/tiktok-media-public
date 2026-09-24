@@ -1,0 +1,42 @@
+{
+ "id": "IR-010",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "phoneme_fixes": {},
+ "scenes": [
+  {
+   "vo": "In twenty twenty-five, Delta made eight point two billion dollars from American Express.",
+   "captions": [["In 2025,", 3], ["Delta made", 2], ["*$8.2 billion*", 4], ["dollars from", 2], ["American Express.", 2]],
+   "visual": {"type": "hero", "tag": "DELTA · 2025", "big": "$8.2B", "big_red": true, "count": {"from": 0, "to": 8.2, "prefix": "$", "suffix": "B", "decimals": 1, "done_at_caption": 2}, "sub": "FROM AMERICAN EXPRESS,<br>NOT FROM FLYING PLANES", "sub_size": 50}
+  },
+  {
+   "vo": "That's about ten percent of the airline's entire revenue, from one credit card deal.",
+   "captions": [["That's about", 2], ["*10 percent*", 2], ["of the airline's", 3], ["entire revenue,", 2], ["from one", 2], ["credit card deal.", 3]],
+   "visual": {"type": "hero", "tag": "THE SHARE", "big": "10%", "big_red": true, "count": {"from": 0, "to": 10, "suffix": "%", "done_at_caption": 1}, "sub": "OF DELTA'S TOTAL REVENUE,<br>FROM ONE CREDIT CARD DEAL", "sub_size": 48}
+  },
+  {
+   "vo": "Delta has now admitted it picks new flight routes partly to sign up more cardholders.",
+   "captions": [["Delta has now", 3], ["admitted it picks", 3], ["new flight routes", 3], ["partly to sign", 3], ["up more *cardholders.*", 3]],
+   "visual": {"type": "hero", "tag": "THE HIDDEN MECHANISM", "big": "NEW ROUTES", "big_size": 78, "sub": "CHOSEN PARTLY TO SIGN UP<br>MORE AMEX CARDHOLDERS", "sub_size": 48}
+  },
+  {
+   "vo": "Its own CEO explained the strategy behind cities like Austin and Raleigh.",
+   "captions": [["Its own CEO", 3], ["explained the strategy", 3], ["behind cities like", 3], ["*Austin* and *Raleigh.*", 3]],
+   "visual": {"type": "quote", "tag": "WHY DELTA ADDED THESE ROUTES", "size": 58, "quote": "“…these are places we acquire a lot of cards.”", "who": "Ed Bastian, Delta CEO"}
+  },
+  {
+   "vo": "Spending on Delta's card is now nearing one percent of the whole American economy.",
+   "captions": [["Spending on Delta's", 3], ["card is now", 3], ["nearing *one percent*", 3], ["of the whole", 3], ["American economy.", 2]],
+   "visual": {"type": "hero", "tag": "THE SCALE", "big": "~1%", "big_red": true, "sub": "OF THE ENTIRE<br>U.S. ECONOMY", "sub_size": 54}
+  },
+  {
+   "vo": "Next year, Delta expects nine billion dollars from the deal, up ten percent from this year.",
+   "captions": [["Next year,", 2], ["Delta expects", 2], ["*nine billion*", 2], ["dollars from the", 3], ["deal, up", 2], ["*10 percent*", 2], ["from this year.", 3]],
+   "visual": {"type": "hero", "tag": "2026 GUIDANCE", "big": "$9B", "big_red": true, "count": {"from": 0, "to": 9, "prefix": "$", "suffix": "B", "done_at_caption": 2}, "sub": "UP 10% FROM 2025,<br>DELTA'S OWN GUIDANCE", "sub_size": 50}
+  },
+  {
+   "vo": "Sometimes the real business isn't the ticket. It's the card.",
+   "visual": {"type": "rule", "display": "Sometimes the real business isn't the *ticket.* It's the *card.*"}
+  }
+ ]
+}
