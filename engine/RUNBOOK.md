@@ -118,3 +118,21 @@ next unused IR id from ledger/videos.json -> research (>= 4 candidates, niche + 
 Each manual run makes exactly one post: the 20-hour "hosted" rule and the one-post-per-day limit do not apply.
 If any step fails: stop before publishing and report the exact error. IR-* media only, never reuse an id, never test posts.
 Report in Arabic only: IR id, topic/company, publish status, publish time (Athens), duplicate check result.
+
+## Temporary autonomous mode (set by Silver, 24 Sep 2026, expires 2026-10-01)
+Silver asked for 2 posts/day, running on its own, and to be told before it stops. This session
+scheduled two recurring CronCreate jobs (10:00 and 18:00 Europe/Athens daily) that each fire the
+"Run next TikTok" prompt, so every firing runs exactly one Manual-run-mode cycle as above —
+same research, script, render, self-QA (frames are still inspected before publishing), duplicate
+check and packaging. No human watches each cycle live during this window, so the "Try again"
+safety net is gone; only the automated frame inspection remains.
+Hard limits, not a policy choice: CronCreate jobs are session-only (in-memory) and auto-expire
+after 7 days. If this Claude session ends for any reason before then, both jobs vanish silently
+and posting reverts to manual "Run next TikTok" with no notice. A one-shot reminder is scheduled
+for 2026-09-30 to tell Silver in Arabic that the window is closing and ask whether to renew.
+If Silver ever writes "Run next TikTok" manually during this window, run it as one extra cycle,
+same as always — it does not replace or reset the two daily jobs.
+This section is a temporary exception to "Do not create any scheduled task" in the Manual-run
+mode section above. If the cron jobs are gone (expired or session ended) and no renewal was
+given, the standing rule is manual-only again: no scheduled task without a fresh explicit
+instruction from Silver.
