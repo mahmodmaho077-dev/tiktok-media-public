@@ -1,0 +1,42 @@
+{
+ "id": "IR-011",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "phoneme_fixes": {},
+ "scenes": [
+  {
+   "vo": "Klarna markets its Pay in Four installment plan as completely interest-free for shoppers everywhere.",
+   "captions": [["Klarna markets its", 3], ["*Pay in Four*", 3], ["installment plan as", 3], ["completely interest-free", 2], ["for shoppers", 2], ["everywhere.", 1]],
+   "visual": {"type": "hero", "tag": "KLARNA · 2025", "big": "PAY IN 4", "sub": "MARKETED AS COMPLETELY<br>INTEREST-FREE FOR SHOPPERS", "sub_size": 48}
+  },
+  {
+   "vo": "But merchants can pay Klarna as much as six percent per sale.",
+   "captions": [["But merchants can", 3], ["pay Klarna as", 3], ["much as", 2], ["*six percent*", 2], ["per sale.", 2]],
+   "visual": {"type": "hero", "tag": "THE HIDDEN FEE", "big": "~6%", "big_red": true, "sub": "WHAT MERCHANTS PAY<br>KLARNA PER SALE", "sub_size": 52}
+  },
+  {
+   "vo": "For the shopper, checkout feels free. For the merchant, it's anything but.",
+   "captions": [["For the shopper,", 3], ["checkout feels *free.*", 3], ["For the merchant,", 3], ["it's anything *but.*", 3]],
+   "visual": {"type": "versus", "tag": "WHO ACTUALLY PAYS", "headline": "FEELS FREE<br>VS. <span class='e'>ISN'T FREE</span>", "head_size": 84, "left": "SHOPPER", "right": "MERCHANT", "heavier": "right", "tilt_at_caption": 1, "left_note": "CHECKOUT FEELS FREE", "right_note": "PAYS ~6% PER SALE", "note_at_caption": 3}
+  },
+  {
+   "vo": "A typical credit card only costs that same merchant about two percent.",
+   "captions": [["A typical", 2], ["credit card only", 3], ["costs that same", 3], ["merchant about", 2], ["*2 percent.*", 2]],
+   "visual": {"type": "hero", "tag": "FOR COMPARISON", "big": "~2%", "sub": "WHAT A TYPICAL CREDIT<br>CARD COSTS THAT MERCHANT", "sub_size": 48}
+  },
+  {
+   "vo": "Those merchant fees make up more than half of Klarna's entire revenue.",
+   "captions": [["Those merchant fees", 3], ["make up", 2], ["*more than half*", 3], ["of Klarna's entire", 3], ["revenue.", 1]],
+   "visual": {"type": "hero", "tag": "THE SCALE", "big": "57%", "big_red": true, "count": {"from": 0, "to": 57, "suffix": "%", "done_at_caption": 2}, "sub": "OF KLARNA'S TOTAL REVENUE<br>COMES FROM MERCHANT FEES", "sub_size": 46}
+  },
+  {
+   "vo": "Klarna disclosed all of this when it went public on the New York Stock Exchange, in September twenty twenty-five.",
+   "captions": [["Klarna disclosed", 2], ["all of this", 3], ["when it went", 3], ["public on the", 3], ["*New York*", 2], ["*Stock Exchange,*", 2], ["in *September 2025.*", 4]],
+   "visual": {"type": "hero", "tag": "KLARNA GOES PUBLIC", "big": "IPO", "sub": "THE FILING THAT<br>REVEALED THESE NUMBERS", "sub_size": 50}
+  },
+  {
+   "vo": "The 'free' checkout button was never actually free. Someone else was paying.",
+   "visual": {"type": "rule", "display": "The 'free' checkout button was never *actually* free. Someone else was *paying.*"}
+  }
+ ]
+}
