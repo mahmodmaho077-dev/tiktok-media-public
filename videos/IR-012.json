@@ -1,0 +1,42 @@
+{
+ "id": "IR-012",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "phoneme_fixes": {},
+ "scenes": [
+  {
+   "vo": "In twenty twenty-five, twenty-three and me filed for bankruptcy. It was once worth six billion dollars.",
+   "captions": [["In 2025,", 3], ["23andMe", 3], ["filed for", 2], ["*bankruptcy.*", 1], ["It was once", 3], ["worth *$6 billion.*", 4]],
+   "visual": {"type": "hero", "tag": "23ANDME · 2025", "big": "BANKRUPT", "big_red": true, "sub": "ONCE WORTH<br>$6 BILLION", "sub_size": 54}
+  },
+  {
+   "vo": "Its DNA test was something you only buy once. There was no reason to come back.",
+   "captions": [["Its DNA test", 3], ["was something you", 3], ["only buy *once.*", 3], ["There was no", 3], ["reason to", 2], ["come back.", 2]],
+   "visual": {"type": "hero", "tag": "THE HIDDEN FLAW", "big": "ONE AND DONE", "big_size": 66, "sub": "NO REASON TO<br>EVER COME BACK", "sub_size": 52}
+  },
+  {
+   "vo": "In twenty twenty-three, hackers stole data from about seven million accounts.",
+   "captions": [["In 2023,", 3], ["hackers stole data", 3], ["from about", 2], ["*7 million*", 2], ["accounts.", 1]],
+   "visual": {"type": "hero", "tag": "2023 DATA BREACH", "big": "~7M", "big_red": true, "count": {"from": 0, "to": 7, "suffix": "M", "done_at_caption": 3}, "sub": "CUSTOMER ACCOUNTS<br>HACKERS ACCESSED", "sub_size": 50}
+  },
+  {
+   "vo": "The company tried to sell drug research built from that same genetic data.",
+   "captions": [["The company tried", 3], ["to sell", 2], ["*drug research*", 2], ["built from that", 3], ["same genetic data.", 3]],
+   "visual": {"type": "hero", "tag": "THE PIVOT", "big": "DRUG RESEARCH", "big_size": 62, "sub": "SELLING SCIENCE BUILT<br>ON CUSTOMER DNA", "sub_size": 46}
+  },
+  {
+   "vo": "By twenty twenty-five, the company was worth less than thirty million dollars.",
+   "captions": [["By 2025,", 3], ["the company was", 3], ["worth less than", 3], ["*$30 million.*", 3]],
+   "visual": {"type": "versus", "tag": "THE COLLAPSE", "headline": "$6 BILLION<br>VS. <span class='e'>UNDER $30M</span>", "head_size": 70, "left": "PEAK VALUE", "right": "AT BANKRUPTCY", "heavier": "right", "tilt_at_caption": 2, "left_note": "2021 VALUATION", "right_note": "MARCH 2025 FILING", "note_at_caption": 3}
+  },
+  {
+   "vo": "Its own founder then bought the company back for three hundred five million dollars.",
+   "captions": [["Its own founder", 3], ["then bought the", 3], ["company back for", 3], ["*$305 million.*", 5]],
+   "visual": {"type": "hero", "tag": "THE BUYBACK", "big": "$305M", "big_red": true, "count": {"from": 0, "to": 305, "prefix": "$", "suffix": "M", "done_at_caption": 3}, "sub": "PAID BY ITS OWN<br>FOUNDER TO GET IT BACK", "sub_size": 46}
+  },
+  {
+   "vo": "The product could only be sold once. The data could be sold forever.",
+   "visual": {"type": "rule", "display": "The product could only be sold *once.* The data could be sold *forever.*"}
+  }
+ ]
+}
