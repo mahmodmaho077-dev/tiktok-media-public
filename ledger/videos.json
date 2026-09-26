@@ -178,7 +178,7 @@
   {
    "id": "IR-007",
    "created": "2026-09-22T13:11:00Z",
-   "status": "scheduled",
+   "status": "published",
    "title": "The credit card that cost JPMorgan $300M",
    "company": "JPMorgan Chase (Chase Sapphire Reserve)",
    "hook": "In December 2016, JPMorgan's CEO said a single credit card would cost the bank up to $300 million that quarter.",
@@ -208,13 +208,13 @@
    "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-007-2a57b2d8.mp4",
    "hosted_at": "2026-09-22T13:11:00.000Z",
    "metricool": {"id": "380075898", "uuid": "-1403776461509866105", "publicationDate": "2026-09-23T10:00:00+03:00"},
-   "tiktok_url": null,
+   "tiktok_url": "https://www.tiktok.com/@invisiblerulesmedia/video/7688622633721629974",
    "metrics": []
   },
   {
    "id": "IR-008",
    "created": "2026-09-22T17:14:00Z",
-   "status": "scheduled",
+   "status": "published",
    "title": "The $1.72 monopoly tax on your concert ticket",
    "company": "Live Nation Entertainment / Ticketmaster",
    "hook": "In April 2026, a jury found Live Nation and Ticketmaster ran an illegal monopoly.",
@@ -244,13 +244,13 @@
    "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-008-244faa9b.mp4",
    "hosted_at": "2026-09-22T17:14:00.000Z",
    "metricool": {"id": "380228968", "uuid": "3666609120620334097", "publicationDate": "2026-09-23T18:00:00+03:00"},
-   "tiktok_url": null,
+   "tiktok_url": "https://www.tiktok.com/@invisiblerulesmedia/video/7688746577040788758",
    "metrics": []
   },
   {
    "id": "IR-009",
    "created": "2026-09-23T19:06:00Z",
-   "status": "scheduled",
+   "status": "published",
    "title": "Netflix charged for passwords. Then gained 9M subscribers.",
    "company": "Netflix",
    "hook": "In 2022, Netflix said over 100 million households were sharing passwords for free.",
@@ -281,13 +281,13 @@
    "cover_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-009-1db30af8-cover.png",
    "hosted_at": "2026-09-23T19:17:00.000Z",
    "metricool": {"id": "380992048", "uuid": "-602315676788766619", "publicationDate": "2026-09-24T18:00:00+03:00"},
-   "tiktok_url": null,
+   "tiktok_url": "https://www.tiktok.com/@invisiblerulesmedia/video/7689117996907941123",
    "metrics": []
   },
   {
    "id": "IR-010",
    "created": "2026-09-24T04:55:00Z",
-   "status": "scheduled",
+   "status": "published",
    "title": "Delta made $8.2B from Amex. Not from flying planes.",
    "company": "Delta Air Lines / American Express",
    "hook": "In 2025, Delta made $8.2 billion from American Express — not from flying planes.",
@@ -318,13 +318,13 @@
    "cover_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-010-e27d8eb9-cover.png",
    "hosted_at": "2026-09-24T05:00:00.000Z",
    "metricool": {"id": "381140717", "uuid": "75376184266671222", "publicationDate": "2026-09-25T10:00:00+03:00"},
-   "tiktok_url": null,
+   "tiktok_url": "https://www.tiktok.com/@invisiblerulesmedia/video/7689364741298326806",
    "metrics": []
   },
   {
    "id": "IR-011",
    "created": "2026-09-24T05:30:00Z",
-   "status": "scheduled",
+   "status": "published",
    "title": "Klarna's 'interest-free' plan isn't free. Merchants pay 6%.",
    "company": "Klarna",
    "hook": "Klarna markets its Pay in 4 plan as completely interest-free for shoppers.",
@@ -355,13 +355,13 @@
    "cover_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-011-ca99423e-cover.png",
    "hosted_at": "2026-09-24T05:38:00.000Z",
    "metricool": {"id": "381145799", "uuid": "2293719409237772674", "publicationDate": "2026-09-25T18:00:00+03:00"},
-   "tiktok_url": null,
+   "tiktok_url": "https://www.tiktok.com/@invisiblerulesmedia/video/7689489051925400835",
    "metrics": []
   }
  ],
  "account_topics": [
   "Klarna Pay in 4 merchant fees / 2025 IPO (IR-011)",
-  "Delta / American Express co-brand credit card partnership (IR-010)",
+  "Delta - American Express co-brand / miles sold to the card issuer - POSTED TWICE (15 Sep and IR-010 on 25 Sep). Never use this company+mechanism again.",
   "Netflix password-sharing crackdown, 2022-2023 (IR-009)",
   "Live Nation/Ticketmaster antitrust verdict (IR-008)",
   "JPMorgan Chase Sapphire Reserve launch cost (IR-007)",
