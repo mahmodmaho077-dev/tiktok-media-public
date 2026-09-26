@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-24",
- "next_id": "IR-012",
+ "updated": "2026-09-27",
+ "next_id": "IR-013",
  "videos": [
   {
    "id": "IR-001",
@@ -357,9 +357,47 @@
    "metricool": {"id": "381145799", "uuid": "2293719409237772674", "publicationDate": "2026-09-25T18:00:00+03:00"},
    "tiktok_url": "https://www.tiktok.com/@invisiblerulesmedia/video/7689489051925400835",
    "metrics": []
+  },
+  {
+   "id": "IR-012",
+   "created": "2026-09-27T00:13:00Z",
+   "status": "scheduled",
+   "title": "23andMe went bankrupt. Founder bought it back for $305M.",
+   "company": "23andMe",
+   "hook": "In 2025, 23andMe filed for bankruptcy. It was once worth $6 billion.",
+   "tiktok_title": "23andMe went bankrupt. Founder bought it back for $305M.",
+   "caption": "In 2025, more than a dozen state attorneys general urged 23andMe's roughly 15 million customers to delete their genetic data before the company was sold in bankruptcy.\n\n#23andMe #GeneticTesting #DataPrivacy #BusinessCaseStudy",
+   "hashtags": "#23andMe #GeneticTesting #DataPrivacy #BusinessCaseStudy",
+   "first_comment": "IR-012 · Sources: NPR (24 Mar 2025); BioPharma Dive/MedTech Dive (TTAM $305M auction, Jul 2025); Michigan AG press release (26 Mar 2025)",
+   "industry": "biotech/consumer genetic testing",
+   "angle": "Hidden mechanism: a one-time-purchase product hits a growth ceiling, forcing a data-monetization pivot that couldn't outrun the underlying constraint",
+   "mechanism_family": "constraints_consequences",
+   "core_claim": "23andMe's core DNA test was a one-time purchase with no built-in repeat revenue; after a 2023 breach exposed ~7M accounts and a genetic-data/drug-research pivot failed to generate sustainable revenue, the company (once worth ~$6B) filed for Chapter 11 in March 2025 worth under $30M, and its own co-founder Anne Wojcicki bought it back out of bankruptcy for $305M via the nonprofit TTAM Research Institute.",
+   "concept_key": "a product that is inherently one-time-purchase hits a hard ceiling on repeat revenue > pivoting to monetize the underlying data can't outrun that constraint fast enough > the data itself outlives the operating business as the asset buyers actually want",
+   "gate_score": 86,
+   "gate_breakdown": "Novelty 9 (fresh 2025 event, wholly new industry for this account), Specificity 9 (named valuation figures, named breach size, named buyer and price), Curiosity 9 (a company whose real asset was your DNA going bankrupt, then bought back by its own founder), Clarity 8, Emotional tension 8 (personal genetic-data privacy resonates broadly), Intellectual value 8, Retention 8, Niche fit 9, Source evidence 9 (NPR, BioPharma Dive/MedTech Dive, multiple state AG press releases), Difference 9 (biotech/genetic-data, distinct from IR-010's airlines/co-brand-cards and IR-011's fintech/BNPL stories)",
+   "sources": [
+    {"label": "NPR — 23andMe is filing for bankruptcy. Here's what it means for your genetic data (24 Mar 2025)", "url": "https://www.npr.org/2025/03/24/nx-s1-5338622/23andme-bankruptcy-genetic-data-privacy"},
+    {"label": "Michigan AG — AG Nessel Urges 23andMe Users to Consider Deleting Accounts Amid Bankruptcy (26 Mar 2025)", "url": "https://www.michigan.gov/ag/news/press-releases/2025/03/26/ag-nessel-urges-23andme-users-to-consider-deleting-accounts-amid-bankruptcy"},
+    {"label": "MedTech Dive — Anne Wojcicki wins bid to buy back 23andMe for $305M", "url": "https://www.medtechdive.com/news/anne-wojcicki-buy-23andme-bankruptcy/750931/"},
+    {"label": "BioPharma Dive — Regeneron wins bid to buy 23andMe out of bankruptcy (first auction, later outbid by TTAM)", "url": "https://www.biopharmadive.com/news/regeneron-23andme-acquire-bankruptcy-genetic-testing/748440/"}
+   ],
+   "story_json": "videos/IR-012.json",
+   "asset": {
+    "sha256": "0cf8c243dcc7f373d39f37b909e2fa9cfbb94c9f9e5b2eee0c87270acac19203",
+    "video_md5": "91145dd0df8a3b8ff07df0c0d5f1cf09",
+    "audio_md5": "2ac39eb4c32d1f0c8a29d697fdef5aae"
+   },
+   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-012-91145dd0.mp4",
+   "cover_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-012-91145dd0-cover.png",
+   "hosted_at": "2026-09-27T00:22:00.000Z",
+   "metricool": {"id": "382657859", "uuid": "-8016287635298498974", "publicationDate": "2026-09-27T18:00:00+03:00"},
+   "tiktok_url": null,
+   "metrics": []
   }
  ],
  "account_topics": [
+  "23andMe bankruptcy and founder buyback (IR-012)",
   "Klarna Pay in 4 merchant fees / 2025 IPO (IR-011)",
   "Delta - American Express co-brand / miles sold to the card issuer - POSTED TWICE (15 Sep and IR-010 on 25 Sep). Never use this company+mechanism again.",
   "Netflix password-sharing crackdown, 2022-2023 (IR-009)",
