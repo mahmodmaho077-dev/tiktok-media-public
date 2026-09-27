@@ -60,7 +60,32 @@ for i, s in enumerate(ST['scenes']):
     t = end
 for a, b in zip(caps, caps[1:]):
     if a['scene'] == b['scene'] and b['start'] - a['end'] < 0.6: a['end'] = b['start']
-sf.write(OUT / 'voice.wav', np.concatenate(parts), sr)
+voice = np.concatenate(parts)
+# ---- procedural sound design (no external assets): soft impact on every cut + short whoosh before it ----
+sfx = np.zeros(len(voice) + sr)
+def add(sig, at):
+    i = int(at * sr)
+    if i < 0: i = 0
+    sfx[i:i + len(sig)] += sig[:max(0, len(sfx) - i)]
+def impact(amp=0.17):
+    n = int(0.22 * sr); tt = np.arange(n) / sr
+    f = 92 * np.exp(-tt * 9)
+    body = np.sin(2 * np.pi * np.cumsum(f) / sr) * np.exp(-tt * 13)
+    click = np.random.RandomState(7).randn(n) * np.exp(-tt * 70) * 0.35
+    return (body + click) * amp
+def whoosh(amp=0.08, d=0.30):
+    n = int(d * sr); tt = np.linspace(0, 1, n)
+    noise = np.random.RandomState(11).randn(n)
+    k = 60
+    noise = np.convolve(noise, np.ones(k) / k, mode='same')        # soften
+    return noise * (tt ** 2) * np.hanning(n) * amp * 6
+for k, sc in enumerate(scenes):
+    if k: add(whoosh(), sc['start'] - 0.30)
+    add(impact(0.20 if k == 0 else 0.15), sc['start'])
+mix = voice + sfx[:len(voice)]
+peak = float(np.max(np.abs(mix))) or 1.0
+if peak > 0.99: mix = mix / peak * 0.99
+sf.write(OUT / 'voice.wav', mix, sr)
 TL = {'duration': round(t, 3), 'scenes': scenes, 'captions': caps, 'words': words_t}
 (OUT / 'timeline.json').write_text(json.dumps(TL, indent=1))
 print('duration', round(t, 2), 's')
@@ -76,9 +101,7 @@ async def shoot(times, outdir):
     from playwright.async_api import async_playwright
     outdir.mkdir(exist_ok=True)
     async with async_playwright() as p:
-        import os
-        launch_kwargs = {'executable_path': '/opt/pw-browsers/chromium'} if os.path.exists('/opt/pw-browsers/chromium') else {}
-        b = await p.chromium.launch(**launch_kwargs); pg = await b.new_page(viewport={'width': 1080, 'height': 1920})
+        b = await p.chromium.launch(); pg = await b.new_page(viewport={'width': 1080, 'height': 1920})
         errs = []; pg.on('pageerror', lambda e: errs.append(str(e)))
         await pg.goto(page.as_uri()); await pg.evaluate('document.fonts.ready'); await pg.wait_for_timeout(400)
         for n, tt in enumerate(times):

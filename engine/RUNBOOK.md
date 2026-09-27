@@ -39,10 +39,23 @@ Produce only if total >= 85 AND Niche fit >= 8, Source evidence >= 8, Clarity >=
 - Read phonemes.txt and fix mispronounced names with "phoneme_fixes" (e.g. {"lʌfθˈænsəz": "lˈʊfthɑːnzəz"}).
 
 ## Packaging (every post)
-- tiktok_title: factual, curiosity-driven, names the company.
-- Caption: 1-2 sentences that add context beyond the narration.
-- 3-5 relevant hashtags, including company/topic tags. #BusinessModels #BusinessStrategy #CorporateStrategy #Economics only when genuinely relevant. Never #fyp or unrelated reach-bait.
-- First comment: "IR-XXX · Sources: ..." — max 150 characters (TikTok comment limit): short source names only. Full source URLs go in the ledger.
+- tiktok_title: factual, curiosity-driven, names the company. Max ~60 characters.
+- Caption (TikTok native, max ~400 characters, English):
+  line 1 = the hook restated in 8-12 words (only the first line is visible before "more");
+  line 2 = the mechanism in one sentence, with the number;
+  line 3 = one open question to the viewer (this is what earns comments).
+  Never repeat the narration word for word, never use emojis, never promise or advise.
+- 4-5 hashtags, in this mix: one broad (#business or #money), one to two mechanism tags (#businessmodel #pricingstrategy #unitEconomics #corporatestrategy), one company or sector tag (#adobe #airlines), one format tag (#casestudy #businessbreakdown). Never #fyp, #foryou, #viral or unrelated reach-bait.
+- First comment: "IR-XXX · Sources: ..." - max 150 characters (TikTok comment limit), short source names only. Full URLs stay in the ledger.
+
+## Visual rules (v2 engine - what makes it stop the scroll)
+- Every scene must carry a visual beyond text: a number slam with underline, a chart, a card, a scale, a timeline, or an illustration from the art kit.
+- First 2 seconds: scene 1 is a hero with the biggest verified number, a red underline wipe, the company chip on top, and art appearing by caption 1. No slow build-up.
+- No scene longer than about 7 seconds; 6-8 scenes per video; use at least 3 different scene types per video (hero, bars, split, timeline, quote, cutaway, versus, rule).
+- Art kit (drawn in code, generic, no real logos or brand marks - never draw or copy a company logo): card, printer, car, doc, contract, phone, subs, lock, cup, box, building, plane, clock, meter. Choose the one that matches the story; add it with "art": {"kind": "...", "at_caption": 1, "size": 380}.
+- Scene types added in v2: split {headline, left/right {label, value, note, art, red, at_caption}, source}, timeline {headline, steps[{date, text, red, at_caption}], source}, cutaway {art{kind,size}, line, line_top}.
+- The engine already adds: camera push-in per scene, cut flash on every scene change, drifting gradient background, top progress bar, karaoke captions (the spoken word lights up), soft impact and whoosh on every cut (generated in make_video.py, no external audio).
+- Keep the palette: background #07070A, text #F7F7F4, accent #FF3B2F. Red is for the one thing that matters in the frame, never for decoration.
 
 ## Engine
 Files: engine/setup.sh, engine/make_video.py, engine/template.html, engine/avatar.png, engine/example_story.json, engine/bridge.py.
