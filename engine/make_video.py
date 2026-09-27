@@ -101,7 +101,7 @@ async def shoot(times, outdir):
     from playwright.async_api import async_playwright
     outdir.mkdir(exist_ok=True)
     async with async_playwright() as p:
-        b = await p.chromium.launch(); pg = await b.new_page(viewport={'width': 1080, 'height': 1920})
+        b = await p.chromium.launch(executable_path='/opt/pw-browsers/chromium'); pg = await b.new_page(viewport={'width': 1080, 'height': 1920})
         errs = []; pg.on('pageerror', lambda e: errs.append(str(e)))
         await pg.goto(page.as_uri()); await pg.evaluate('document.fonts.ready'); await pg.wait_for_timeout(400)
         for n, tt in enumerate(times):

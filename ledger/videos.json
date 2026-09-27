@@ -361,7 +361,7 @@
   {
    "id": "IR-012",
    "created": "2026-09-27T00:13:00Z",
-   "status": "scheduled",
+   "status": "published",
    "title": "23andMe went bankrupt. Founder bought it back for $305M.",
    "company": "23andMe",
    "hook": "In 2025, 23andMe filed for bankruptcy. It was once worth $6 billion.",
@@ -392,7 +392,7 @@
    "cover_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-012-91145dd0-cover.png",
    "hosted_at": "2026-09-27T00:22:00.000Z",
    "metricool": {"id": "382657859", "uuid": "-8016287635298498974", "publicationDate": "2026-09-27T18:00:00+03:00"},
-   "tiktok_url": null,
+   "tiktok_url": "https://www.tiktok.com/@invisiblerulesmedia/video/7690230823919848726",
    "metrics": []
   }
  ],
