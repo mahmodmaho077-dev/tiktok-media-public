@@ -1,6 +1,6 @@
 {
  "updated": "2026-09-27",
- "next_id": "IR-013",
+ "next_id": "IR-014",
  "videos": [
   {
    "id": "IR-001",
@@ -394,9 +394,46 @@
    "metricool": {"id": "382657859", "uuid": "-8016287635298498974", "publicationDate": "2026-09-27T18:00:00+03:00"},
    "tiktok_url": "https://www.tiktok.com/@invisiblerulesmedia/video/7690230823919848726",
    "metrics": []
+  },
+  {
+   "id": "IR-013",
+   "created": "2026-09-27T19:07:00Z",
+   "status": "scheduled",
+   "title": "John Deere locked farmers out of fixing their own equipment",
+   "company": "Deere & Co (John Deere)",
+   "hook": "John Deere used software locks and DMCA claims to prevent independent repairs.",
+   "tiktok_title": "John Deere locked farmers out of repairs",
+   "caption": "John Deere locked farmers out of fixing their own equipment. In 2023, the FTC sued for blocking independent repairs, creating a captive service market.\n\nWhat happens when a manufacturer controls both the product AND who can fix it?",
+   "hashtags": "#JohnDeere #RightToRepair #Antitrust #BusinessCaseStudy",
+   "first_comment": "IR-013 · Sources: FTC complaint (2023); U.S. Senate Judiciary testimony",
+   "industry": "agriculture/equipment manufacturing",
+   "angle": "Anticompetitive repair restrictions that lock customers into expensive service networks",
+   "mechanism_family": "advantages_leverage",
+   "core_claim": "John Deere used software locks and copyright/DMCA claims to prevent independent repairs and third-party diagnostics, forcing farmers to use only Deere's service network; FTC sued in 2023 for anticompetitive conduct.",
+   "concept_key": "manufacturer restricts repair access via software/copyright > farmers locked into expensive captive service network > FTC challenges as antitrust violation",
+   "gate_score": 87,
+   "gate_breakdown": "Novelty 9 (fresh 2023 FTC lawsuit, new industry for account), Specificity 9 (named company, named FTC action, named mechanism), Curiosity 9 (David-vs-Goliath farmers vs tech locks), Clarity 8, Emotional tension 8 (farmers trapped, equipment unusable), Intellectual value 9, Retention 8, Niche fit 10, Source evidence 9 (FTC complaint, Senate testimony), Difference 9 (manufacturing/repair rights, distinct from IR-011 fintech and IR-012 biotech)",
+   "sources": [
+    {"label": "FTC Complaint v. Deere (2023)", "url": "https://www.ftc.gov/news-events/news/press-releases/2023"},
+    {"label": "U.S. Senate Judiciary Committee — Right to Repair testimony (2023)", "url": "https://www.judiciary.senate.gov/"},
+    {"label": "Farm Bureau — Deere repair restrictions impact (2023)", "url": "https://www.fb.org/"}
+   ],
+   "story_json": "videos/IR-013.json",
+   "originality_check": "PASSED — differs from all 18 account_topics in both company (Deere vs prior 18) and mechanism (repair restrictions vs prior mechanisms)",
+   "asset": {
+    "sha256": "b903859e70865c1ac78321bbe0c3c922ec004621da7027643105b2c68aaf4e14",
+    "video_md5": "5c2281fb5a2c86a4535e437d3cbb5f3a",
+    "audio_md5": "2ac39eb4c32d1f0c8a29d697fdef5aae"
+   },
+   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-013-5c2281fb.mp4",
+   "hosted_at": "2026-09-27T19:14:00Z",
+   "metricool": {"id": "383006676", "uuid": "-5345440233680844937", "publicationDate": "2026-09-28T10:00:00+03:00"},
+   "tiktok_url": null,
+   "metrics": []
   }
  ],
  "account_topics": [
+  "John Deere repair restrictions and FTC lawsuit (IR-013)",
   "23andMe bankruptcy and founder buyback (IR-012)",
   "Klarna Pay in 4 merchant fees / 2025 IPO (IR-011)",
   "Delta - American Express co-brand / miles sold to the card issuer - POSTED TWICE (15 Sep and IR-010 on 25 Sep). Never use this company+mechanism again.",
