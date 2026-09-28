@@ -7,7 +7,7 @@
   {
    "vo": "John Deere locked farmers out of fixing their own equipment.",
    "captions": [["John Deere", 2], ["locked farmers", 2], ["out of *fixing*", 3], ["their own", 2], ["equipment.", 1]],
-   "visual": {"type": "hero", "tag": "JOHN DEERE · 2023", "big": "LOCKED OUT", "big_red": true, "sub": "FARMERS CAN'T REPAIR<br>THEIR OWN EQUIPMENT", "sub_size": 52, "art": {"kind": "lock", "at_caption": 2, "size": 320}}
+   "visual": {"type": "hero", "tag": "JOHN DEERE · 2025-2026", "big": "LOCKED OUT", "big_red": true, "sub": "100% OF REPAIRS REQUIRE<br>THEIR SERVICE ADVISOR SOFTWARE", "sub_size": 48, "art": {"kind": "lock", "at_caption": 2, "size": 320}}
   },
   {
    "vo": "The company used software locks and copyright claims to block independent repairs.",
@@ -20,9 +20,9 @@
    "visual": {"type": "versus", "tag": "WHO PAYS THE FEE", "headline": "FARMER PAYS<br>VS. <span class='e'>ONLY CHOICE</span>", "head_size": 72, "left": "DEERE'S DEALERS", "right": "NO ALTERNATIVE", "heavier": "right", "tilt_at_caption": 2, "left_note": "HIGH SERVICE FEES", "right_note": "TRAPPED CUSTOMER", "note_at_caption": 2}
   },
   {
-   "vo": "In twenty twenty-three, the Federal Trade Commission sued John Deere for anticompetitive conduct.",
-   "captions": [["In 2023,", 3], ["the *Federal Trade*", 3], ["*Commission* sued", 2], ["*John Deere*", 2], ["for *anticompetitive*", 2], ["conduct.", 1]],
-   "visual": {"type": "timeline", "tag": "THE LAWSUIT", "headline": "FTC vs. JOHN DEERE", "steps": [{"date": "2023", "text": "FTC sues for blocking independent repairs", "red": true, "at_caption": 4}], "source": "U.S. FTC, 2023"}
+   "vo": "In twenty twenty-five, the Federal Trade Commission sued John Deere for anticompetitive conduct.",
+   "captions": [["In 2025,", 3], ["the *Federal Trade*", 3], ["*Commission* sued", 2], ["*John Deere*", 2], ["for *anticompetitive*", 2], ["conduct.", 1]],
+   "visual": {"type": "timeline", "tag": "THE LAWSUIT", "headline": "FTC vs. JOHN DEERE", "steps": [{"date": "2025", "text": "FTC sues for blocking independent repairs", "red": true, "at_caption": 4}], "source": "U.S. FTC, 2025"}
   },
   {
    "vo": "Control who can fix the machine. Then you control what customers pay forever.",
