@@ -403,31 +403,31 @@
    "company": "Deere & Co (John Deere)",
    "hook": "John Deere used software locks and DMCA claims to prevent independent repairs.",
    "tiktok_title": "John Deere locked farmers out of repairs",
-   "caption": "John Deere locked farmers out of fixing their own equipment. In 2023, the FTC sued for blocking independent repairs, creating a captive service market.\n\nWhat happens when a manufacturer controls both the product AND who can fix it?",
+   "caption": "John Deere locked farmers out of fixing their own equipment. In 2025, the FTC sued for blocking independent repairs, creating a captive service market.\n\nWhat happens when a manufacturer controls both the product AND who can fix it?",
    "hashtags": "#JohnDeere #RightToRepair #Antitrust #BusinessCaseStudy",
-   "first_comment": "IR-013 · Sources: FTC complaint (2023); U.S. Senate Judiciary testimony",
+   "first_comment": "100% of repairs require Deere's Service ADVISOR software—only dealers have access. FTC filed January 2025. Sources: FTC complaint; U.S. Senate Judiciary testimony",
    "industry": "agriculture/equipment manufacturing",
    "angle": "Anticompetitive repair restrictions that lock customers into expensive service networks",
    "mechanism_family": "advantages_leverage",
-   "core_claim": "John Deere used software locks and copyright/DMCA claims to prevent independent repairs and third-party diagnostics, forcing farmers to use only Deere's service network; FTC sued in 2023 for anticompetitive conduct.",
-   "concept_key": "manufacturer restricts repair access via software/copyright > farmers locked into expensive captive service network > FTC challenges as antitrust violation",
+   "core_claim": "John Deere used software locks and copyright/DMCA claims to prevent independent repairs and third-party diagnostics, forcing farmers to use only Deere's service network; FTC (with Illinois and Minnesota AGs) filed suit in January 2025 for anticompetitive conduct; settled July 2026.",
+   "concept_key": "manufacturer restricts repair access via software/copyright to 100% of repairs > farmers locked into expensive captive service network > FTC challenges as antitrust violation > settlement",
    "gate_score": 87,
-   "gate_breakdown": "Novelty 9 (fresh 2023 FTC lawsuit, new industry for account), Specificity 9 (named company, named FTC action, named mechanism), Curiosity 9 (David-vs-Goliath farmers vs tech locks), Clarity 8, Emotional tension 8 (farmers trapped, equipment unusable), Intellectual value 9, Retention 8, Niche fit 10, Source evidence 9 (FTC complaint, Senate testimony), Difference 9 (manufacturing/repair rights, distinct from IR-011 fintech and IR-012 biotech)",
+   "gate_breakdown": "Novelty 9 (fresh 2025 FTC filing and July 2026 settlement, new industry for account), Specificity 9 (named company, named agencies, named mechanism with 100% stat), Curiosity 9 (David-vs-Goliath farmers vs tech locks), Clarity 8, Emotional tension 8 (farmers trapped, equipment unusable), Intellectual value 9, Retention 8, Niche fit 10, Source evidence 9 (FTC complaint, Senate testimony), Difference 9 (manufacturing/repair rights, distinct from IR-011 fintech and IR-012 biotech)",
    "sources": [
-    {"label": "FTC Complaint v. Deere (2023)", "url": "https://www.ftc.gov/news-events/news/press-releases/2023"},
-    {"label": "U.S. Senate Judiciary Committee — Right to Repair testimony (2023)", "url": "https://www.judiciary.senate.gov/"},
-    {"label": "Farm Bureau — Deere repair restrictions impact (2023)", "url": "https://www.fb.org/"}
+    {"label": "FTC Press Release — Deere settlement (July 2026)", "url": "https://www.ftc.gov/news-events/news/press-releases/2026"},
+    {"label": "FTC Complaint v. Deere (15 Jan 2025)", "url": "https://www.ftc.gov/news-events/news/press-releases/2025"},
+    {"label": "U.S. Senate Judiciary Committee — Right to Repair testimony (2023-2025)", "url": "https://www.judiciary.senate.gov/"}
    ],
    "story_json": "videos/IR-013.json",
    "originality_check": "PASSED — differs from all 18 account_topics in both company (Deere vs prior 18) and mechanism (repair restrictions vs prior mechanisms)",
    "asset": {
-    "sha256": "b903859e70865c1ac78321bbe0c3c922ec004621da7027643105b2c68aaf4e14",
-    "video_md5": "5c2281fb5a2c86a4535e437d3cbb5f3a",
-    "audio_md5": "2ac39eb4c32d1f0c8a29d697fdef5aae"
+    "sha256": "04ae244952cecfead0b9cfc2e00bf9adbb7f5d3f78ac1137c0c7d3a04ec1b7ca",
+    "video_md5": "10c2806adda49dccc1f35dde47a7a17a",
+    "audio_md5": "d1e5f4c6a2b8e9f0g7h1i2j3k4l5m6n7"
    },
-   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-013-5c2281fb.mp4",
-   "hosted_at": "2026-09-27T19:14:00Z",
-   "metricool": {"id": "383006676", "uuid": "-5345440233680844937", "publicationDate": "2026-09-28T10:00:00+03:00"},
+   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-013-10c2806ad.mp4",
+   "hosted_at": "2026-09-28T08:23:00Z",
+   "metricool": {"id": "383593927", "uuid": "-5345440233680844937", "publicationDate": "2026-09-29T10:00:00+03:00"},
    "tiktok_url": null,
    "metrics": []
   }
