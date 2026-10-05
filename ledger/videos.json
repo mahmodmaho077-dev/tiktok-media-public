@@ -437,31 +437,28 @@
    "status": "hosted",
    "title": "UPS and FedEx repriced 70% of packages by their size, not weight",
    "company": "United Parcel Service (UPS) and Federal Express (FedEx)",
-   "hook": "In 2015, UPS and FedEx changed pricing for about 70 percent of everything they ship.",
+   "hook": "In 2015, UPS and FedEx changed pricing for about seventy percent of the packages they ship — the box's size could now cost more than its weight.",
    "tiktok_title": "UPS & FedEx repriced 70% of packages. Now pay for the air.",
-   "caption": "In 2015, UPS and FedEx changed how they price packages for 70% of shipments. Now it's not just what's inside the box — the box itself sets the price. Light item in a big box? Could cost the same as a heavy one.",
+   "caption": "In 2015, UPS and FedEx started billing packages by whichever is bigger: the actual weight, or the size of the box. Practical Ecommerce estimated the change would affect up to seventy percent of ground packages under three cubic feet.",
    "hashtags": "#UPS #FedEx #Pricing #BusinessCaseStudy",
-   "first_comment": "Repriced 70% of packages by box size, not weight. Light item in big box costs same as heavy item. Shippers choose: pack tighter or pay for air. Sources: UPS & FedEx 2015 pricing policy",
+   "first_comment": "The rule: carriers compare the box's dimensional weight to its actual weight and bill whichever is greater. Practical Ecommerce (March 2015) estimated this would affect up to ~70% of ground packages shipped. Source: practicalecommerce.com",
    "industry": "logistics/shipping",
    "angle": "Hidden mechanism: a pricing change that shifts the incentive from minimizing weight to minimizing volume — creating a false choice for shippers",
    "mechanism_family": "incentives_behavior",
-   "core_claim": "In 2015, UPS and FedEx extended dimensional weight pricing to ~70% of packages, shifting from charging by actual weight to charging by box size (whichever is higher). This created a choice for shippers: pack items more tightly to reduce box size, or pay more for the empty space — either way, the carrier captures more revenue.",
-   "concept_key": "pricing metric change (weight → volume) > 70% of packages repriced > shipper incentive inverted: minimize dimensions not weight > forced choice: pack tight or pay for air > carrier wins either way",
+   "core_claim": "In 2015, UPS and FedEx began billing ground packages under 3 cubic feet by whichever is greater — actual weight or dimensional (size-based) weight — a change industry analysis estimated would affect up to 70% of packages shipped, reversing the incentive: shippers now pay for wasted space, not just weight.",
+   "concept_key": "pricing metric change (weight-only -> greater-of-weight-or-size) reverses shipper incentive > ~70% of packages affected > shipper must pack tighter or pay more > carrier profits either way",
    "gate_score": 87,
    "gate_breakdown": "Novelty 9 (fresh pricing mechanism on core logistics, new angle for account), Specificity 9 (named carriers, named 70% figure, named year 2015), Curiosity 9 (pricing change that forces waste or cost), Clarity 9 (single clean mechanism), Emotional tension 8 (shipper frustration, hidden cost), Intellectual value 9, Retention 8, Niche fit 10, Source evidence 9 (UPS & FedEx official pricing policies, verified 2015 launch), Difference 9 (logistics/carrier pricing, distinct from IR-013's repair restrictions)",
    "sources": [
-    {"label": "UPS Dimensional Weight Pricing Policy (2015)", "url": "https://www.ups.com/upsdimensionalweight"},
-    {"label": "FedEx Dimensional Weight Pricing (2015)", "url": "https://www.fedex.com/en-us/shipping/special-services/dimensional-weight-pricing.html"},
-    {"label": "Logistics industry analysis: 70% of packages affected by dimensional weight repricing (2015)", "url": "https://www.shippingtoday.com/dimensional-weight-repricing"}
+    {"label": "Practical Ecommerce — How to Manage UPS/FedEx Dimensional Weight Pricing (March 2015)", "url": "https://www.practicalecommerce.com/How-to-Manage-UPS-FedEx-Dimensional-Weight-Pricing"}
    ],
    "story_json": "videos/IR-014.json",
    "asset": {
-    "sha256": "e4222164caeb32d7ae0481211065f4d435e2b6289ac44fe5f55f542b3350f18c",
-    "video_md5": "01a5e08ca183a7de4fc295f203c0f527",
-    "audio_md5": "d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2"
+    "sha256": "f88bc4ee4bf5617af7e7f7c66540e6142eec7acecf3b2c4a6185e121a8b5ba45",
+    "video_md5": "e30cc7139054a89692274681c6ebc8c3"
    },
-   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-014-01a5e08c.mp4",
-   "hosted_at": "2026-10-05T14:13:00Z",
+   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-014-e30cc713.mp4",
+   "hosted_at": "2026-10-05T14:30:00Z",
    "tiktok_url": null,
    "metrics": []
   }
