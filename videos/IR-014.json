@@ -1,0 +1,32 @@
+{
+ "id": "IR-014",
+ "voice": "af_heart",
+ "speed": 1.0,
+ "phoneme_fixes": {},
+ "scenes": [
+  {"vo": "In twenty fifteen, UPS and FedEx changed pricing for about seventy percent of everything they ship.",
+   "captions": [["In 2015,",3],["UPS and FedEx",3],["changed pricing for",3],["about *70%*",3],["of everything",2],["they ship.",2]],
+   "visual": {"type":"hero","tag":"UPS & FEDEX · 2015","big":"70%","big_red":true,"sub":"OF PACKAGES REPRICED<br>BY THEIR SIZE","sub_size":60,
+              "art":{"kind":"box","at_caption":2,"size":320}}},
+  {"vo": "Here's the rule: it is not just what's inside the box that decides the price anymore.",
+   "captions": [["Here's the rule:",3],["it's *not* just",4],["what's inside",2],["the box",2],["that *decides*",2],["the price",2],["anymore.",1]],
+   "visual": {"type":"list","tag":"THE NEW RULE","headline":"THE BOX ITSELF<br>SETS THE PRICE",
+              "items":[{"text":"Length, width and height now count","at_caption":1},{"text":"Not just what's on the scale","at_caption":3}],
+              "source":"Source: UPS & FedEx 2015 dimensional-weight policy"}},
+  {"vo": "Before, price was about weight. After, it's whichever is bigger: weight, or space.",
+   "captions": [["Before, price",2],["was about weight.",3],["After, it's",2],["*whichever* is bigger:",3],["weight,",1],["or *space.*",2]],
+   "visual": {"type":"versus","tag":"WHAT CHANGED","headline":"WEIGHT<br>VS. <span class='e'>SPACE</span>","head_size":72,
+              "left":"ACTUAL WEIGHT","right":"BOX SIZE (DIMS)","heavier":"right","tilt_at_caption":4,
+              "left_note":"USED TO SET THE PRICE","right_note":"CAN NOW SET IT INSTEAD","note_at_caption":6}},
+  {"vo": "A light item in a big box can now cost the same as a heavy one.",
+   "captions": [["A light item",3],["in a big box",4],["can *now* cost",3],["the same as",3],["a heavy one.",3]],
+   "visual": {"type":"hero","tag":"THE CATCH","big":"SAME PRICE","big_size":70,"sub":"LIGHT, BIG BOX ≈<br>HEAVY, SMALL BOX","sub_size":50,
+              "art":{"kind":"box","at_caption":2,"size":300}}},
+  {"vo": "So shippers now face a choice: pack it tighter, or pay for the empty space inside.",
+   "captions": [["So shippers now",3],["face a *choice:*",3],["pack it tighter,",3],["or pay for",3],["the empty space",3],["inside.",1]],
+   "visual": {"type":"hero","tag":"THE INCENTIVE","big":"PACK TIGHT","big_red":true,"big_size":64,"sub":"OR PAY FOR THE<br>AIR YOU SHIP","sub_size":52,
+              "art":{"kind":"box","at_caption":1,"size":300}}},
+  {"vo": "Either way, the carrier gets paid for the space, not just the weight.",
+   "visual": {"type":"rule","display":"Either way, the carrier gets paid for the *space,* not just the *weight.*"}}
+ ]
+}
