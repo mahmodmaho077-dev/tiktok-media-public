@@ -435,33 +435,38 @@
    "id": "IR-014",
    "created": "2026-10-04T10:30:00Z",
    "status": "hosted",
-   "title": "UPS changed how it charges packages: the dimensional weight trap",
-   "company": "United Parcel Service (UPS)",
-   "hook": "In 2015, UPS changed pricing from actual weight to dimensions: length × width × height ÷ 166.",
-   "tiktok_title": "UPS changed package pricing. Now shippers waste space.",
-   "caption": "In 2015, UPS switched from charging by weight to charging by dimensions. Suddenly a 1-pound book cost 75% more. Dense items (hardware, textbooks, tools) saw 15-25% shipping cost jumps overnight.",
-   "hashtags": "#UPS #Pricing #BusinessModel #CaseStudy",
-   "first_comment": "Dimensional weight = (L×W×H)÷166. If higher than actual weight, you pay it. Dense items hit hardest: 15-25% cost jump overnight. Sources: UPS Pricing 2015; industry analysis",
+   "title": "UPS and FedEx repriced 70% of packages by their size, not weight",
+   "company": "United Parcel Service (UPS) and Federal Express (FedEx)",
+   "hook": "In 2015, UPS and FedEx changed pricing for about seventy percent of the packages they ship — the box's size could now cost more than its weight.",
+   "tiktok_title": "UPS & FedEx repriced 70% of packages. Now pay for the air.",
+   "caption": "In 2015, UPS and FedEx started billing packages by whichever is bigger: the actual weight, or the size of the box. Practical Ecommerce estimated the change would affect up to seventy percent of ground packages under three cubic feet.",
+   "hashtags": "#UPS #FedEx #Pricing #BusinessCaseStudy",
+   "first_comment": "The rule: carriers compare the box's dimensional weight to its actual weight and bill whichever is greater. Practical Ecommerce (March 2015) estimated this would affect up to ~70% of ground packages shipped. Source: practicalecommerce.com",
    "industry": "logistics/shipping",
    "angle": "Hidden mechanism: a pricing change that inverts the incentives for packaging efficiency",
    "mechanism_family": "incentives_behavior",
-   "core_claim": "UPS's 2015 shift to dimensional weight pricing (length × width × height ÷ 166, or any method higher than actual weight) reversed the incentive for shippers: dense items now cost 15-25% more overnight, forcing a choice between wasting space (adding air/padding) or paying more — either way, the carrier wins.",
-   "concept_key": "pricing metric change (weight → volume) reverses shipper incentive > dense goods become expensive > shipper forced to waste space or accept higher costs > carrier profits from both outcomes",
+   "core_claim": "In 2015, UPS and FedEx began billing ground packages under 3 cubic feet by whichever is greater — actual weight or dimensional (size-based) weight — a change industry analysis estimated would affect up to 70% of packages shipped, reversing the incentive: shippers now pay for wasted space, not just weight.",
+   "concept_key": "pricing metric change (weight-only -> greater-of-weight-or-size) reverses shipper incentive > ~70% of packages affected > shipper must pack tighter or pay more > carrier profits either way",
    "gate_score": 87,
    "gate_breakdown": "Novelty 9 (fresh pricing mechanism, new company for account), Specificity 9 (named formula, named year 2015, named cost impact 15-25%), Curiosity 9 (a pricing change that forces inefficiency), Clarity 9 (single clean mechanism), Emotional tension 8 (shipping cost shock), Intellectual value 9, Retention 8, Niche fit 10, Source evidence 9 (UPS official pricing policy from 2015), Difference 9 (logistics/shipping, distinct from IR-013's repair restrictions and IR-012's one-time product constraint)",
    "sources": [
-    {"label": "UPS Dimensional Weight Pricing Policy (2015 launch)", "url": "https://www.ups.com/upsdimensionalweight"},
-    {"label": "Industry analysis: dimensional weight impact on shipping costs (2015-2016)", "url": "https://www.logistics.com/articles/dimensional-weight-pricing"},
-    {"label": "Shipping industry reports: 15-25% cost increase for dense items post-2015", "url": "https://www.shippingtoday.com/dimensional-weight-analysis"}
+    {"label": "Practical Ecommerce — How to Manage UPS/FedEx Dimensional Weight Pricing (March 2015)", "url": "https://www.practicalecommerce.com/How-to-Manage-UPS-FedEx-Dimensional-Weight-Pricing"}
    ],
    "story_json": "videos/IR-014.json",
    "asset": {
-    "sha256": "9796f45f3abba52a70d7a23b3bb8e35149bbe6c5c3eceb95cfcf8de72e060387",
-    "video_md5": "47e4a9252656839b24b3e3d0546a1823",
-    "audio_md5": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6"
+    "sha256": "f88bc4ee4bf5617af7e7f7c66540e6142eec7acecf3b2c4a6185e121a8b5ba45",
+    "video_md5": "e30cc7139054a89692274681c6ebc8c3"
    },
-   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-014-47e4a925.mp4",
-   "hosted_at": "2026-10-04T10:35:00Z",
+   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-014-e30cc713.mp4",
+   "hosted_at": "2026-10-05T14:30:00Z",
+   "story_json": "videos/IR-014.json",
+   "asset": {
+    "sha256": "f88bc4ee4bf5617af7e7f7c66540e6142eec7acecf3b2c4a6185e121a8b5ba45",
+    "video_md5": "e30cc7139054a89692274681c6ebc8c3"
+   },
+   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-014-e30cc713.mp4",
+   "hosted_at": "2026-10-05T14:30:00Z",
+>>>>>>> 712d584 (IR-014: update story, render, and ledger with verified packaging text)
    "tiktok_url": null,
    "metrics": []
   }
