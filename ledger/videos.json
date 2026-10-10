@@ -459,14 +459,6 @@
    },
    "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-014-e30cc713.mp4",
    "hosted_at": "2026-10-05T14:30:00Z",
-   "story_json": "videos/IR-014.json",
-   "asset": {
-    "sha256": "f88bc4ee4bf5617af7e7f7c66540e6142eec7acecf3b2c4a6185e121a8b5ba45",
-    "video_md5": "e30cc7139054a89692274681c6ebc8c3"
-   },
-   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-014-e30cc713.mp4",
-   "hosted_at": "2026-10-05T14:30:00Z",
->>>>>>> 712d584 (IR-014: update story, render, and ledger with verified packaging text)
    "tiktok_url": null,
    "metrics": []
   }
