@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-04",
- "next_id": "IR-015",
+ "updated": "2026-10-13T15:30:00Z",
+ "next_id": "IR-016",
  "videos": [
   {
    "id": "IR-001",
@@ -17,9 +17,18 @@
    "concept_key": "use-it-or-lose-it rule > deliberate waste > waste cheaper than losing the right",
    "gate_score": 86,
    "sources": [
-    {"label": "CNBC — carriers flying near-empty planes to keep slots (13 Jan 2022)", "url": "https://www.cnbc.com/2022/01/13/european-carriers-are-flying-near-empty-planes-this-winter-to-keep-airport-slots.html"},
-    {"label": "TTG — Oman Air pays record $75m for Heathrow slots", "url": "https://www.ttgmedia.com/news/oman-air-pays-record-75m-for-heathrow-slots-3193"},
-    {"label": "Liebman & Mahoney, AER 2017 — expiring budgets", "url": "https://www.aeaweb.org/articles?id=10.1257%2Faer.20131296"}
+    {
+     "label": "CNBC \u2014 carriers flying near-empty planes to keep slots (13 Jan 2022)",
+     "url": "https://www.cnbc.com/2022/01/13/european-carriers-are-flying-near-empty-planes-this-winter-to-keep-airport-slots.html"
+    },
+    {
+     "label": "TTG \u2014 Oman Air pays record $75m for Heathrow slots",
+     "url": "https://www.ttgmedia.com/news/oman-air-pays-record-75m-for-heathrow-slots-3193"
+    },
+    {
+     "label": "Liebman & Mahoney, AER 2017 \u2014 expiring budgets",
+     "url": "https://www.aeaweb.org/articles?id=10.1257%2Faer.20131296"
+    }
    ],
    "note": "Not selectable (seed). Never reuse this id or topic."
   },
@@ -29,7 +38,7 @@
    "status": "hold",
    "title": "Southwest meltdown",
    "hook": "Over Christmas 2022, Southwest Airlines cancelled 16,900 flights.",
-   "caption": "Southwest cancelled 16,900 flights over Christmas 2022. The storm started it, but crew scheduling couldn't keep up — and the bill passed $750 million. #business #airlines #operations",
+   "caption": "Southwest cancelled 16,900 flights over Christmas 2022. The storm started it, but crew scheduling couldn't keep up \u2014 and the bill passed $750 million. #business #airlines #operations",
    "industry": "airlines",
    "angle": "Hidden Constraint",
    "mechanism_family": "constraints_consequences",
@@ -37,10 +46,22 @@
    "concept_key": "under-invested back-office system > collapse under peak stress > cost arrives all at once",
    "gate_score": 83,
    "sources": [
-    {"label": "U.S. DOT — $140M penalty press release", "url": "https://www.transportation.gov/briefing-room/dot-penalizes-southwest-airlines-140-million-2022-holiday-meltdown"},
-    {"label": "NPR — Southwest $140M fine (Dec 2023)", "url": "https://www.npr.org/2023/12/18/1219906471/southwest-airlines-2022-meltdown-fined-faa"},
-    {"label": "CNN — Southwest explains its meltdown to Congress", "url": "https://www.cnn.com/2023/02/09/business/southwest-meltdown-hearing/index.html"},
-    {"label": "SWAPA written testimony, U.S. Senate (Feb 2023)", "url": "https://www.commerce.senate.gov/wp-content/uploads/meetings/19F99589-8C0F-4198-BD63-ED8722F2EFBD/Captain%20Casey%20Murray%20Testimony%20Senate%20CST%20Feb2023%20.pdf"}
+    {
+     "label": "U.S. DOT \u2014 $140M penalty press release",
+     "url": "https://www.transportation.gov/briefing-room/dot-penalizes-southwest-airlines-140-million-2022-holiday-meltdown"
+    },
+    {
+     "label": "NPR \u2014 Southwest $140M fine (Dec 2023)",
+     "url": "https://www.npr.org/2023/12/18/1219906471/southwest-airlines-2022-meltdown-fined-faa"
+    },
+    {
+     "label": "CNN \u2014 Southwest explains its meltdown to Congress",
+     "url": "https://www.cnn.com/2023/02/09/business/southwest-meltdown-hearing/index.html"
+    },
+    {
+     "label": "SWAPA written testimony, U.S. Senate (Feb 2023)",
+     "url": "https://www.commerce.senate.gov/wp-content/uploads/meetings/19F99589-8C0F-4198-BD63-ED8722F2EFBD/Captain%20Casey%20Murray%20Testimony%20Senate%20CST%20Feb2023%20.pdf"
+    }
    ],
    "note": "Not selectable (seed). Never reuse this id or topic."
   },
@@ -59,10 +80,22 @@
    "gate_score": 85,
    "gate_breakdown": "Novelty 8, Specificity 9, Curiosity 9, Clarity 9, Emotional tension 7, Intellectual value 9, Retention 8, Niche fit 9, Source evidence 9, Difference 8",
    "sources": [
-    {"label": "Larcom, Rauch & Willems, QJE 2017 (full text, Oxford ORA)", "url": "https://ora.ox.ac.uk/objects/uuid:271f6f8e-2915-445f-8ebd-5a2900970af1/files/m8cbcb25268f8ae9d9fd6c1951fa05958"},
-    {"label": "QJE article page (Oxford Academic)", "url": "https://academic.oup.com/qje/article-abstract/132/4/2019/3857744"},
-    {"label": "Oxford Department of Economics — abstract", "url": "https://www.economics.ox.ac.uk/article/the-benefits-of-forced-experimentation-striking-evidence-from-the-london-underground-network"},
-    {"label": "VoxEU/CEPR — authors' column", "url": "https://cepr.org/voxeu/columns/benefits-forced-experimentation-striking-evidence-london-underground-network"}
+    {
+     "label": "Larcom, Rauch & Willems, QJE 2017 (full text, Oxford ORA)",
+     "url": "https://ora.ox.ac.uk/objects/uuid:271f6f8e-2915-445f-8ebd-5a2900970af1/files/m8cbcb25268f8ae9d9fd6c1951fa05958"
+    },
+    {
+     "label": "QJE article page (Oxford Academic)",
+     "url": "https://academic.oup.com/qje/article-abstract/132/4/2019/3857744"
+    },
+    {
+     "label": "Oxford Department of Economics \u2014 abstract",
+     "url": "https://www.economics.ox.ac.uk/article/the-benefits-of-forced-experimentation-striking-evidence-from-the-london-underground-network"
+    },
+    {
+     "label": "VoxEU/CEPR \u2014 authors' column",
+     "url": "https://cepr.org/voxeu/columns/benefits-forced-experimentation-striking-evidence-london-underground-network"
+    }
    ],
    "note": "Not selectable (seed). Never reuse this id or topic."
   },
@@ -83,16 +116,32 @@
    "gate_score": 86,
    "gate_breakdown": "Novelty 8, Specificity 9, Curiosity 8, Clarity 9, Emotional tension 7, Intellectual value 9, Retention 8, Niche fit 10, Source evidence 9, Difference 9",
    "sources": [
-    {"label": "Hertz Form 8-K, 11 Jan 2024 (SEC)", "url": "https://www.sec.gov/Archives/edgar/data/47129/000165785324000010/htz-20240111.htm"},
-    {"label": "CNBC/NBC — Hertz pulls back on EV plans citing Tesla price cuts (26 Oct 2023)", "url": "https://www.nbcnewyork.com/news/business/money-report/hertz-pulls-back-on-ev-plans-citing-tesla-price-cuts-high-repair-costs/4804497/"},
-    {"label": "Axios — Hertz selling 20,000 EVs (11 Jan 2024)", "url": "https://www.axios.com/2024/01/11/hertz-evs-electric-vehicles-20000"},
-    {"label": "Nasdaq — Hertz orders 100,000 Teslas (Oct 2021)", "url": "https://www.nasdaq.com/articles/hertz:-evs-to-comprise-more-than-20-of-hertz-global-fleet-by-2022-end-orders-100000-teslas"}
+    {
+     "label": "Hertz Form 8-K, 11 Jan 2024 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/47129/000165785324000010/htz-20240111.htm"
+    },
+    {
+     "label": "CNBC/NBC \u2014 Hertz pulls back on EV plans citing Tesla price cuts (26 Oct 2023)",
+     "url": "https://www.nbcnewyork.com/news/business/money-report/hertz-pulls-back-on-ev-plans-citing-tesla-price-cuts-high-repair-costs/4804497/"
+    },
+    {
+     "label": "Axios \u2014 Hertz selling 20,000 EVs (11 Jan 2024)",
+     "url": "https://www.axios.com/2024/01/11/hertz-evs-electric-vehicles-20000"
+    },
+    {
+     "label": "Nasdaq \u2014 Hertz orders 100,000 Teslas (Oct 2021)",
+     "url": "https://www.nasdaq.com/articles/hertz:-evs-to-comprise-more-than-20-of-hertz-global-fleet-by-2022-end-orders-100000-teslas"
+    }
    ],
    "hashtags": "#business #hertz #tesla",
-   "first_comment": "IR-004 · Sources: Hertz Form 8-K (11 Jan 2024); Q3 2023 earnings call (CNBC); Axios (Jan 2024)",
+   "first_comment": "IR-004 \u00b7 Sources: Hertz Form 8-K (11 Jan 2024); Q3 2023 earnings call (CNBC); Axios (Jan 2024)",
    "published": "2026-09-21, manually by the owner (not via Metricool)",
    "tiktok_url": null,
-   "asset": {"sha256": "1644ceb29569f63f0ac16495688a081b3ec08e8a57300906221440498fba6310", "video_md5": "b7835940ed28b763e4d71971a93757cf", "audio_md5": "2d957ea21b0b8741a9d1e1e5296a4a63"},
+   "asset": {
+    "sha256": "1644ceb29569f63f0ac16495688a081b3ec08e8a57300906221440498fba6310",
+    "video_md5": "b7835940ed28b763e4d71971a93757cf",
+    "audio_md5": "2d957ea21b0b8741a9d1e1e5296a4a63"
+   },
    "media_url": null,
    "note": "PUBLISHED. Never select, re-render, re-host or re-post."
   },
@@ -106,7 +155,7 @@
    "tiktok_title": "Adobe's $150M cancellation-fee settlement",
    "caption": "Adobe says early termination fees were under 0.5% of its revenue. The bigger value was the 12-month commitment behind a monthly price; in March 2026 Adobe agreed to a $150M U.S. settlement over its subscription terms.",
    "hashtags": "#adobe #subscriptions #pricing #BusinessStrategy",
-   "first_comment": "IR-005 · Sources: DOJ release 13 Mar 2026; U.S. v. Adobe complaint (N.D. Cal. 2024); Adobe statement Jul 2024 (The Register)",
+   "first_comment": "IR-005 \u00b7 Sources: DOJ release 13 Mar 2026; U.S. v. Adobe complaint (N.D. Cal. 2024); Adobe statement Jul 2024 (The Register)",
    "industry": "software/subscriptions",
    "angle": "Hidden mechanism behind a pricing/contract structure",
    "mechanism_family": "incentives_behavior",
@@ -115,11 +164,26 @@
    "gate_score": 87,
    "gate_breakdown": "Novelty 8, Specificity 9, Curiosity 9, Clarity 8, Emotional tension 8, Intellectual value 9, Retention 8, Niche fit 10, Source evidence 9, Difference 9",
    "sources": [
-    {"label": "DOJ press release, 13 Mar 2026 ($150M = $75M civil penalty + $75M free services)", "url": "https://www.justice.gov/opa/pr/adobe-agrees-150-million-settlement-and-injunction-resolve-alleged-violations-restore-online"},
-    {"label": "U.S. v. Adobe complaint (redacted) - APM often preselected (para 29); ETF = 50% of remaining obligation (para 30.c); May 2023 prices $54.99 APM / $82.49 monthly / $599.88 prepaid", "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/032-RedactedComplaint-REPLACEMENT.pdf"},
-    {"label": "FTC press release, 17 Jun 2024", "url": "https://ftc.gov/news-events/news/press-releases/2024/06/ftc-takes-action-against-adobe-executives-hiding-fees-preventing-consumers-easily-cancelling"},
-    {"label": "The Register, 25 Jul 2024 - unredacted complaint quotes; Adobe GC Dana Rao: ETFs are less than half a percent of total revenue", "url": "https://www.theregister.com/2024/07/25/adobe_subscription_cancel_fees_ftc/"},
-    {"label": "9to5Mac, 25 Jul 2024 - 'a bit like heroin for Adobe' (via The Verge); Adobe says taken out of context", "url": "https://9to5mac.com/2024/07/25/adobe-hidden-pricing-heroin/"}
+    {
+     "label": "DOJ press release, 13 Mar 2026 ($150M = $75M civil penalty + $75M free services)",
+     "url": "https://www.justice.gov/opa/pr/adobe-agrees-150-million-settlement-and-injunction-resolve-alleged-violations-restore-online"
+    },
+    {
+     "label": "U.S. v. Adobe complaint (redacted) - APM often preselected (para 29); ETF = 50% of remaining obligation (para 30.c); May 2023 prices $54.99 APM / $82.49 monthly / $599.88 prepaid",
+     "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/032-RedactedComplaint-REPLACEMENT.pdf"
+    },
+    {
+     "label": "FTC press release, 17 Jun 2024",
+     "url": "https://ftc.gov/news-events/news/press-releases/2024/06/ftc-takes-action-against-adobe-executives-hiding-fees-preventing-consumers-easily-cancelling"
+    },
+    {
+     "label": "The Register, 25 Jul 2024 - unredacted complaint quotes; Adobe GC Dana Rao: ETFs are less than half a percent of total revenue",
+     "url": "https://www.theregister.com/2024/07/25/adobe_subscription_cancel_fees_ftc/"
+    },
+    {
+     "label": "9to5Mac, 25 Jul 2024 - 'a bit like heroin for Adobe' (via The Verge); Adobe says taken out of context",
+     "url": "https://9to5mac.com/2024/07/25/adobe-hidden-pricing-heroin/"
+    }
    ],
    "story_json": "videos/IR-005.json",
    "reference_render": {
@@ -135,7 +199,11 @@
    },
    "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-005-752cd94a.mp4",
    "hosted_at": "2026-09-21T16:26:45.000Z",
-   "metricool": {"id": "379553256", "uuid": "-7008404274305153545", "publicationDate": "2026-09-21T20:15:00+03:00"},
+   "metricool": {
+    "id": "379553256",
+    "uuid": "-7008404274305153545",
+    "publicationDate": "2026-09-21T20:15:00+03:00"
+   },
    "tiktok_url": "https://www.tiktok.com/@invisiblerulesmedia/video/7688038603053731094",
    "metrics": []
   },
@@ -147,21 +215,33 @@
    "company": "HP Inc.",
    "hook": "In January 2024, HP's CEO said some of his own customers are a bad investment.",
    "tiktok_title": "HP calls its own customers a 'bad investment'",
-   "caption": "HP's CEO said customers who skip HP's own ink are a 'bad investment' — the company prices printers near cost and makes its money on supplies, which brought in $10.9B in FY2025 alone.",
+   "caption": "HP's CEO said customers who skip HP's own ink are a 'bad investment' \u2014 the company prices printers near cost and makes its money on supplies, which brought in $10.9B in FY2025 alone.",
    "hashtags": "#hp #printers #pricing #BusinessStrategy",
-   "first_comment": "IR-006 · Sources: CNBC interview Jan 2024 (Lores quote, The Register); HP Dynamic Security policy; HP FY2025 Q4 results (Nov 2025)",
+   "first_comment": "IR-006 \u00b7 Sources: CNBC interview Jan 2024 (Lores quote, The Register); HP Dynamic Security policy; HP FY2025 Q4 results (Nov 2025)",
    "industry": "printers/hardware",
    "angle": "Hidden mechanism behind a hardware/consumables pricing structure",
    "mechanism_family": "advantages_leverage",
-   "core_claim": "HP prices printer hardware near cost and recovers profit through high-margin ink/toner supplies ($10.9B in FY2025 alone), enforced by Dynamic Security firmware that can block non-HP or refilled cartridges — the CEO's own 'bad investment' framing describes customers who don't buy into the supplies side.",
+   "core_claim": "HP prices printer hardware near cost and recovers profit through high-margin ink/toner supplies ($10.9B in FY2025 alone), enforced by Dynamic Security firmware that can block non-HP or refilled cartridges \u2014 the CEO's own 'bad investment' framing describes customers who don't buy into the supplies side.",
    "concept_key": "hardware sold near cost > profit recovered via locked recurring consumables > firmware enforces the lock",
    "gate_score": 86,
    "gate_breakdown": "Novelty 8 (fresh to this account), Specificity 9 (named CEO quote, named FY2025 figure), Curiosity 9 (company calling its own customers a bad investment), Clarity 9 (single clean mechanism), Emotional tension 8 (DRM-blocked ink feels unfair), Intellectual value 8 (classic razor-and-blades teaching), Retention 8, Niche fit 10 (textbook hidden business mechanism), Source evidence 9 (direct CEO quote via CNBC, corroborated by multiple outlets, plus HP's own FY2025 results), Difference 8 (hardware/consumables industry, distinct from IR-004 car rental and IR-005 software subscriptions)",
    "sources": [
-    {"label": "The Register — HP's CEO: You're 'bad investment' if you don't buy HP supplies (19 Jan 2024)", "url": "https://www.theregister.com/2024/01/19/hps_ceo_spells_it_out/"},
-    {"label": "TechSpot — HP CEO says customers who don't use the company's supplies are \"bad investments\"", "url": "https://www.techspot.com/news/101593-hp-ceo-customers-who-dont-use-companies-supplies.html"},
-    {"label": "BetaNews — HP CEO explains why the company is bricking third-party ink printers (23 Jan 2024)", "url": "https://betanews.com/2024/01/23/hp-ceo-explains-why-the-company-is-bricking-third-party-ink-printers/"},
-    {"label": "HP Inc. — Reports Fiscal 2025 Full Year and Fourth Quarter Results (investor.hp.com)", "url": "https://investor.hp.com/news-events/news/news-details/2025/HP-Inc--Reports-Fiscal-2025-Full-Year-and-Fourth-Quarter-Results/default.aspx"}
+    {
+     "label": "The Register \u2014 HP's CEO: You're 'bad investment' if you don't buy HP supplies (19 Jan 2024)",
+     "url": "https://www.theregister.com/2024/01/19/hps_ceo_spells_it_out/"
+    },
+    {
+     "label": "TechSpot \u2014 HP CEO says customers who don't use the company's supplies are \"bad investments\"",
+     "url": "https://www.techspot.com/news/101593-hp-ceo-customers-who-dont-use-companies-supplies.html"
+    },
+    {
+     "label": "BetaNews \u2014 HP CEO explains why the company is bricking third-party ink printers (23 Jan 2024)",
+     "url": "https://betanews.com/2024/01/23/hp-ceo-explains-why-the-company-is-bricking-third-party-ink-printers/"
+    },
+    {
+     "label": "HP Inc. \u2014 Reports Fiscal 2025 Full Year and Fourth Quarter Results (investor.hp.com)",
+     "url": "https://investor.hp.com/news-events/news/news-details/2025/HP-Inc--Reports-Fiscal-2025-Full-Year-and-Fourth-Quarter-Results/default.aspx"
+    }
    ],
    "story_json": "videos/IR-006.json",
    "asset": {
@@ -171,7 +251,11 @@
    },
    "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-006-6bb609ba.mp4",
    "hosted_at": "2026-09-22T11:45:00.000Z",
-   "metricool": {"id": "380012898", "uuid": "6229455910541279786", "publicationDate": "2026-09-22T18:00:00+03:00"},
+   "metricool": {
+    "id": "380012898",
+    "uuid": "6229455910541279786",
+    "publicationDate": "2026-09-22T18:00:00+03:00"
+   },
    "tiktok_url": "https://www.tiktok.com/@invisiblerulesmedia/video/7688375790337117462",
    "metrics": []
   },
@@ -183,21 +267,33 @@
    "company": "JPMorgan Chase (Chase Sapphire Reserve)",
    "hook": "In December 2016, JPMorgan's CEO said a single credit card would cost the bank up to $300 million that quarter.",
    "tiktok_title": "The credit card that cost JPMorgan $300M",
-   "caption": "In December 2016 JPMorgan's CEO said one new credit card would cost the bank up to $300M that quarter — the Chase Sapphire Reserve was so popular the bank ran out of the metal to make it, and cut the signup bonus in half the next year.",
+   "caption": "In December 2016 JPMorgan's CEO said one new credit card would cost the bank up to $300M that quarter \u2014 the Chase Sapphire Reserve was so popular the bank ran out of the metal to make it, and cut the signup bonus in half the next year.",
    "hashtags": "#jpmorgan #creditcards #BusinessStrategy",
-   "first_comment": "IR-007 · Sources: Bloomberg (Dimon, 6 Dec 2016); CNBC (Dimon, 18 Jan 2017); Chase Sapphire Reserve launch press release (Aug 2016)",
+   "first_comment": "IR-007 \u00b7 Sources: Bloomberg (Dimon, 6 Dec 2016); CNBC (Dimon, 18 Jan 2017); Chase Sapphire Reserve launch press release (Aug 2016)",
    "industry": "banking/credit cards",
    "angle": "Hidden mechanism behind a customer-acquisition cost decision",
    "mechanism_family": "numbers_costs",
-   "core_claim": "The Chase Sapphire Reserve's rich signup bonus and travel credit were so popular that actual customer-acquisition costs exceeded JPMorgan's projections, forcing a disclosed $200-300M hit to Q4 2016 profit — a product succeeding by exactly the metric it was designed on can still break the budget it was priced against.",
+   "core_claim": "The Chase Sapphire Reserve's rich signup bonus and travel credit were so popular that actual customer-acquisition costs exceeded JPMorgan's projections, forcing a disclosed $200-300M hit to Q4 2016 profit \u2014 a product succeeding by exactly the metric it was designed on can still break the budget it was priced against.",
    "concept_key": "promotional incentive priced against expected uptake > uptake far exceeds projection > true acquisition cost blows the budget",
    "gate_score": 89,
    "gate_breakdown": "Novelty 9 (not on this account, strong specific angle), Specificity 9 (named CEO quotes, named dollar figures, named dates), Curiosity 9 (a company's own success costing it money), Clarity 9 (single clean mechanism), Emotional tension 7, Intellectual value 9, Retention 9, Niche fit 10, Source evidence 9 (Bloomberg + CNBC direct CEO quotes, Chase's own launch materials), Difference 9 (customer-acquisition/marketing economics, distinct from IR-005's subscription fee and IR-006's hardware/consumables lock-in)",
    "sources": [
-    {"label": "Bloomberg — Dimon Says New Sapphire Card Cuts Profit by Up to $300 Million in Quarter (6 Dec 2016)", "url": "https://www.bloomberg.com/news/articles/2016-12-06/dimon-says-new-card-cuts-profit-by-up-to-300-million-in-quarter"},
-    {"label": "CNBC — JPMorgan's Dimon: I wish the Chase Sapphire Reserve card had cost us more money (18 Jan 2017)", "url": "https://www.cnbc.com/2017/01/18/jamie-dimon-i-wish-chase-sapphire-reserve-cost-jpmorgan-more-money.html"},
-    {"label": "Fast Company — Chase Sapphire Reserve's popular perks will cost JPMorgan as much as $300 million this quarter", "url": "https://www.fastcompany.com/4026717/chase-sapphire-reserves-popular-perks-will-cost-jpmorgan-as-much-as-300-million-this-quarter"},
-    {"label": "Chase — Chase Reinvents Luxury Credit Card Category with Sapphire Reserve, Launching Today (23 Aug 2016)", "url": "https://media.chase.com/news/chase-reinvents-luxury-credit-card-sapphire-reserve"}
+    {
+     "label": "Bloomberg \u2014 Dimon Says New Sapphire Card Cuts Profit by Up to $300 Million in Quarter (6 Dec 2016)",
+     "url": "https://www.bloomberg.com/news/articles/2016-12-06/dimon-says-new-card-cuts-profit-by-up-to-300-million-in-quarter"
+    },
+    {
+     "label": "CNBC \u2014 JPMorgan's Dimon: I wish the Chase Sapphire Reserve card had cost us more money (18 Jan 2017)",
+     "url": "https://www.cnbc.com/2017/01/18/jamie-dimon-i-wish-chase-sapphire-reserve-cost-jpmorgan-more-money.html"
+    },
+    {
+     "label": "Fast Company \u2014 Chase Sapphire Reserve's popular perks will cost JPMorgan as much as $300 million this quarter",
+     "url": "https://www.fastcompany.com/4026717/chase-sapphire-reserves-popular-perks-will-cost-jpmorgan-as-much-as-300-million-this-quarter"
+    },
+    {
+     "label": "Chase \u2014 Chase Reinvents Luxury Credit Card Category with Sapphire Reserve, Launching Today (23 Aug 2016)",
+     "url": "https://media.chase.com/news/chase-reinvents-luxury-credit-card-sapphire-reserve"
+    }
    ],
    "story_json": "videos/IR-007.json",
    "asset": {
@@ -207,7 +303,11 @@
    },
    "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-007-2a57b2d8.mp4",
    "hosted_at": "2026-09-22T13:11:00.000Z",
-   "metricool": {"id": "380075898", "uuid": "-1403776461509866105", "publicationDate": "2026-09-23T10:00:00+03:00"},
+   "metricool": {
+    "id": "380075898",
+    "uuid": "-1403776461509866105",
+    "publicationDate": "2026-09-23T10:00:00+03:00"
+   },
    "tiktok_url": "https://www.tiktok.com/@invisiblerulesmedia/video/7688622633721629974",
    "metrics": []
   },
@@ -219,21 +319,33 @@
    "company": "Live Nation Entertainment / Ticketmaster",
    "hook": "In April 2026, a jury found Live Nation and Ticketmaster ran an illegal monopoly.",
    "tiktok_title": "The $1.72 monopoly tax on your concert ticket",
-   "caption": "In April 2026 a jury found Live Nation and Ticketmaster ran an illegal monopoly, overcharging fans about $1.72 a ticket at major venues — by paying venues upfront and threatening to pull Live Nation shows if they booked a rival ticketer.",
+   "caption": "In April 2026 a jury found Live Nation and Ticketmaster ran an illegal monopoly, overcharging fans about $1.72 a ticket at major venues \u2014 by paying venues upfront and threatening to pull Live Nation shows if they booked a rival ticketer.",
    "hashtags": "#ticketmaster #livenation #BusinessStrategy",
-   "first_comment": "IR-008 · Sources: DOJ v. Live Nation complaint (23 May 2024); CNN/NBC jury verdict coverage (Apr 2026); R Street Institute case analysis",
+   "first_comment": "IR-008 \u00b7 Sources: DOJ v. Live Nation complaint (23 May 2024); CNN/NBC jury verdict coverage (Apr 2026); R Street Institute case analysis",
    "industry": "live entertainment/ticketing",
    "angle": "Hidden mechanism behind market-power/exclusive-contract leverage",
    "mechanism_family": "advantages_leverage",
-   "core_claim": "Live Nation used upfront payments (the carrot) and the threat of withholding its own tour bookings (the stick) to coerce venues into exclusive multiyear Ticketmaster contracts, removing fans' ability to shop for ticketing fees — a jury found this an illegal monopoly that overcharged fans by about $1.72/ticket at major venues.",
+   "core_claim": "Live Nation used upfront payments (the carrot) and the threat of withholding its own tour bookings (the stick) to coerce venues into exclusive multiyear Ticketmaster contracts, removing fans' ability to shop for ticketing fees \u2014 a jury found this an illegal monopoly that overcharged fans by about $1.72/ticket at major venues.",
    "concept_key": "vertical integration across promotion/venues/ticketing > exclusive contracts coerced via carrot-and-stick > no substitutable competition for the ticket buyer",
    "gate_score": 87,
    "gate_breakdown": "Novelty 9 (not on this account), Specificity 9 (named dollar figure, named dates, named party counts), Curiosity 9 (a live, resolved jury verdict), Clarity 8 (antitrust case simplified to one clean mechanism), Emotional tension 8 (consumer unfairness, no alternative), Intellectual value 8, Retention 8, Niche fit 10, Source evidence 9 (DOJ complaint via legal-industry sources, CNN/NBC verdict reporting), Difference 9 (live entertainment/ticketing industry and market-power mechanism, distinct from IR-006's hardware lock-in and IR-007's marketing/acquisition-cost story)",
    "sources": [
-    {"label": "Cooley LLP — US Department of Justice Sues Live Nation and Ticketmaster (5 Jun 2024, summarizing the 23 May 2024 DOJ complaint)", "url": "https://www.cooley.com/news/insight/2024/2024-06-05-us-department-of-justice-sues-live-nation-and-ticketmaster"},
-    {"label": "CNN — Jury finds Live Nation and Ticketmaster operated as a monopoly and overcharged fans (15 Apr 2026)", "url": "https://www.cnn.com/2026/04/15/politics/ticketmaster-live-nation-monopoly-verdict"},
-    {"label": "NBC News — Live Nation illegally monopolized ticketing market, jury in antitrust trial finds", "url": "https://www.nbcnews.com/business/consumer/livenation-illegally-monopolized-ticketing-market-jury-antitrust-trial-rcna273714"},
-    {"label": "R Street Institute — Evaluating the DOJ Case Against Live Nation and Ticketmaster", "url": "https://www.rstreet.org/commentary/evaluating-the-doj-case-against-live-nation-and-ticketmaster/"}
+    {
+     "label": "Cooley LLP \u2014 US Department of Justice Sues Live Nation and Ticketmaster (5 Jun 2024, summarizing the 23 May 2024 DOJ complaint)",
+     "url": "https://www.cooley.com/news/insight/2024/2024-06-05-us-department-of-justice-sues-live-nation-and-ticketmaster"
+    },
+    {
+     "label": "CNN \u2014 Jury finds Live Nation and Ticketmaster operated as a monopoly and overcharged fans (15 Apr 2026)",
+     "url": "https://www.cnn.com/2026/04/15/politics/ticketmaster-live-nation-monopoly-verdict"
+    },
+    {
+     "label": "NBC News \u2014 Live Nation illegally monopolized ticketing market, jury in antitrust trial finds",
+     "url": "https://www.nbcnews.com/business/consumer/livenation-illegally-monopolized-ticketing-market-jury-antitrust-trial-rcna273714"
+    },
+    {
+     "label": "R Street Institute \u2014 Evaluating the DOJ Case Against Live Nation and Ticketmaster",
+     "url": "https://www.rstreet.org/commentary/evaluating-the-doj-case-against-live-nation-and-ticketmaster/"
+    }
    ],
    "story_json": "videos/IR-008.json",
    "asset": {
@@ -243,7 +355,11 @@
    },
    "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-008-244faa9b.mp4",
    "hosted_at": "2026-09-22T17:14:00.000Z",
-   "metricool": {"id": "380228968", "uuid": "3666609120620334097", "publicationDate": "2026-09-23T18:00:00+03:00"},
+   "metricool": {
+    "id": "380228968",
+    "uuid": "3666609120620334097",
+    "publicationDate": "2026-09-23T18:00:00+03:00"
+   },
    "tiktok_url": "https://www.tiktok.com/@invisiblerulesmedia/video/7688746577040788758",
    "metrics": []
   },
@@ -255,9 +371,9 @@
    "company": "Netflix",
    "hook": "In 2022, Netflix said over 100 million households were sharing passwords for free.",
    "tiktok_title": "Netflix charged for passwords. Then gained 9M subscribers.",
-   "caption": "Netflix's own CEO said in 2016 that password sharing was something \"you have to learn to live with\" — years before the 2023 reversal that added millions of subscribers.\n\n#PasswordSharing #Netflix #Streaming #BusinessCaseStudy",
+   "caption": "Netflix's own CEO said in 2016 that password sharing was something \"you have to learn to live with\" \u2014 years before the 2023 reversal that added millions of subscribers.\n\n#PasswordSharing #Netflix #Streaming #BusinessCaseStudy",
    "hashtags": "#PasswordSharing #Netflix #Streaming #BusinessCaseStudy",
-   "first_comment": "IR-009 · Sources: Netflix Q3 2023 earnings call (Spencer Neumann, CNBC); Netflix Q3 2016 earnings call (Reed Hastings, CNBC)",
+   "first_comment": "IR-009 \u00b7 Sources: Netflix Q3 2023 earnings call (Spencer Neumann, CNBC); Netflix Q3 2016 earnings call (Reed Hastings, CNBC)",
    "industry": "streaming/media",
    "angle": "Counterintuitive result: the customer-unfriendly move outperformed the generous one",
    "mechanism_family": "counterintuitive",
@@ -266,10 +382,22 @@
    "gate_score": 88,
    "gate_breakdown": "Novelty 9 (not on this account), Specificity 9 (named CFO quote, named quarterly subscriber figure), Curiosity 9 (widely-predicted backlash that didn't happen), Clarity 9 (single clean before/after mechanism), Emotional tension 7, Intellectual value 8, Retention 9, Niche fit 10, Source evidence 9 (Netflix's own CFO on the earnings call, corroborated by CNBC/Reuters/Forbes coverage), Difference 9 (streaming/media industry and a counterintuitive-outcome mechanism, distinct from IR-007's acquisition-cost and IR-008's market-power stories)",
    "sources": [
-    {"label": "CNBC — Netflix says 100 million households share passwords, complicating its plan to crack down (2022 disclosure)", "url": "https://www.cnbc.com/2022/07/19/netflix-100-million-households-share-passwords.html"},
-    {"label": "CNBC — Your shared Netflix password is safe, the CEO says (17 Oct 2016, Reed Hastings 'learn to live with' quote)", "url": "https://www.cnbc.com/2016/10/17/your-shared-netflix-password-is-safe-the-ceo-says.html"},
-    {"label": "Netflix Q3 2023 shareholder letter / earnings call — ~9M paid net additions, Spencer Neumann 'primary revenue accelerator' comment (Oct 2023)", "url": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx"},
-    {"label": "TechCrunch/Variety — coverage of the May 2023 U.S. paid-sharing rollout and initial backlash predictions", "url": "https://techcrunch.com/2023/05/23/netflix-password-sharing-crackdown-us/"}
+    {
+     "label": "CNBC \u2014 Netflix says 100 million households share passwords, complicating its plan to crack down (2022 disclosure)",
+     "url": "https://www.cnbc.com/2022/07/19/netflix-100-million-households-share-passwords.html"
+    },
+    {
+     "label": "CNBC \u2014 Your shared Netflix password is safe, the CEO says (17 Oct 2016, Reed Hastings 'learn to live with' quote)",
+     "url": "https://www.cnbc.com/2016/10/17/your-shared-netflix-password-is-safe-the-ceo-says.html"
+    },
+    {
+     "label": "Netflix Q3 2023 shareholder letter / earnings call \u2014 ~9M paid net additions, Spencer Neumann 'primary revenue accelerator' comment (Oct 2023)",
+     "url": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx"
+    },
+    {
+     "label": "TechCrunch/Variety \u2014 coverage of the May 2023 U.S. paid-sharing rollout and initial backlash predictions",
+     "url": "https://techcrunch.com/2023/05/23/netflix-password-sharing-crackdown-us/"
+    }
    ],
    "story_json": "videos/IR-009.json",
    "asset": {
@@ -280,7 +408,11 @@
    "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-009-1db30af8.mp4",
    "cover_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-009-1db30af8-cover.png",
    "hosted_at": "2026-09-23T19:17:00.000Z",
-   "metricool": {"id": "380992048", "uuid": "-602315676788766619", "publicationDate": "2026-09-24T18:00:00+03:00"},
+   "metricool": {
+    "id": "380992048",
+    "uuid": "-602315676788766619",
+    "publicationDate": "2026-09-24T18:00:00+03:00"
+   },
    "tiktok_url": "https://www.tiktok.com/@invisiblerulesmedia/video/7689117996907941123",
    "metrics": []
   },
@@ -290,11 +422,11 @@
    "status": "published",
    "title": "Delta made $8.2B from Amex. Not from flying planes.",
    "company": "Delta Air Lines / American Express",
-   "hook": "In 2025, Delta made $8.2 billion from American Express — not from flying planes.",
+   "hook": "In 2025, Delta made $8.2 billion from American Express \u2014 not from flying planes.",
    "tiktok_title": "Delta made $8.2B from Amex. Not from flying planes.",
-   "caption": "Delta and American Express have run this credit-card partnership since 1996 — and are targeting $10 billion a year in payments to Delta by 2029.\n\n#CoBranding #Delta #Airlines #BusinessCaseStudy",
+   "caption": "Delta and American Express have run this credit-card partnership since 1996 \u2014 and are targeting $10 billion a year in payments to Delta by 2029.\n\n#CoBranding #Delta #Airlines #BusinessCaseStudy",
    "hashtags": "#CoBranding #Delta #Airlines #BusinessCaseStudy",
-   "first_comment": "IR-010 · Sources: Fortune (3 Apr 2026, Bastian/Amex); Delta Q3 2025 earnings; View From The Wing (Amex remuneration rate)",
+   "first_comment": "IR-010 \u00b7 Sources: Fortune (3 Apr 2026, Bastian/Amex); Delta Q3 2025 earnings; View From The Wing (Amex remuneration rate)",
    "industry": "airlines/co-branded credit cards",
    "angle": "Hidden mechanism behind a core operating decision (route selection) actually driven by a financial-services side deal",
    "mechanism_family": "numbers_costs",
@@ -303,10 +435,22 @@
    "gate_score": 87,
    "gate_breakdown": "Novelty 9 (not on this account, fresh Apr 2026 reporting), Specificity 9 (named CEO quote, named dollar figures, named cities), Curiosity 9 (an airline picking routes for a credit-card deal), Clarity 8, Emotional tension 6, Intellectual value 9, Retention 8, Niche fit 10, Source evidence 9 (Fortune/Yahoo reporting of Bastian's own statements, corroborated by Delta's own earnings guidance), Difference 9 (airlines/co-branded credit cards, distinct from IR-008's live-entertainment antitrust story and IR-009's streaming story)",
    "sources": [
-    {"label": "Fortune — How Delta CEO Ed Bastian built a massive partnership with American Express that now generates over 10% of the airline's revenue (3 Apr 2026)", "url": "https://fortune.com/2026/04/03/how-did-delta-ceo-ed-bastian-build-partnership-with-american-express-10-percent-airlines-revenue/"},
-    {"label": "The Travel — Delta Air Lines Causes A Stir By Admitting How It Chooses New Routes With Amex In Mind", "url": "https://www.thetravel.com/delta-air-lines-admits-new-routes-influenced-by-amex-credit-card-spending/"},
-    {"label": "View From The Wing — Amex Pays Delta 3.8 Cents Per Dollar Charged", "url": "https://viewfromthewing.com/amex-pays-delta-3-8-cents-per-dollar-charged-why-banks-pay-more-for-miles-than-you-do/"},
-    {"label": "Payments Dive — Amex, Delta card spending soars (2026 guidance of $9B, up 10% over 2025)", "url": "https://www.paymentsdive.com/news/amex-delta-card-spending-soars/825180/"}
+    {
+     "label": "Fortune \u2014 How Delta CEO Ed Bastian built a massive partnership with American Express that now generates over 10% of the airline's revenue (3 Apr 2026)",
+     "url": "https://fortune.com/2026/04/03/how-did-delta-ceo-ed-bastian-build-partnership-with-american-express-10-percent-airlines-revenue/"
+    },
+    {
+     "label": "The Travel \u2014 Delta Air Lines Causes A Stir By Admitting How It Chooses New Routes With Amex In Mind",
+     "url": "https://www.thetravel.com/delta-air-lines-admits-new-routes-influenced-by-amex-credit-card-spending/"
+    },
+    {
+     "label": "View From The Wing \u2014 Amex Pays Delta 3.8 Cents Per Dollar Charged",
+     "url": "https://viewfromthewing.com/amex-pays-delta-3-8-cents-per-dollar-charged-why-banks-pay-more-for-miles-than-you-do/"
+    },
+    {
+     "label": "Payments Dive \u2014 Amex, Delta card spending soars (2026 guidance of $9B, up 10% over 2025)",
+     "url": "https://www.paymentsdive.com/news/amex-delta-card-spending-soars/825180/"
+    }
    ],
    "story_json": "videos/IR-010.json",
    "asset": {
@@ -317,7 +461,11 @@
    "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-010-e27d8eb9.mp4",
    "cover_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-010-e27d8eb9-cover.png",
    "hosted_at": "2026-09-24T05:00:00.000Z",
-   "metricool": {"id": "381140717", "uuid": "75376184266671222", "publicationDate": "2026-09-25T10:00:00+03:00"},
+   "metricool": {
+    "id": "381140717",
+    "uuid": "75376184266671222",
+    "publicationDate": "2026-09-25T10:00:00+03:00"
+   },
    "tiktok_url": "https://www.tiktok.com/@invisiblerulesmedia/video/7689364741298326806",
    "metrics": []
   },
@@ -329,21 +477,33 @@
    "company": "Klarna",
    "hook": "Klarna markets its Pay in 4 plan as completely interest-free for shoppers.",
    "tiktok_title": "Klarna's 'interest-free' plan isn't free. Merchants pay 6%.",
-   "caption": "Klarna went public in September 2025 at a $15 billion valuation — right as it disclosed exactly how much of that value comes from merchant fees, not shopper interest.\n\n#BuyNowPayLater #Klarna #Fintech #BusinessCaseStudy",
+   "caption": "Klarna went public in September 2025 at a $15 billion valuation \u2014 right as it disclosed exactly how much of that value comes from merchant fees, not shopper interest.\n\n#BuyNowPayLater #Klarna #Fintech #BusinessCaseStudy",
    "hashtags": "#BuyNowPayLater #Klarna #Fintech #BusinessCaseStudy",
-   "first_comment": "IR-011 · Sources: Klarna Group F-1/424B4 SEC filing (2025 IPO prospectus); CNBC IPO coverage (10 Sep 2025); Motley Fool interchange fee data",
+   "first_comment": "IR-011 \u00b7 Sources: Klarna Group F-1/424B4 SEC filing (2025 IPO prospectus); CNBC IPO coverage (10 Sep 2025); Motley Fool interchange fee data",
    "industry": "fintech/payments (buy now pay later)",
    "angle": "Hidden mechanism: a 'free' consumer feature is paid for, invisibly, by a different party",
    "mechanism_family": "advantages_leverage",
-   "core_claim": "Klarna markets its no-interest 'Pay in 4' plan as free for shoppers, but merchants pay Klarna up to ~5.99% per sale for it (vs. roughly 2% for a typical credit card) — merchant fees made up 57% of Klarna's total revenue in 2024, disclosed in its September 2025 IPO filing.",
+   "core_claim": "Klarna markets its no-interest 'Pay in 4' plan as free for shoppers, but merchants pay Klarna up to ~5.99% per sale for it (vs. roughly 2% for a typical credit card) \u2014 merchant fees made up 57% of Klarna's total revenue in 2024, disclosed in its September 2025 IPO filing.",
    "concept_key": "a service marketed as free to the consumer > the real cost is shifted to a different party (the merchant) at a multiple of the standard rate > that shifted cost becomes the company's largest revenue source",
    "gate_score": 86,
-   "gate_breakdown": "Novelty 9 (fresh, from Klarna's own Sept 2025 IPO filing), Specificity 9 (named fee percentages, named revenue share, named filing), Curiosity 9 ('free' checkout that isn't), Clarity 8, Emotional tension 7 (relatable — most viewers have used BNPL), Intellectual value 8, Retention 8, Niche fit 10, Source evidence 9 (Klarna's own SEC F-1/424B4 registration statement, a primary source), Difference 9 (fintech/BNPL, distinct from IR-009's streaming and IR-010's airline/co-brand stories)",
+   "gate_breakdown": "Novelty 9 (fresh, from Klarna's own Sept 2025 IPO filing), Specificity 9 (named fee percentages, named revenue share, named filing), Curiosity 9 ('free' checkout that isn't), Clarity 8, Emotional tension 7 (relatable \u2014 most viewers have used BNPL), Intellectual value 8, Retention 8, Niche fit 10, Source evidence 9 (Klarna's own SEC F-1/424B4 registration statement, a primary source), Difference 9 (fintech/BNPL, distinct from IR-009's streaming and IR-010's airline/co-brand stories)",
    "sources": [
-    {"label": "Klarna Group plc — Form 424B4 / F-1 registration statement (2025 IPO prospectus): merchant revenue 76% of transaction/services revenue LTM Jun 2025; merchant fees 57% of total revenue in 2024; Pay in 4 fee schedule up to 5.99%", "url": "https://www.sec.gov/Archives/edgar/data/2003292/000200329225000052/klarnagroupplc424b4.htm"},
-    {"label": "CNBC — Klarna stock jumps 15% in NYSE debut after pricing IPO above range (10 Sep 2025)", "url": "https://www.cnbc.com/2025/09/10/klarna-klar-stock-soars-after-us-ipo.html"},
-    {"label": "Forbes — Klarna's IPO breaks the fintech drought at a $15 billion valuation (18 Sep 2025)", "url": "https://www.forbes.com/sites/pamkaur/2025/09/18/klarnas-ipo-breaks-the-fintech-drought-at-a-15-billion-valuation/"},
-    {"label": "The Motley Fool — Average Credit Card Processing Fees and Costs in America (2025 interchange rate data, ~1.5-3.5%, blended average 2.36%)", "url": "https://www.fool.com/money/research/average-credit-card-processing-fees-costs-america/"}
+    {
+     "label": "Klarna Group plc \u2014 Form 424B4 / F-1 registration statement (2025 IPO prospectus): merchant revenue 76% of transaction/services revenue LTM Jun 2025; merchant fees 57% of total revenue in 2024; Pay in 4 fee schedule up to 5.99%",
+     "url": "https://www.sec.gov/Archives/edgar/data/2003292/000200329225000052/klarnagroupplc424b4.htm"
+    },
+    {
+     "label": "CNBC \u2014 Klarna stock jumps 15% in NYSE debut after pricing IPO above range (10 Sep 2025)",
+     "url": "https://www.cnbc.com/2025/09/10/klarna-klar-stock-soars-after-us-ipo.html"
+    },
+    {
+     "label": "Forbes \u2014 Klarna's IPO breaks the fintech drought at a $15 billion valuation (18 Sep 2025)",
+     "url": "https://www.forbes.com/sites/pamkaur/2025/09/18/klarnas-ipo-breaks-the-fintech-drought-at-a-15-billion-valuation/"
+    },
+    {
+     "label": "The Motley Fool \u2014 Average Credit Card Processing Fees and Costs in America (2025 interchange rate data, ~1.5-3.5%, blended average 2.36%)",
+     "url": "https://www.fool.com/money/research/average-credit-card-processing-fees-costs-america/"
+    }
    ],
    "story_json": "videos/IR-011.json",
    "asset": {
@@ -354,7 +514,11 @@
    "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-011-ca99423e.mp4",
    "cover_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-011-ca99423e-cover.png",
    "hosted_at": "2026-09-24T05:38:00.000Z",
-   "metricool": {"id": "381145799", "uuid": "2293719409237772674", "publicationDate": "2026-09-25T18:00:00+03:00"},
+   "metricool": {
+    "id": "381145799",
+    "uuid": "2293719409237772674",
+    "publicationDate": "2026-09-25T18:00:00+03:00"
+   },
    "tiktok_url": "https://www.tiktok.com/@invisiblerulesmedia/video/7689489051925400835",
    "metrics": []
   },
@@ -368,7 +532,7 @@
    "tiktok_title": "23andMe went bankrupt. Founder bought it back for $305M.",
    "caption": "In 2025, more than a dozen state attorneys general urged 23andMe's roughly 15 million customers to delete their genetic data before the company was sold in bankruptcy.\n\n#23andMe #GeneticTesting #DataPrivacy #BusinessCaseStudy",
    "hashtags": "#23andMe #GeneticTesting #DataPrivacy #BusinessCaseStudy",
-   "first_comment": "IR-012 · Sources: NPR (24 Mar 2025); BioPharma Dive/MedTech Dive (TTAM $305M auction, Jul 2025); Michigan AG press release (26 Mar 2025)",
+   "first_comment": "IR-012 \u00b7 Sources: NPR (24 Mar 2025); BioPharma Dive/MedTech Dive (TTAM $305M auction, Jul 2025); Michigan AG press release (26 Mar 2025)",
    "industry": "biotech/consumer genetic testing",
    "angle": "Hidden mechanism: a one-time-purchase product hits a growth ceiling, forcing a data-monetization pivot that couldn't outrun the underlying constraint",
    "mechanism_family": "constraints_consequences",
@@ -377,10 +541,22 @@
    "gate_score": 86,
    "gate_breakdown": "Novelty 9 (fresh 2025 event, wholly new industry for this account), Specificity 9 (named valuation figures, named breach size, named buyer and price), Curiosity 9 (a company whose real asset was your DNA going bankrupt, then bought back by its own founder), Clarity 8, Emotional tension 8 (personal genetic-data privacy resonates broadly), Intellectual value 8, Retention 8, Niche fit 9, Source evidence 9 (NPR, BioPharma Dive/MedTech Dive, multiple state AG press releases), Difference 9 (biotech/genetic-data, distinct from IR-010's airlines/co-brand-cards and IR-011's fintech/BNPL stories)",
    "sources": [
-    {"label": "NPR — 23andMe is filing for bankruptcy. Here's what it means for your genetic data (24 Mar 2025)", "url": "https://www.npr.org/2025/03/24/nx-s1-5338622/23andme-bankruptcy-genetic-data-privacy"},
-    {"label": "Michigan AG — AG Nessel Urges 23andMe Users to Consider Deleting Accounts Amid Bankruptcy (26 Mar 2025)", "url": "https://www.michigan.gov/ag/news/press-releases/2025/03/26/ag-nessel-urges-23andme-users-to-consider-deleting-accounts-amid-bankruptcy"},
-    {"label": "MedTech Dive — Anne Wojcicki wins bid to buy back 23andMe for $305M", "url": "https://www.medtechdive.com/news/anne-wojcicki-buy-23andme-bankruptcy/750931/"},
-    {"label": "BioPharma Dive — Regeneron wins bid to buy 23andMe out of bankruptcy (first auction, later outbid by TTAM)", "url": "https://www.biopharmadive.com/news/regeneron-23andme-acquire-bankruptcy-genetic-testing/748440/"}
+    {
+     "label": "NPR \u2014 23andMe is filing for bankruptcy. Here's what it means for your genetic data (24 Mar 2025)",
+     "url": "https://www.npr.org/2025/03/24/nx-s1-5338622/23andme-bankruptcy-genetic-data-privacy"
+    },
+    {
+     "label": "Michigan AG \u2014 AG Nessel Urges 23andMe Users to Consider Deleting Accounts Amid Bankruptcy (26 Mar 2025)",
+     "url": "https://www.michigan.gov/ag/news/press-releases/2025/03/26/ag-nessel-urges-23andme-users-to-consider-deleting-accounts-amid-bankruptcy"
+    },
+    {
+     "label": "MedTech Dive \u2014 Anne Wojcicki wins bid to buy back 23andMe for $305M",
+     "url": "https://www.medtechdive.com/news/anne-wojcicki-buy-23andme-bankruptcy/750931/"
+    },
+    {
+     "label": "BioPharma Dive \u2014 Regeneron wins bid to buy 23andMe out of bankruptcy (first auction, later outbid by TTAM)",
+     "url": "https://www.biopharmadive.com/news/regeneron-23andme-acquire-bankruptcy-genetic-testing/748440/"
+    }
    ],
    "story_json": "videos/IR-012.json",
    "asset": {
@@ -391,7 +567,11 @@
    "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-012-91145dd0.mp4",
    "cover_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-012-91145dd0-cover.png",
    "hosted_at": "2026-09-27T00:22:00.000Z",
-   "metricool": {"id": "382657859", "uuid": "-8016287635298498974", "publicationDate": "2026-09-27T18:00:00+03:00"},
+   "metricool": {
+    "id": "382657859",
+    "uuid": "-8016287635298498974",
+    "publicationDate": "2026-09-27T18:00:00+03:00"
+   },
    "tiktok_url": "https://www.tiktok.com/@invisiblerulesmedia/video/7690230823919848726",
    "metrics": []
   },
@@ -405,7 +585,7 @@
    "tiktok_title": "John Deere locked farmers out of repairs",
    "caption": "John Deere locked farmers out of fixing their own equipment. In 2025, the FTC sued for blocking independent repairs, creating a captive service market.\n\nWhat happens when a manufacturer controls both the product AND who can fix it?",
    "hashtags": "#JohnDeere #RightToRepair #Antitrust #BusinessCaseStudy",
-   "first_comment": "100% of repairs require Deere's Service ADVISOR software—only dealers have access. FTC filed January 2025. Sources: FTC complaint; U.S. Senate Judiciary testimony",
+   "first_comment": "100% of repairs require Deere's Service ADVISOR software\u2014only dealers have access. FTC filed January 2025. Sources: FTC complaint; U.S. Senate Judiciary testimony",
    "industry": "agriculture/equipment manufacturing",
    "angle": "Anticompetitive repair restrictions that lock customers into expensive service networks",
    "mechanism_family": "advantages_leverage",
@@ -414,12 +594,21 @@
    "gate_score": 87,
    "gate_breakdown": "Novelty 9 (fresh 2025 FTC filing and July 2026 settlement, new industry for account), Specificity 9 (named company, named agencies, named mechanism with 100% stat), Curiosity 9 (David-vs-Goliath farmers vs tech locks), Clarity 8, Emotional tension 8 (farmers trapped, equipment unusable), Intellectual value 9, Retention 8, Niche fit 10, Source evidence 9 (FTC complaint, Senate testimony), Difference 9 (manufacturing/repair rights, distinct from IR-011 fintech and IR-012 biotech)",
    "sources": [
-    {"label": "FTC Press Release — Deere settlement (July 2026)", "url": "https://www.ftc.gov/news-events/news/press-releases/2026"},
-    {"label": "FTC Complaint v. Deere (15 Jan 2025)", "url": "https://www.ftc.gov/news-events/news/press-releases/2025"},
-    {"label": "U.S. Senate Judiciary Committee — Right to Repair testimony (2023-2025)", "url": "https://www.judiciary.senate.gov/"}
+    {
+     "label": "FTC Press Release \u2014 Deere settlement (July 2026)",
+     "url": "https://www.ftc.gov/news-events/news/press-releases/2026"
+    },
+    {
+     "label": "FTC Complaint v. Deere (15 Jan 2025)",
+     "url": "https://www.ftc.gov/news-events/news/press-releases/2025"
+    },
+    {
+     "label": "U.S. Senate Judiciary Committee \u2014 Right to Repair testimony (2023-2025)",
+     "url": "https://www.judiciary.senate.gov/"
+    }
    ],
    "story_json": "videos/IR-013.json",
-   "originality_check": "PASSED — differs from all 18 account_topics in both company (Deere vs prior 18) and mechanism (repair restrictions vs prior mechanisms)",
+   "originality_check": "PASSED \u2014 differs from all 18 account_topics in both company (Deere vs prior 18) and mechanism (repair restrictions vs prior mechanisms)",
    "asset": {
     "sha256": "04ae244952cecfead0b9cfc2e00bf9adbb7f5d3f78ac1137c0c7d3a04ec1b7ca",
     "video_md5": "10c2806adda49dccc1f35dde47a7a17a",
@@ -427,7 +616,11 @@
    },
    "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-013-10c2806ad.mp4",
    "hosted_at": "2026-09-28T08:23:00Z",
-   "metricool": {"id": "383593927", "uuid": "-5345440233680844937", "publicationDate": "2026-09-29T10:00:00+03:00"},
+   "metricool": {
+    "id": "383593927",
+    "uuid": "-5345440233680844937",
+    "publicationDate": "2026-09-29T10:00:00+03:00"
+   },
    "tiktok_url": null,
    "metrics": []
   },
@@ -437,7 +630,7 @@
    "status": "hosted",
    "title": "UPS and FedEx repriced 70% of packages by their size, not weight",
    "company": "United Parcel Service (UPS) and Federal Express (FedEx)",
-   "hook": "In 2015, UPS and FedEx changed pricing for about seventy percent of the packages they ship — the box's size could now cost more than its weight.",
+   "hook": "In 2015, UPS and FedEx changed pricing for about seventy percent of the packages they ship \u2014 the box's size could now cost more than its weight.",
    "tiktok_title": "UPS & FedEx repriced 70% of packages. Now pay for the air.",
    "caption": "In 2015, UPS and FedEx started billing packages by whichever is bigger: the actual weight, or the size of the box. Practical Ecommerce estimated the change would affect up to seventy percent of ground packages under three cubic feet.",
    "hashtags": "#UPS #FedEx #Pricing #BusinessCaseStudy",
@@ -445,12 +638,15 @@
    "industry": "logistics/shipping",
    "angle": "Hidden mechanism: a pricing change that inverts the incentives for packaging efficiency",
    "mechanism_family": "incentives_behavior",
-   "core_claim": "In 2015, UPS and FedEx began billing ground packages under 3 cubic feet by whichever is greater — actual weight or dimensional (size-based) weight — a change industry analysis estimated would affect up to 70% of packages shipped, reversing the incentive: shippers now pay for wasted space, not just weight.",
+   "core_claim": "In 2015, UPS and FedEx began billing ground packages under 3 cubic feet by whichever is greater \u2014 actual weight or dimensional (size-based) weight \u2014 a change industry analysis estimated would affect up to 70% of packages shipped, reversing the incentive: shippers now pay for wasted space, not just weight.",
    "concept_key": "pricing metric change (weight-only -> greater-of-weight-or-size) reverses shipper incentive > ~70% of packages affected > shipper must pack tighter or pay more > carrier profits either way",
    "gate_score": 87,
    "gate_breakdown": "Novelty 9 (fresh pricing mechanism, new company for account), Specificity 9 (named formula, named year 2015, named cost impact 15-25%), Curiosity 9 (a pricing change that forces inefficiency), Clarity 9 (single clean mechanism), Emotional tension 8 (shipping cost shock), Intellectual value 9, Retention 8, Niche fit 10, Source evidence 9 (UPS official pricing policy from 2015), Difference 9 (logistics/shipping, distinct from IR-013's repair restrictions and IR-012's one-time product constraint)",
    "sources": [
-    {"label": "Practical Ecommerce — How to Manage UPS/FedEx Dimensional Weight Pricing (March 2015)", "url": "https://www.practicalecommerce.com/How-to-Manage-UPS-FedEx-Dimensional-Weight-Pricing"}
+    {
+     "label": "Practical Ecommerce \u2014 How to Manage UPS/FedEx Dimensional Weight Pricing (March 2015)",
+     "url": "https://www.practicalecommerce.com/How-to-Manage-UPS-FedEx-Dimensional-Weight-Pricing"
+    }
    ],
    "story_json": "videos/IR-014.json",
    "asset": {
@@ -459,6 +655,44 @@
    },
    "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-014-e30cc713.mp4",
    "hosted_at": "2026-10-05T14:30:00Z",
+   "tiktok_url": null,
+   "metrics": []
+  },
+  {
+   "id": "IR-015",
+   "created": "2026-10-13T15:00:00Z",
+   "status": "hosted",
+   "title": "RealPage's software set rent prices for landlords across the country",
+   "company": "RealPage, Inc.",
+   "hook": "In November 2025, RealPage agreed to pay more than three hundred fifty million dollars over how its software priced rent for landlords nationwide.",
+   "tiktok_title": "The software that set your rent \u2014 not your landlord",
+   "caption": "RealPage just paid $350M+ to settle claims it helped landlords avoid competing on rent. Landlords fed their private numbers into one shared system \u2014 it sent back a nightly suggested price built from rivals' own data, and regulators say landlords followed it, leaving units empty rather than undercut each other. Where's the line between smart software and price-fixing?",
+   "hashtags": "#RealPage #RealEstate #PriceFixing #BusinessCaseStudy",
+   "first_comment": "IR-015 \u00b7 Sources: NPR (Nov 25, 2025); DOJ v. RealPage antitrust complaint; classactionu.org",
+   "industry": "real estate / property management software",
+   "angle": "Hidden mechanism: shared pricing software replacing explicit coordination between competing landlords",
+   "mechanism_family": "algorithmic_coordination",
+   "core_claim": "RealPage, whose software let landlords share private rent data and receive nightly suggested prices built from competitors' own numbers, agreed to pay over $350M in November 2025 to settle DOJ and state claims that this amounted to price-fixing \u2014 regulators say landlords followed the suggested prices and left units vacant rather than undercut each other.",
+   "concept_key": "shared private pricing data -> nightly algorithmic suggested price -> landlords follow it -> vacancy over undercutting -> DOJ treats shared software as coordination",
+   "gate_score": 88,
+   "gate_breakdown": "Novelty 9 (algorithmic pricing mechanism, new company for account), Specificity 9 (named company, named date Nov 2025, named figure $350M+), Curiosity 9 (software replacing a conspiracy), Clarity 8 (one clean mechanism: shared data -> suggested price -> followed), Emotional tension 9 (rent prices, broad relevance), Intellectual value 9, Retention 8, Niche fit 9, Source evidence 9 (NPR + DOJ complaint + settlement coverage, cross-verified), Difference 9 (real estate/algorithmic pricing, distinct from IR-014's shipping and IR-013's repair restrictions)",
+   "sources": [
+    {
+     "label": "NPR \u2014 RealPage rent algorithm settlement (Nov 25, 2025)",
+     "url": "https://www.npr.org/2025/11/25/g-s1-99331/realpage-rent-algorithm-limits-settlement"
+    },
+    {
+     "label": "classactionu.org \u2014 RealPage $359.9M settlement coverage",
+     "url": "https://classactionu.org/our-news/realpage-agrees-to-359-9-million-settlement-over-alleged-rent-fixing-scheme/"
+    }
+   ],
+   "story_json": "videos/IR-015.json",
+   "asset": {
+    "sha256": "c73a189b542c0119e12852cd070fe1d37f33d06b1f4171a14468fe5846c82558",
+    "video_md5": "f6ec23404d912dc8c5f7a74c8c507bad"
+   },
+   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-015.mp4",
+   "hosted_at": "2026-10-13T15:30:00Z",
    "tiktok_url": null,
    "metrics": []
   }
@@ -489,6 +723,10 @@
   "Spotify audiobook bundle and songwriter mechanical royalties (MLC v. Spotify) - wait until litigation is final"
  ],
  "rejected": [
-  {"date": "2026-09-21", "candidate": "Costco membership fee increase", "reason": "heavily covered; shallow 'how X makes money' risk"}
+  {
+   "date": "2026-09-21",
+   "candidate": "Costco membership fee increase",
+   "reason": "heavily covered; shallow 'how X makes money' risk"
+  }
  ]
 }
