@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-13T15:30:00Z",
- "next_id": "IR-016",
+ "updated": "2026-10-13T20:40:00Z",
+ "next_id": "IR-017",
  "videos": [
   {
    "id": "IR-001",
@@ -695,6 +695,44 @@
    "hosted_at": "2026-10-13T15:30:00Z",
    "tiktok_url": null,
    "metrics": []
+  },
+  {
+   "id": "IR-016",
+   "created": "2026-10-13T20:00:00Z",
+   "status": "hosted",
+   "title": "Starbucks is holding $1.9B of customers' money \u2014 and keeps what you never spend",
+   "company": "Starbucks Corporation",
+   "hook": "Starbucks is sitting on nearly two billion dollars of customers' own money right now, interest free \u2014 and some of it, it never has to give back.",
+   "tiktok_title": "Starbucks is holding $1.9B of your money",
+   "caption": "Starbucks is sitting on nearly $1.9B of customers' prepaid balances \u2014 an interest-free loan until you spend it. But some of that money never gets spent, and accounting rules let Starbucks count a slice of it as pure profit (\"breakage\"). In fiscal 2021 that alone added $0.12 to earnings per share. A labor federation later asked the SEC to examine whether Starbucks discloses enough about it.",
+   "hashtags": "#Starbucks #GiftCards #BusinessCaseStudy #Accounting",
+   "first_comment": "IR-016 \u00b7 Sources: Starbucks 10-Q (SEC, Jun 2025); restaurantdive.com (SOC/SEC complaint, Nov 2022)",
+   "industry": "food & beverage / retail",
+   "angle": "Hidden mechanism: prepaid balances function as an interest-free loan, and unspent balances convert to pure profit under breakage accounting",
+   "mechanism_family": "deferred_revenue_float",
+   "core_claim": "Starbucks holds nearly $1.9 billion in customer prepaid card/app balances (SEC 10-Q, Jun 2025) interest-free until redeemed; under breakage accounting it also recognizes a portion of balances it does not expect customers to ever redeem as revenue \u2014 $0.12 of fiscal 2021 EPS per a labor federation's SEC complaint, which asked the SEC in Nov 2022 to require more disclosure of this practice.",
+   "concept_key": "customer prepays onto app -> interest-free liability on company books -> unredeemed share counted as breakage profit -> material to EPS -> labor group asks SEC for more disclosure",
+   "gate_score": 86,
+   "gate_breakdown": "Novelty 8 (new company/mechanism for account, prior videos covered pricing/lock-in not float/breakage), Specificity 9 (named $1.9B balance from SEC filing, named $0.12 EPS figure, named year), Curiosity 9 (customers unknowingly fund an interest-free loan to Starbucks), Clarity 8 (one mechanism: prepay -> liability -> breakage profit), Emotional tension 8 (relatable, widely-used gift cards/app balances), Intellectual value 8, Retention 8, Niche fit 9, Source evidence 8 (SEC 10-Q primary + secondary reporting on SEC complaint, cross-checked), Difference 9 (accounting/float mechanism, distinct from IR-014 pricing and IR-015 algorithmic coordination)",
+   "sources": [
+    {
+     "label": "Starbucks 10-Q (SEC EDGAR) \u2014 stored value card liability, period ended Jun 29, 2025",
+     "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000058/sbux-20250629.htm"
+    },
+    {
+     "label": "Restaurant Dive \u2014 Labor federation asks SEC to examine Starbucks' gift card breakage rate (Nov 18, 2022)",
+     "url": "https://www.restaurantdive.com/news/strategic-organizing-center-asks-sec-to-look-at-starbucks-gift-cards/636853/"
+    }
+   ],
+   "story_json": "videos/IR-016.json",
+   "asset": {
+    "sha256": "d9892ede84b9e62566be10ab404d11d41c936adac527c2484dfd5af78db8d1d7",
+    "video_md5": "d327b606cb8dbf1a365ba85e6bfd832f"
+   },
+   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-016.mp4",
+   "hosted_at": "2026-10-13T20:40:00Z",
+   "tiktok_url": null,
+   "metrics": []
   }
  ],
  "account_topics": [
@@ -717,7 +755,8 @@
   "McDonald's franchise rent vs company-operated sales (2025)",
   "Red Lobster Endless Shrimp vs lease obligations (2024)",
   "Hertz 20,000-EV sell-off (IR-004)",
-  "Adobe early termination fee (IR-005)"
+  "Adobe early termination fee (IR-005)",
+  "Starbucks gift card / app balance float and breakage revenue (IR-016)"
  ],
  "reserve": [
   "Spotify audiobook bundle and songwriter mechanical royalties (MLC v. Spotify) - wait until litigation is final"
