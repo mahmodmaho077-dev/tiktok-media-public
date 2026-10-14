@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-13T20:40:00Z",
- "next_id": "IR-017",
+ "next_id": "IR-019",
  "videos": [
   {
    "id": "IR-001",
@@ -733,6 +733,79 @@
    "hosted_at": "2026-10-13T20:40:00Z",
    "tiktok_url": null,
    "metrics": []
+  },
+  {
+   "id": "IR-017",
+   "created": "2026-10-14T17:05:00Z",
+   "status": "hosted",
+   "title": "McDonald's made $25.9B last year \u2014 less than half came from selling burgers",
+   "company": "McDonald's Corporation",
+   "hook": "McDonald's pulled in nearly $26B last year \u2014 and less than half came from selling burgers.",
+   "tiktok_title": "McDonald's isn't really a burger company",
+   "caption": "McDonald's FY2024 revenue: $25.9B. Franchised restaurants alone brought in $15.7B \u2014 mostly rent and royalties, collected regardless of whether that store turns a profit. That's why McDonald's books a 45.2% operating margin. McDonald's typically owns or leases the land and building, then re-leases it to the franchisee on a 20-year agreement \u2014 McDonald's holds the real estate for the entire term, not the franchisee. 95% of McDonald's 43,477 restaurants are franchised.",
+   "hashtags": "#McDonalds #RealEstate #BusinessCaseStudy #Franchise",
+   "first_comment": "IR-017 \u00b7 Source: McDonald's FY2024 10-K (SEC EDGAR)",
+   "industry": "quick_service_restaurants",
+   "angle": "hidden_revenue_mechanism",
+   "mechanism_family": "advantages_leverage",
+   "core_claim": "McDonald's franchised-restaurant revenue (rent + royalties) is $15.7B of its $25.9B FY2024 total, and McDonald's holds the real estate under 95% of its 43,477 restaurants for the full 20-year franchise term \u2014 not the franchisee.",
+   "gate_score": 87,
+   "gate_breakdown": {
+    "specificity": 18,
+    "sourcing": 18,
+    "novelty": 17,
+    "hook_strength": 17,
+    "mechanism_clarity": 17
+   },
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/63908/000006390825000012/mcd-20241231.htm"
+   ],
+   "story_json": "videos/IR-017.json",
+   "asset": {
+    "sha256": "4567d736e06eb138f96c49b6d398f9ba5cb29fb44bfd0edc0a1a5b2bd570f859",
+    "video_md5": "cb7b7fe1ade663c7678c5268fd786dd8"
+   },
+   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-017.mp4",
+   "hosted_at": "2026-10-14T17:50:00Z",
+   "tiktok_url": null,
+   "metrics": []
+  },
+  {
+   "id": "IR-018",
+   "created": "2026-10-14T17:30:00Z",
+   "status": "hosted",
+   "title": "A 2014 real-estate deal \u2014 not Endless Shrimp \u2014 sank Red Lobster",
+   "company": "Red Lobster Hospitality LLC (formerly Darden-owned)",
+   "hook": "In 2014, a private equity firm bought Red Lobster \u2014 then sold the restaurants' own real estate out from under it.",
+   "tiktok_title": "Endless Shrimp didn't sink Red Lobster. This did.",
+   "caption": "In 2014, Golden Gate Capital bought Red Lobster from Darden for $2.1B, funding part of the deal by selling the real estate under ~500 locations for $1.5B in a sale-leaseback \u2014 then leasing those buildings back to Red Lobster. Leases climbed ~2% a year; by the year before bankruptcy, rent alone cost Red Lobster over $190M. Everyone blamed the $20 Endless Shrimp promotion (it lost $11M in one quarter) but Red Lobster's own bankruptcy filing points to the 2014 lease payments as the structural weight that sank the chain. Red Lobster filed Chapter 11 in May 2024 and exited under new owner Fortress Investment Group that September.",
+   "hashtags": "#RedLobster #PrivateEquity #BusinessCaseStudy #Bankruptcy",
+   "first_comment": "IR-018 \u00b7 Sources: Red Lobster Chapter 11 filings (2024); Yahoo Finance/bankruptcy reporting, May 2024",
+   "industry": "casual_dining",
+   "angle": "hidden_capital_structure",
+   "mechanism_family": "capital_structure",
+   "core_claim": "Red Lobster's 2024 Chapter 11 bankruptcy filing attributes its collapse primarily to rent from a 2014 $1.5B sale-leaseback (rent exceeded $190M in the final year), not to the Endless Shrimp promotion that lost $11M in one quarter.",
+   "gate_score": 85,
+   "gate_breakdown": {
+    "specificity": 17,
+    "sourcing": 17,
+    "novelty": 17,
+    "hook_strength": 17,
+    "mechanism_clarity": 17
+   },
+   "sources": [
+    "https://finance.yahoo.com/markets/stocks/articles/everyone-blamed-endless-shrimp-sinking-112500861.html",
+    "https://www.nrn.com/casual-dining/red-lobster-exits-bankruptcy-with-new-owner-and-ceo"
+   ],
+   "story_json": "videos/IR-018.json",
+   "asset": {
+    "sha256": "b1f36b2287b256d181f1223dc1e8d32d96b0a605849275494a3476477f90ef87",
+    "video_md5": "2e9ad53329c6a463a24a3b5cbc7b1573"
+   },
+   "media_url": "https://raw.githubusercontent.com/mahmodmaho077-dev/tiktok-media-public/main/media/IR-018.mp4",
+   "hosted_at": "2026-10-14T17:55:00Z",
+   "tiktok_url": null,
+   "metrics": []
   }
  ],
  "account_topics": [
@@ -756,7 +829,9 @@
   "Red Lobster Endless Shrimp vs lease obligations (2024)",
   "Hertz 20,000-EV sell-off (IR-004)",
   "Adobe early termination fee (IR-005)",
-  "Starbucks gift card / app balance float and breakage revenue (IR-016)"
+  "Starbucks gift card / app balance float and breakage revenue (IR-016)",
+  "McDonald's real estate / franchised rent vs company-operated revenue (IR-017)",
+  "Red Lobster 2014 private-equity sale-leaseback and bankruptcy (IR-018)"
  ],
  "reserve": [
   "Spotify audiobook bundle and songwriter mechanical royalties (MLC v. Spotify) - wait until litigation is final"
